@@ -5,7 +5,8 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"D:/UnrealProjects/AirplaneGame/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+				"D:/UnrealProjects/AirplaneGame/Content/StarterContent/Particles/P_Ambient_Dust.uasset",
+				"D:/UnrealProjects/AirplaneGame/AirplaneTest2/AirplaneGame_Git/Content/testingBlueprint.uasset"
 			]
 		}
 	]
