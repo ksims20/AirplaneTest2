@@ -783,3 +783,139 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.06.11-19.12.21:793][  0]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
 [2023.06.11-19.12.22:345][  0]LogSlate: New Slate User Created. Platform User Id 0, User Index 0, Is Virtual User: 0
 [2023.06.11-19.12.22:345][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2023.06.11-19.12.37:384][  0]LogD3D12RHI: Display: Creating D3D12 RHI with Max Feature Level SM6
+[2023.06.11-19.12.37:385][  0]LogWindows: Attached monitors:
+[2023.06.11-19.12.37:385][  0]LogWindows:     resolution: 1920x1080, work area: (0, 0) -> (1920, 1032), device: '\\.\DISPLAY1' [PRIMARY]
+[2023.06.11-19.12.37:385][  0]LogWindows:     resolution: 2263x1273, work area: (-2263, 80) -> (0, 1293), device: '\\.\DISPLAY2'
+[2023.06.11-19.12.37:385][  0]LogWindows: Found 2 attached monitors.
+[2023.06.11-19.12.37:385][  0]LogWindows: Gathering driver information using Windows Setup API
+[2023.06.11-19.12.37:385][  0]LogRHI: RHI Adapter Info:
+[2023.06.11-19.12.37:385][  0]LogRHI:             Name: NVIDIA GeForce RTX 3070
+[2023.06.11-19.12.37:385][  0]LogRHI:   Driver Version: 535.98 (internal:31.0.15.3598, unified:535.98)
+[2023.06.11-19.12.37:385][  0]LogRHI:      Driver Date: 5-24-2023
+[2023.06.11-19.12.37:385][  0]LogD3D12RHI:     GPU DeviceId: 0x2484 (for the marketing name, search the web for "GPU Device Id")
+[2023.06.11-19.12.37:385][  0]LogD3D12RHI: InitD3DDevice: -D3DDebug = off -D3D12GPUValidation = off
+[2023.06.11-19.12.37:388][  0]LogD3D12RHI: [Aftermath] Aftermath crash dumping enabled
+[2023.06.11-19.12.37:388][  0]LogD3D12RHI: Emitting draw events for PIX profiling.
+[2023.06.11-19.12.37:465][  0]LogD3D12RHI: [Aftermath] Aftermath enabled and primed
+[2023.06.11-19.12.37:465][  0]LogD3D12RHI: [Aftermath] Aftermath resource tracking enabled
+[2023.06.11-19.12.37:465][  0]LogD3D12RHI: ID3D12Device1 is supported.
+[2023.06.11-19.12.37:465][  0]LogD3D12RHI: ID3D12Device2 is supported.
+[2023.06.11-19.12.37:465][  0]LogD3D12RHI: ID3D12Device3 is supported.
+[2023.06.11-19.12.37:465][  0]LogD3D12RHI: ID3D12Device4 is supported.
+[2023.06.11-19.12.37:465][  0]LogD3D12RHI: ID3D12Device5 is supported.
+[2023.06.11-19.12.37:465][  0]LogD3D12RHI: ID3D12Device6 is supported.
+[2023.06.11-19.12.37:465][  0]LogD3D12RHI: ID3D12Device7 is supported.
+[2023.06.11-19.12.37:465][  0]LogD3D12RHI: ID3D12Device8 is supported.
+[2023.06.11-19.12.37:465][  0]LogD3D12RHI: ID3D12Device9 is supported.
+[2023.06.11-19.12.37:465][  0]LogD3D12RHI: ID3D12Device10 is supported.
+[2023.06.11-19.12.37:465][  0]LogD3D12RHI: Bindless resources are supported
+[2023.06.11-19.12.37:465][  0]LogD3D12RHI: D3D12 ray tracing tier 1.1 and bindless resources are supported.
+[2023.06.11-19.12.37:465][  0]LogD3D12RHI: Mesh shader tier 1.0 is supported
+[2023.06.11-19.12.37:465][  0]LogD3D12RHI: AtomicInt64OnTypedResource is supported
+[2023.06.11-19.12.37:465][  0]LogD3D12RHI: AtomicInt64OnGroupShared is supported
+[2023.06.11-19.12.37:465][  0]LogD3D12RHI: AtomicInt64OnDescriptorHeapResource is supported
+[2023.06.11-19.12.37:465][  0]LogD3D12RHI: Shader Model 6.6 atomic64 is supported
+[2023.06.11-19.12.37:520][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for DiagnosticBuffer (3D)
+[2023.06.11-19.12.37:520][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for DiagnosticBuffer (Copy)
+[2023.06.11-19.12.37:520][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for DiagnosticBuffer (Compute)
+[2023.06.11-19.12.37:537][  0]LogD3D12RHI: Display: Not using pipeline state disk cache per r.D3D12.PSO.DiskCache=0
+[2023.06.11-19.12.37:537][  0]LogD3D12RHI: Display: Not using driver-optimized pipeline state disk cache per r.D3D12.PSO.DriverOptimizedDiskCache=0
+[2023.06.11-19.12.37:537][  0]LogRHI: Texture pool is 4575 MB (70% of 6536 MB)
+[2023.06.11-19.12.37:537][  0]LogD3D12RHI: Async texture creation enabled
+[2023.06.11-19.12.37:537][  0]LogD3D12RHI: RHI has support for 64 bit atomics
+[2023.06.11-19.12.37:672][  0]LogTurnkeySupport: Running Turnkey SDK detection: ' -ScriptsForProject="D:/UnrealProjects/AirplaneGame/AirplaneTest2/AirplaneGame_Git/AirplaneGame.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="D:/UnrealProjects/AirplaneGame/AirplaneTest2/AirplaneGame_Git/Intermediate/TurnkeyReport_0.log" -log="D:/UnrealProjects/AirplaneGame/AirplaneTest2/AirplaneGame_Git/Intermediate/TurnkeyLog_0.log" -project="D:/UnrealProjects/AirplaneGame/AirplaneTest2/AirplaneGame_Git/AirplaneGame.uproject"  -platform=all'
+[2023.06.11-19.12.37:672][  0]LogMonitoredProcess: Running Serialized UAT: [ cmd.exe /c ""D:/Program Files/Epic Games/UE_5.1/Engine/Build/BatchFiles/RunUAT.bat"  -ScriptsForProject="D:/UnrealProjects/AirplaneGame/AirplaneTest2/AirplaneGame_Git/AirplaneGame.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="D:/UnrealProjects/AirplaneGame/AirplaneTest2/AirplaneGame_Git/Intermediate/TurnkeyReport_0.log" -log="D:/UnrealProjects/AirplaneGame/AirplaneTest2/AirplaneGame_Git/Intermediate/TurnkeyLog_0.log" -project="D:/UnrealProjects/AirplaneGame/AirplaneTest2/AirplaneGame_Git/AirplaneGame.uproject"  -platform=all" ]
+[2023.06.11-19.12.38:046][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatASTC
+[2023.06.11-19.12.38:046][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatDXT
+[2023.06.11-19.12.38:046][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatETC2
+[2023.06.11-19.12.38:046][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatIntelISPCTexComp
+[2023.06.11-19.12.38:046][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatUncompressed
+[2023.06.11-19.12.38:046][  0]LogTextureFormatOodle: Display: Oodle Texture TFO init; latest sdk version = 2.9.8
+[2023.06.11-19.12.38:046][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.5.dll
+[2023.06.11-19.12.38:195][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.6.dll
+[2023.06.11-19.12.38:253][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.7.dll
+[2023.06.11-19.12.38:438][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.8.dll
+[2023.06.11-19.12.38:651][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatOodle
+[2023.06.11-19.12.38:712][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2023.06.11-19.12.38:712][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2023.06.11-19.12.38:712][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2023.06.11-19.12.38:712][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2023.06.11-19.12.38:712][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2023.06.11-19.12.38:712][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2023.06.11-19.12.38:712][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2023.06.11-19.12.38:712][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2023.06.11-19.12.38:712][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2023.06.11-19.12.38:712][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2023.06.11-19.12.38:848][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'HoloLens'
+[2023.06.11-19.12.38:848][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'HoloLensClient'
+[2023.06.11-19.12.38:936][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2023.06.11-19.12.38:936][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2023.06.11-19.12.39:050][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2023.06.11-19.12.39:050][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxEditor'
+[2023.06.11-19.12.39:050][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2023.06.11-19.12.39:050][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2023.06.11-19.12.39:151][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64'
+[2023.06.11-19.12.39:151][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64Server'
+[2023.06.11-19.12.39:151][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64Client'
+[2023.06.11-19.12.39:257][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2023.06.11-19.12.39:257][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2023.06.11-19.12.39:483][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2023.06.11-19.12.39:483][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsEditor'
+[2023.06.11-19.12.39:483][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2023.06.11-19.12.39:483][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2023.06.11-19.12.39:483][  0]LogTargetPlatformManager: Display: Building Assets For WindowsEditor
+[2023.06.11-19.12.40:175][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2023.06.11-19.12.40:393][  0]LogTargetPlatformManager: Unable to find audio format BINKA from hinted modules, loading all potential format modules to find it
+[2023.06.11-19.12.40:393][  0]LogTargetPlatformManager: Loaded format module AudioFormatADPCM
+[2023.06.11-19.12.40:393][  0]LogTargetPlatformManager:   ADPCM
+[2023.06.11-19.12.40:393][  0]LogTargetPlatformManager:   PCM
+[2023.06.11-19.12.40:494][  0]LogTargetPlatformManager: Loaded format module AudioFormatBink
+[2023.06.11-19.12.40:494][  0]LogTargetPlatformManager:   BINKA
+[2023.06.11-19.12.40:494][  0]LogTargetPlatformManager: Loaded format module AudioFormatOgg
+[2023.06.11-19.12.40:494][  0]LogTargetPlatformManager:   OGG
+[2023.06.11-19.12.40:494][  0]LogTargetPlatformManager: Loaded format module AudioFormatOpus
+[2023.06.11-19.12.40:494][  0]LogTargetPlatformManager:   OPUS
+[2023.06.11-19.12.43:041][  0]LogTargetPlatformManager: Unable to find shader format SF_METAL from hinted modules, loading all potential format modules to find it
+[2023.06.11-19.12.43:350][  0]LogTargetPlatformManager: Loaded format module MetalShaderFormat
+[2023.06.11-19.12.43:350][  0]LogTargetPlatformManager:   SF_METAL
+[2023.06.11-19.12.43:350][  0]LogTargetPlatformManager:   SF_METAL_MRT
+[2023.06.11-19.12.43:350][  0]LogTargetPlatformManager:   SF_METAL_TVOS
+[2023.06.11-19.12.43:350][  0]LogTargetPlatformManager:   SF_METAL_MRT_TVOS
+[2023.06.11-19.12.43:350][  0]LogTargetPlatformManager:   SF_METAL_SM5
+[2023.06.11-19.12.43:350][  0]LogTargetPlatformManager:   SF_METAL_MACES3_1
+[2023.06.11-19.12.43:350][  0]LogTargetPlatformManager:   SF_METAL_MRT_MAC
+[2023.06.11-19.12.43:350][  0]LogTargetPlatformManager: Loaded format module ShaderFormatD3D
+[2023.06.11-19.12.43:350][  0]LogTargetPlatformManager:   PCD3D_SM6
+[2023.06.11-19.12.43:350][  0]LogTargetPlatformManager:   PCD3D_SM5
+[2023.06.11-19.12.43:350][  0]LogTargetPlatformManager:   PCD3D_ES31
+[2023.06.11-19.12.43:350][  0]LogTargetPlatformManager:   D3D_ES3_1_HOLOLENS
+[2023.06.11-19.12.43:350][  0]LogTargetPlatformManager: Loaded format module ShaderFormatOpenGL
+[2023.06.11-19.12.43:350][  0]LogTargetPlatformManager:   GLSL_150_ES31
+[2023.06.11-19.12.43:350][  0]LogTargetPlatformManager:   GLSL_ES3_1_ANDROID
+[2023.06.11-19.12.45:894][  0]LogTargetPlatformManager: Loaded format module ShaderFormatVectorVM
+[2023.06.11-19.12.45:895][  0]LogTargetPlatformManager:   VVM_1_0
+[2023.06.11-19.12.45:895][  0]LogTargetPlatformManager: Loaded format module VulkanShaderFormat
+[2023.06.11-19.12.45:895][  0]LogTargetPlatformManager:   SF_VULKAN_SM5
+[2023.06.11-19.12.45:895][  0]LogTargetPlatformManager:   SF_VULKAN_ES31_ANDROID
+[2023.06.11-19.12.45:895][  0]LogTargetPlatformManager:   SF_VULKAN_ES31
+[2023.06.11-19.12.45:895][  0]LogTargetPlatformManager:   SF_VULKAN_SM5_ANDROID
+[2023.06.11-19.12.45:895][  0]LogRendererCore: Ray tracing is disabled. Reason: disabled through project setting (r.RayTracing=0).
+[2023.06.11-19.12.45:898][  0]LogDerivedDataCache: FDerivedDataBackendGraph: Pak pak cache file ../../../../../../UnrealProjects/AirplaneGame/AirplaneTest2/AirplaneGame_Git/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2023.06.11-19.12.45:898][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchy Hierarchy.
+[2023.06.11-19.12.45:898][  0]LogDerivedDataCache: FDerivedDataBackendGraph: CompressedPak pak cache file ../../../../../../UnrealProjects/AirplaneGame/AirplaneTest2/AirplaneGame_Git/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2023.06.11-19.12.45:898][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchy Hierarchy.
+[2023.06.11-19.12.46:187][  0]LogDerivedDataCache: Display: ../../../Engine/DerivedDataCache/Compressed.ddp: Opened pak cache for reading. (1363 MiB)
+[2023.06.11-19.12.46:187][  0]LogDerivedDataCache: FDerivedDataBackendGraph: EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2023.06.11-19.12.46:187][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchy Hierarchy.
+[2023.06.11-19.12.46:231][  0]LogDerivedDataCache: Speed tests for C:/Users/kamre/AppData/Local/UnrealEngine/Common/DerivedDataCache took 0.04 seconds
+[2023.06.11-19.12.46:231][  0]LogDerivedDataCache: Display: Performance to C:/Users/kamre/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.17ms. RandomReadSpeed=26.18MBs, RandomWriteSpeed=157.78MBs. Assigned SpeedClass 'Local'
+[2023.06.11-19.12.46:232][  0]LogDerivedDataCache: Using Local data cache path C:/Users/kamre/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2023.06.11-19.12.46:232][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2023.06.11-19.12.46:232][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchy Hierarchy.
+[2023.06.11-19.12.46:233][  0]LogVirtualization: Display: VirtualizationSystem name found in ini file: None
+[2023.06.11-19.12.46:233][  0]LogVirtualization: Display: FNullVirtualizationSystem mounted, virtualization will be disabled
+[2023.06.11-19.12.46:234][  0]LogShaderCompilers: Guid format shader working directory is -31 characters bigger than the processId version (../../../../../../UnrealProjects/AirplaneGame/AirplaneTest2/AirplaneGame_Git/Intermediate/Shaders/WorkingDirectory/22052/).
+[2023.06.11-19.12.46:234][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/kamre/AppData/Local/Temp/UnrealShaderWorkingDir/D90079D6483ADA45B27DAAB1F73C0D68/'.
+[2023.06.11-19.12.46:234][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2023.06.11-19.12.46:234][  0]LogShaderCompilers: Display: Using Local Shader Compiler with 9 workers.
