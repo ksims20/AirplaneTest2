@@ -5,7 +5,14 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"C:/UnrealEngine/VR2023/AirplaneTest2/AirplaneGame_Git/Content/LightTest/LightTest.umap",
+				"C:/Users/dbcot/OneDrive/Documents/AirplaneTest2/AirplaneTest2/AirplaneGame_Git/Content/VRTemplate/Maps/VRTemplateMap.umap",
+				"C:/Users/dbcot/OneDrive/Documents/AirplaneTest2/AirplaneTest2/AirplaneGame_Git/Content/Jetway/Jetway_Test1.uasset",
+				"C:/Users/dbcot/OneDrive/Documents/AirplaneTest2/AirplaneTest2/AirplaneGame_Git/Content/Jetway/Jetway_UV_Caution2.uasset",
+				"C:/Users/dbcot/OneDrive/Documents/AirplaneTest2/AirplaneTest2/AirplaneGame_Git/Content/Jetway/lambert2.uasset",
+				"C:/Users/dbcot/OneDrive/Documents/AirplaneTest2/AirplaneTest2/AirplaneGame_Git/Content/Jetway/lambert6.uasset",
+				"C:/Users/dbcot/OneDrive/Documents/AirplaneTest2/AirplaneTest2/AirplaneGame_Git/Content/Jetway/polySurface431.uasset",
+				"C:/Users/dbcot/OneDrive/Documents/AirplaneTest2/AirplaneTest2/AirplaneGame_Git/Content/Jetway/standardSurface1.uasset",
+				"C:/Users/dbcot/OneDrive/Documents/AirplaneTest2/AirplaneTest2/AirplaneGame_Git/Content/Jetway/FbxScene_Jetway_Test1.uasset",
 				"D:/UnrealProjects/AirplaneGame/Content/StarterContent/Particles/P_Ambient_Dust.uasset",
 				"D:/UnrealProjects/AirplaneGame/AirplaneTest2/AirplaneGame_Git/Content/testingBlueprint.uasset"
 			]
