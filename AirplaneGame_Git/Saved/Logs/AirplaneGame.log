@@ -1113,3 +1113,109 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.06.21-02.41.52:817][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
 [2023.06.21-02.41.53:038][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
 [2023.06.21-02.41.53:038][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2023.06.21-02.41.55:198][  0]LogTemp: OpenXR ignores max viewport resolution in editor to support full HMD resolutions.
+[2023.06.21-02.41.58:030][  0]LogCollectionManager: Loaded 0 collections in 0.002279 seconds
+[2023.06.21-02.41.58:032][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/AirplaneGame/AirplaneTest2/AirplaneGame_Git/Saved/Collections/' took 0.00s
+[2023.06.21-02.41.58:034][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/AirplaneGame/AirplaneTest2/AirplaneGame_Git/Content/Developers/kamre/Collections/' took 0.00s
+[2023.06.21-02.41.58:035][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/AirplaneGame/AirplaneTest2/AirplaneGame_Git/Content/Collections/' took 0.00s
+[2023.06.21-02.41.59:213][  0]LogEngine: Initializing Engine...
+[2023.06.21-02.41.59:240][  0]LogHMD: Optional extension XR_KHR_vulkan_swapchain_format_list is not available
+[2023.06.21-02.41.59:241][  0]LogHMD: Optional extension XR_VARJO_quad_views is not available
+[2023.06.21-02.41.59:241][  0]LogHMD: Optional extension XR_EPIC_view_configuration_fov is not available
+[2023.06.21-02.41.59:254][  0]LogHMD: Failed to create an OpenXR instance, result is XR_ERROR_RUNTIME_FAILURE. Please check if you have an OpenXR runtime installed. The following extensions were enabled:
+[2023.06.21-02.41.59:254][  0]LogHMD: - XR_KHR_D3D11_enable
+[2023.06.21-02.41.59:254][  0]LogHMD: - XR_KHR_D3D12_enable
+[2023.06.21-02.41.59:254][  0]LogHMD: - XR_KHR_opengl_enable
+[2023.06.21-02.41.59:254][  0]LogHMD: - XR_KHR_vulkan_enable
+[2023.06.21-02.41.59:254][  0]LogHMD: - XR_KHR_composition_layer_depth
+[2023.06.21-02.41.59:254][  0]LogHMD: - XR_KHR_visibility_mask
+[2023.06.21-02.41.59:254][  0]LogHMD: - XR_KHR_binding_modification
+[2023.06.21-02.41.59:254][  0]LogHMD: - XR_EXT_dpad_binding
+[2023.06.21-02.41.59:254][  0]LogHMD: - XR_EXT_active_action_set_priority
+[2023.06.21-02.41.59:256][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2023.06.21-02.41.59:292][  0]LogMaterial: Display: Missing cached shadermap for WireframeMaterial in PCD3D_SM6, Default, SM6 (DDC key hash: 4B647B95FD4132AFE2B95766B8E099300B8F1D05), compiling. Is special engine material.
+[2023.06.21-02.41.59:312][  0]LogMaterial: Display: Missing cached shadermap for LevelColorationLitMaterial in PCD3D_SM6, Default, SM6 (DDC key hash: E09B5E687CB78D91E01782197FB7FB80D07CB00A), compiling. Is special engine material.
+[2023.06.21-02.41.59:340][  0]LogMaterial: Display: Missing cached shadermap for LevelColorationUnlitMaterial in PCD3D_SM6, Default, SM6 (DDC key hash: 32887DDABF102010B2494880B0AD2420574B4FC5), compiling. Is special engine material.
+[2023.06.21-02.41.59:406][  0]LogMaterial: Display: Missing cached shadermap for MAT_LevelColorationLitLightmapUV in PCD3D_SM6, Default, SM6 (DDC key hash: 77153C20768AADCB87BE8B1EFDB65B5D6C1664FE), compiling. Is special engine material.
+[2023.06.21-02.41.59:431][  0]LogMaterial: Display: Missing cached shadermap for ShadedLevelColorationLitMaterial in PCD3D_SM6, Default, SM6 (DDC key hash: 607F2747F2806DC6D180C835E45F9F963145693B), compiling. Is special engine material.
+[2023.06.21-02.41.59:450][  0]LogMaterial: Display: Missing cached shadermap for ShadedLevelColorationUnlitMateri in PCD3D_SM6, Default, SM6 (DDC key hash: 5A82C481FDE60EDE223399D987E125C125C0CBF1), compiling. Is special engine material.
+[2023.06.21-02.42.00:434][  0]LogInit: Initializing FReadOnlyCVARCache
+[2023.06.21-02.42.00:504][  0]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.21-02.42.00:567][  0]LogAIModule: Creating AISystem for world Untitled
+[2023.06.21-02.42.00:568][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2023.06.21-02.42.00:568][  0]LogInit: Texture streaming: Enabled
+[2023.06.21-02.42.00:728][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 5.1.1-23901901+++UE5+Release-5.1
+[2023.06.21-02.42.00:768][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2023.06.21-02.42.00:905][  0]LogAudio: Display: Loading Default Audio Settings Objects...
+[2023.06.21-02.42.00:935][  0]LogAudio: Display: No default SoundConcurrencyObject specified (or failed to load).
+[2023.06.21-02.42.00:937][  0]LogAudio: Display: AudioInfo: 'BINKA' Registered
+[2023.06.21-02.42.00:938][  0]LogAudio: Display: AudioInfo: 'PCM' Registered
+[2023.06.21-02.42.00:938][  0]LogAudio: Display: AudioInfo: 'ADPCM' Registered
+[2023.06.21-02.42.00:938][  0]LogAudio: Display: AudioInfo: 'OGG' Registered
+[2023.06.21-02.42.00:938][  0]LogAudio: Display: AudioInfo: 'OPUS' Registered
+[2023.06.21-02.42.00:939][  0]LogAudio: Display: Audio Device Manager Initialized
+[2023.06.21-02.42.00:939][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2023.06.21-02.42.00:939][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.21-02.42.00:939][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.21-02.42.00:939][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.21-02.42.00:939][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.21-02.42.00:939][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.06.21-02.42.00:939][  0]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.06.21-02.42.00:939][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.06.21-02.42.00:939][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.21-02.42.00:939][  0]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2023.06.21-02.42.00:939][  0]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2023.06.21-02.42.00:939][  0]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.06.21-02.42.01:008][  0]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.06.21-02.42.01:046][  0]LogAudioMixer: Display: Using Audio Hardware Device 2460G4 (NVIDIA High Definition Audio)
+[2023.06.21-02.42.01:047][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.06.21-02.42.01:136][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.06.21-02.42.01:136][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.06.21-02.42.01:174][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2023.06.21-02.42.01:175][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.06.21-02.42.01:176][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.06.21-02.42.01:176][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=1
+[2023.06.21-02.42.01:176][  0]LogInit: FAudioDevice initialized.
+[2023.06.21-02.42.01:176][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2023.06.21-02.42.01:227][  0]LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2023.06.21-02.42.01:285][  0]LogLiveCoding: Display: Starting LiveCoding
+[2023.06.21-02.42.01:285][  0]LogLiveCoding: Display: LiveCodingConsole Arguments: UnrealEditor Win64 Development
+[2023.06.21-02.42.01:286][  0]LogLiveCoding: Display: First instance in process group "UE_AirplaneGame_0x935ae7bc", spawning console
+[2023.06.21-02.42.02:048][  0]LogLiveCoding: Display: Waiting for server
+[2023.06.21-02.42.02:981][  0]LogLiveCoding: Display: Successfully initialized, removing startup thread
+[2023.06.21-02.42.03:017][  0]LogInit: Transaction tracking system initialized
+[2023.06.21-02.42.03:322][  0]LogSlate: Took 0.020524 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.06.21-02.42.03:621][  0]SourceControl: Error: fatal: Invalid path 'C:/Users/dbcot': No such file or directory
+[2023.06.21-02.42.03:621][  0]SourceControl: Error: fatal: Invalid path 'C:/Users/dbcot': No such file or directory
+[2023.06.21-02.42.03:621][  0]SourceControl: fatal: D:/UnrealProjects/AirplaneGame/Content/StarterContent/Particles/P_Ambient_Dust.uasset: 'D:/UnrealProjects/AirplaneGame/Content/StarterContent/Particles/P_Ambient_Dust.uasset' is outside repository at 'D:/UnrealProjects/AirplaneGame/AirplaneTest2'
+[2023.06.21-02.42.03:621][  0]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2023.06.21-02.42.03:624][  0]LogSourceControl: Display: Uncontrolled Changelist persistency file loaded ../../../../../../UnrealProjects/AirplaneGame/AirplaneTest2/AirplaneGame_Git/Saved/SourceControl/UncontrolledChangelists.json
+[2023.06.21-02.42.03:624][  0]LogSourceControl: Uncontrolled asset enumeration started...
+[2023.06.21-02.42.03:641][  0]LogSourceControl: Uncontrolled asset enumeration finished in 0.016765 seconds (Found 141 uncontrolled assets)
+[2023.06.21-02.42.03:745][  0]BlueprintLog: New page: Editor Load
+[2023.06.21-02.42.04:791][  0]LocalizationService: Localization service is disabled
+[2023.06.21-02.42.04:904][  0]TimingProfiler: Initialize
+[2023.06.21-02.42.04:904][  0]TimingProfiler: OnSessionChanged
+[2023.06.21-02.42.04:904][  0]LoadingProfiler: Initialize
+[2023.06.21-02.42.04:904][  0]LoadingProfiler: OnSessionChanged
+[2023.06.21-02.42.04:904][  0]NetworkingProfiler: Initialize
+[2023.06.21-02.42.04:904][  0]NetworkingProfiler: OnSessionChanged
+[2023.06.21-02.42.04:904][  0]MemoryProfiler: Initialize
+[2023.06.21-02.42.04:904][  0]MemoryProfiler: OnSessionChanged
+[2023.06.21-02.42.05:914][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2023.06.21-02.42.05:914][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2023.06.21-02.42.05:914][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2023.06.21-02.42.10:470][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/AirplaneGame/AirplaneTest2/AirplaneGame_Git/Content/' took 0.01s
+[2023.06.21-02.42.11:332][  0]LogEditorDomain: Display: Class /Script/AnimationData.AnimationSequencerDataModel is imported by a package but does not exist in memory. EditorDomain keys for packages using it will be invalid if it still exists.
+	To clear this message, resave packages that use the deleted class, or load its module earlier than the packages that use it are referenced.
+[2023.06.21-02.42.11:876][  0]LogLevelSequenceEditor: LevelSequenceEditor subsystem initialized.
+[2023.06.21-02.42.13:140][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2023.06.21-02.42.13:142][  0]LogUnrealEdMisc: Loading editor; pre map load, took 90.624
+[2023.06.21-02.42.13:142][  0]Cmd: MAP LOAD FILE="../../../../../../UnrealProjects/AirplaneGame/AirplaneTest2/AirplaneGame_Git/Content/VRTemplate/Maps/VRTemplateMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.06.21-02.42.13:163][  0]LightingResults: New page: Lighting Build
+[2023.06.21-02.42.13:167][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2023.06.21-02.42.13:167][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.21-02.42.13:167][  0]MapCheck: New page: Map Check
+[2023.06.21-02.42.13:167][  0]LightingResults: New page: Lighting Build
+[2023.06.21-02.42.13:173][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.06.21-02.42.13:176][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
