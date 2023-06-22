@@ -16107,3 +16107,229 @@ UnknownFunction []
 [2023.06.22-06.21.40:735][541]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
 [2023.06.22-06.21.51:172][725]LogAssetEditorSubsystem: Opening Asset editor for LevelSequence /Game/MainMenu/FadeOutFromBlack.FadeOutFromBlack
 [2023.06.22-06.21.51:660][725]LogViewport: Scene viewport resized to 1526x444, mode Windowed.
+[2023.06.22-06.22.22:566][712]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2023.06.22-06.22.22:580][712]LogStall: Shutdown...
+[2023.06.22-06.22.22:584][712]LogStall: Shutdown complete.
+[2023.06.22-06.22.22:750][712]LogSlate: Window 'AirplaneGame - Unreal Editor' being destroyed
+[2023.06.22-06.22.22:934][713]Cmd: QUIT_EDITOR
+[2023.06.22-06.22.22:934][713]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2023.06.22-06.22.23:000][713]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2023.06.22-06.22.23:000][713]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2023.06.22-06.22.23:017][713]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2023.06.22-06.22.23:124][713]LogWorld: UWorld::CleanupWorld for JustForMenu, bSessionEnded=true, bCleanupResources=true
+[2023.06.22-06.22.23:124][713]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.22-06.22.23:349][713]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2023.06.22-06.22.24:249][713]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2023.06.22-06.22.24:249][713]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2023.06.22-06.22.24:249][713]LogAudio: Display: Audio Device unregistered from world 'JustForMenu'.
+[2023.06.22-06.22.24:249][713]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2023.06.22-06.22.24:249][713]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2023.06.22-06.22.24:250][713]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2023.06.22-06.22.24:257][713]LogAudio: Display: Audio Device Manager Shutdown
+[2023.06.22-06.22.24:259][713]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2023.06.22-06.22.24:283][713]LogExit: Preparing to exit.
+[2023.06.22-06.22.24:710][713]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2023.06.22-06.22.24:737][713]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.06.22-06.22.24:737][713]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.06.22-06.22.24:737][713]LogPython: Display: Object '/Engine/PythonTypes.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.06.22-06.22.24:737][713]LogPython: Display: Object '/Engine/PythonTypes.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.06.22-06.22.24:737][713]LogPython: Display: Object '/Engine/PythonTypes.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.06.22-06.22.24:737][713]LogPython: Display: Object '/Engine/PythonTypes.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.06.22-06.22.24:737][713]LogPython: Display: Object '/Engine/PythonTypes.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.06.22-06.22.24:737][713]LogPython: Display: Object '/Engine/PythonTypes.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.06.22-06.22.24:737][713]LogPython: Display: Object '/Engine/PythonTypes.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.06.22-06.22.24:737][713]LogPython: Display: Object '/Engine/PythonTypes.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.06.22-06.22.24:737][713]LogPython: Display: Object '/Engine/PythonTypes.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.06.22-06.22.24:737][713]LogPython: Display: Object '/Engine/PythonTypes.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.06.22-06.22.24:737][713]LogPython: Display: Object '/Engine/PythonTypes.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.06.22-06.22.24:737][713]LogPython: Display: Object '/Engine/PythonTypes.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.06.22-06.22.24:737][713]LogPython: Display: Object '/Engine/PythonTypes.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.06.22-06.22.24:737][713]LogPython: Display: Object '/Engine/PythonTypes.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.06.22-06.22.24:737][713]LogPython: Display: Object '/Engine/PythonTypes.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.06.22-06.22.24:737][713]LogPython: Display: Object '/Engine/PythonTypes.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.06.22-06.22.24:737][713]LogPython: Display: Object '/Engine/PythonTypes.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.06.22-06.22.26:295][713]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2023.06.22-06.22.26:296][713]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2023.06.22-06.22.26:297][713]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2023.06.22-06.22.26:297][713]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2023.06.22-06.22.26:298][713]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.06.22-06.22.26:298][713]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.06.22-06.22.26:298][713]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.06.22-06.22.26:298][713]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.06.22-06.22.26:298][713]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.06.22-06.22.26:298][713]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.06.22-06.22.26:298][713]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.06.22-06.22.26:298][713]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2023.06.22-06.22.26:298][713]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.06.22-06.22.26:298][713]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.06.22-06.22.26:298][713]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.06.22-06.22.26:298][713]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.06.22-06.22.26:298][713]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.06.22-06.22.26:298][713]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.06.22-06.22.26:298][713]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.06.22-06.22.26:298][713]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2023.06.22-06.22.26:299][713]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.06.22-06.22.26:299][713]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.06.22-06.22.26:299][713]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.06.22-06.22.26:299][713]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.06.22-06.22.26:299][713]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.06.22-06.22.26:299][713]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.06.22-06.22.26:299][713]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.06.22-06.22.26:299][713]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2023.06.22-06.22.26:299][713]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.06.22-06.22.26:299][713]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.06.22-06.22.26:299][713]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.06.22-06.22.26:299][713]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.06.22-06.22.26:299][713]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.06.22-06.22.26:299][713]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.06.22-06.22.26:299][713]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.06.22-06.22.26:299][713]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2023.06.22-06.22.26:300][713]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.06.22-06.22.26:300][713]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.06.22-06.22.26:300][713]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.06.22-06.22.26:300][713]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.06.22-06.22.26:300][713]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.06.22-06.22.26:300][713]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.06.22-06.22.26:300][713]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.06.22-06.22.26:300][713]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2023.06.22-06.22.26:300][713]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.06.22-06.22.26:300][713]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.06.22-06.22.26:300][713]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.06.22-06.22.26:300][713]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.06.22-06.22.26:300][713]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.06.22-06.22.26:300][713]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.06.22-06.22.26:301][713]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.06.22-06.22.26:301][713]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2023.06.22-06.22.26:301][713]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.06.22-06.22.26:301][713]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.06.22-06.22.26:301][713]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.06.22-06.22.26:301][713]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.06.22-06.22.26:301][713]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.06.22-06.22.26:301][713]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.06.22-06.22.26:301][713]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.06.22-06.22.26:301][713]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2023.06.22-06.22.26:302][713]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2023.06.22-06.22.26:302][713]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.06.22-06.22.26:302][713]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.06.22-06.22.26:302][713]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.06.22-06.22.26:302][713]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.06.22-06.22.26:302][713]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.06.22-06.22.26:302][713]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.06.22-06.22.26:302][713]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.06.22-06.22.26:302][713]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2023.06.22-06.22.26:303][713]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2023.06.22-06.22.26:303][713]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.06.22-06.22.26:303][713]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.06.22-06.22.26:303][713]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.06.22-06.22.26:303][713]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.06.22-06.22.26:303][713]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.06.22-06.22.26:303][713]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.06.22-06.22.26:303][713]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.06.22-06.22.26:303][713]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2023.06.22-06.22.26:558][713]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2023.06.22-06.22.26:655][713]LogExit: Editor shut down
+[2023.06.22-06.22.26:657][713]LogExit: Transaction tracking system shut down
+[2023.06.22-06.22.30:433][713]LogExit: Object subsystem successfully closed.
+[2023.06.22-06.22.30:439][713]LogShaderCompilers: Display: ================================================
+[2023.06.22-06.22.30:439][713]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.06.22-06.22.30:439][713]LogShaderCompilers: Display: Total job queries 290, among them cache hits 29 (10.00%)
+[2023.06.22-06.22.30:439][713]LogShaderCompilers: Display: Tracking 261 distinct input hashes that result in 158 distinct outputs (60.54%)
+[2023.06.22-06.22.30:439][713]LogShaderCompilers: Display: RAM used: 2.74 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.17%
+[2023.06.22-06.22.30:439][713]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.06.22-06.22.30:439][713]LogShaderCompilers: Display: Shaders Compiled: 67
+[2023.06.22-06.22.30:439][713]LogShaderCompilers: Display: Jobs assigned 67, completed 67 (100.00%)
+[2023.06.22-06.22.30:439][713]LogShaderCompilers: Display: Average time worker was idle: 546.44 s
+[2023.06.22-06.22.30:439][713]LogShaderCompilers: Display: Time job spent in pending queue: average 0.61 s, longest 2.63 s
+[2023.06.22-06.22.30:439][713]LogShaderCompilers: Display: Job execution time: average 2.00 s, max 5.63 s
+[2023.06.22-06.22.30:439][713]LogShaderCompilers: Display: Job life time (pending + execution): average 2.61 s, max 5.65
+[2023.06.22-06.22.30:439][713]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 35.94 s
+[2023.06.22-06.22.30:439][713]LogShaderCompilers: Display: Jobs were issued in 67 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.06.22-06.22.30:439][713]LogShaderCompilers: Display: Average processing rate: 1.86 jobs/sec
+[2023.06.22-06.22.30:439][713]LogShaderCompilers: Display: Total thread time: 105.04 s
+[2023.06.22-06.22.30:439][713]LogShaderCompilers: Display: Total thread preprocess time: 3.65 s
+[2023.06.22-06.22.30:439][713]LogShaderCompilers: Display: Percentage time preprocessing: 3.48%
+[2023.06.22-06.22.30:439][713]LogShaderCompilers: Display: Effective parallelization: 2.92 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.06.22-06.22.30:439][713]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.06.22-06.22.30:439][713]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled   14 times, average 4.28 sec, max 5.17 sec, min 2.96 sec)
+[2023.06.22-06.22.30:439][713]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   19 times, average 1.22 sec, max 3.42 sec, min 0.79 sec)
+[2023.06.22-06.22.30:439][713]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   23 times, average 0.91 sec, max 1.06 sec, min 0.66 sec)
+[2023.06.22-06.22.30:440][713]LogShaderCompilers: Display:                  TShadowDepthVSVertexShadowDepth_OutputDepth (compiled    1 times, average 0.70 sec, max 0.70 sec, min 0.70 sec)
+[2023.06.22-06.22.30:440][713]LogShaderCompilers: Display:         TShadowDepthPSPixelShadowDepth_NonPerspectiveCorrect (compiled    1 times, average 0.45 sec, max 0.45 sec, min 0.45 sec)
+[2023.06.22-06.22.30:440][713]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.06.22-06.22.30:440][713]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 56.99% of total time (compiled   14 times, average 4.28 sec, max 5.17 sec, min 2.96 sec)
+[2023.06.22-06.22.30:440][713]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 22.06% of total time (compiled   19 times, average 1.22 sec, max 3.42 sec, min 0.79 sec)
+[2023.06.22-06.22.30:440][713]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 19.85% of total time (compiled   23 times, average 0.91 sec, max 1.06 sec, min 0.66 sec)
+[2023.06.22-06.22.30:440][713]LogShaderCompilers: Display:                  TShadowDepthVSVertexShadowDepth_OutputDepth - 0.67% of total time (compiled    1 times, average 0.70 sec, max 0.70 sec, min 0.70 sec)
+[2023.06.22-06.22.30:440][713]LogShaderCompilers: Display:         TShadowDepthPSPixelShadowDepth_NonPerspectiveCorrect - 0.43% of total time (compiled    1 times, average 0.45 sec, max 0.45 sec, min 0.45 sec)
+[2023.06.22-06.22.30:440][713]LogShaderCompilers: Display: ================================================
+[2023.06.22-06.22.30:501][713]LogShaderCompilers: Display: Shaders left to compile 0
+[2023.06.22-06.22.30:654][713]LogVirtualization: UE::Virtualization was shutdown
+[2023.06.22-06.22.33:639][713]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (999)
+[2023.06.22-06.22.33:639][713]LogModuleManager: Shutting down and abandoning module Voice (997)
+[2023.06.22-06.22.33:644][713]LogModuleManager: Shutting down and abandoning module SequencerWidgets (995)
+[2023.06.22-06.22.33:644][713]LogModuleManager: Shutting down and abandoning module BlueprintGraph (993)
+[2023.06.22-06.22.33:645][713]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (991)
+[2023.06.22-06.22.33:645][713]LogModuleManager: Shutting down and abandoning module NewLevelDialog (989)
+[2023.06.22-06.22.33:645][713]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (987)
+[2023.06.22-06.22.33:645][713]LogModuleManager: Shutting down and abandoning module UnsavedAssetsTracker (985)
+[2023.06.22-06.22.33:645][713]LogModuleManager: Shutting down and abandoning module AddContentDialog (983)
+[2023.06.22-06.22.33:754][713]LogModuleManager: Shutting down and abandoning module WidgetCarousel (982)
+[2023.06.22-06.22.33:754][713]LogModuleManager: Shutting down and abandoning module GeometryProcessingInterfaces (979)
+[2023.06.22-06.22.33:754][713]LogModuleManager: Shutting down and abandoning module SubobjectEditor (977)
+[2023.06.22-06.22.33:754][713]LogModuleManager: Shutting down and abandoning module SceneOutliner (975)
+[2023.06.22-06.22.33:754][713]LogModuleManager: Shutting down and abandoning module StatusBar (973)
+[2023.06.22-06.22.33:754][713]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (971)
+[2023.06.22-06.22.33:754][713]LogModuleManager: Shutting down and abandoning module StatsViewer (969)
+[2023.06.22-06.22.33:768][713]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (967)
+[2023.06.22-06.22.33:768][713]LogModuleManager: Shutting down and abandoning module AutomationWorker (965)
+[2023.06.22-06.22.33:778][713]LogModuleManager: Shutting down and abandoning module WaveTableEditor (963)
+[2023.06.22-06.22.33:803][713]LogModuleManager: Shutting down and abandoning module ResonanceAudioEditor (961)
+[2023.06.22-06.22.33:803][713]LogModuleManager: Shutting down and abandoning module OpenXRInput (959)
+[2023.06.22-06.22.33:803][713]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2023.06.22-06.22.33:803][713]LogModuleManager: Shutting down and abandoning module GooglePADEditor (957)
+[2023.06.22-06.22.33:803][713]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (955)
+[2023.06.22-06.22.33:803][713]LogModuleManager: Shutting down and abandoning module AndroidFileServerEditor (953)
+[2023.06.22-06.22.33:803][713]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (951)
+[2023.06.22-06.22.33:803][713]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (949)
+[2023.06.22-06.22.33:815][713]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (947)
+[2023.06.22-06.22.33:838][713]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (945)
+[2023.06.22-06.22.33:847][713]LogModuleManager: Shutting down and abandoning module IKRigEditor (943)
+[2023.06.22-06.22.33:878][713]LogModuleManager: Shutting down and abandoning module ControlRigEditor (941)
+[2023.06.22-06.22.33:901][713]LogModuleManager: Shutting down and abandoning module TextureAlignMode (939)
+[2023.06.22-06.22.33:901][713]LogModuleManager: Shutting down and abandoning module BspMode (937)
+[2023.06.22-06.22.33:917][713]LogModuleManager: Shutting down and abandoning module GeometryMode (935)
+[2023.06.22-06.22.33:922][713]LogModuleManager: Shutting down and abandoning module PlanarCut (933)
+[2023.06.22-06.22.33:969][713]LogModuleManager: Shutting down and abandoning module CharacterAI (931)
+[2023.06.22-06.22.33:970][713]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (929)
+[2023.06.22-06.22.33:970][713]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (927)
+[2023.06.22-06.22.33:970][713]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (925)
+[2023.06.22-06.22.33:970][713]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (923)
+[2023.06.22-06.22.33:970][713]LogModuleManager: Shutting down and abandoning module WebMMedia (921)
+[2023.06.22-06.22.33:984][713]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (919)
+[2023.06.22-06.22.33:998][713]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (917)
+[2023.06.22-06.22.34:019][713]LogModuleManager: Shutting down and abandoning module SequenceRecorder (916)
+[2023.06.22-06.22.34:019][713]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (913)
+[2023.06.22-06.22.34:039][713]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (911)
+[2023.06.22-06.22.34:039][713]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (909)
+[2023.06.22-06.22.34:049][713]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (907)
+[2023.06.22-06.22.34:049][713]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (905)
+[2023.06.22-06.22.34:049][713]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (903)
+[2023.06.22-06.22.34:049][713]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (901)
+[2023.06.22-06.22.34:049][713]LogModuleManager: Shutting down and abandoning module SmartSnapping (899)
+[2023.06.22-06.22.34:049][713]LogModuleManager: Shutting down and abandoning module SessionServices (897)
+[2023.06.22-06.22.34:055][713]LogModuleManager: Shutting down and abandoning module MeshPaint (895)
+[2023.06.22-06.22.34:075][713]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (893)
+[2023.06.22-06.22.34:093][713]LogModuleManager: Shutting down and abandoning module PlacementMode (892)
+[2023.06.22-06.22.34:093][713]LogModuleManager: Shutting down and abandoning module FoliageEdit (889)
+[2023.06.22-06.22.34:110][713]LogModuleManager: Shutting down and abandoning module LandscapeEditor (887)
+[2023.06.22-06.22.34:146][713]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (885)
+[2023.06.22-06.22.34:146][713]LogModuleManager: Shutting down and abandoning module ActorPickerMode (883)
+[2023.06.22-06.22.34:146][713]LogModuleManager: Shutting down and abandoning module ViewportSnapping (881)
+[2023.06.22-06.22.34:146][713]LogModuleManager: Shutting down and abandoning module ViewportInteraction (879)
+[2023.06.22-06.22.34:146][713]LogModuleManager: Shutting down and abandoning module ClothPainter (877)
+[2023.06.22-06.22.34:161][713]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (876)
+[2023.06.22-06.22.34:174][713]LogModuleManager: Shutting down and abandoning module LogVisualizer (873)
+[2023.06.22-06.22.34:250][713]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (871)
+[2023.06.22-06.22.34:262][713]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (869)
+[2023.06.22-06.22.34:275][713]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (868)
+[2023.06.22-06.22.34:295][713]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (866)
