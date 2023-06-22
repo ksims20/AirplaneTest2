@@ -1925,3 +1925,14 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.06.22-15.14.36:599][906]LogContentValidation: Display: Validating /Script/Engine.Material /Game/lambert2.lambert2
 [2023.06.22-15.14.36:599][906]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/polySurface86.polySurface86
 [2023.06.22-15.14.36:599][906]LogContentValidation: Display: Validating /Script/UnrealEd.FbxSceneImportData /Game/Jetway_Test3.Jetway_Test3
+[2023.06.22-15.15.48:014][537]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.RecastNavMesh-Default).
+[2023.06.22-15.15.48:532][548]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.RecastNavMesh-Default).
+[2023.06.22-15.15.48:757][575]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.RecastNavMesh-Default).
+[2023.06.22-15.15.49:059][611]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.RecastNavMesh-Default).
+[2023.06.22-15.15.49:075][613]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.RecastNavMesh-Default).
+[2023.06.22-15.15.49:788][696]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.RecastNavMesh-Default).
+[2023.06.22-15.16.22:591][143]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2023.06.22-15.16.23:551][143]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/VRTemplate/Maps/VRTemplateMap_Auto2
+[2023.06.22-15.16.23:551][143]LogSavePackage: Moving '../../../../../../Users/dbcot/OneDrive/Documents/AirplaneTest2/AirplaneTest2/AirplaneGame_Git/Saved/VRTemplateMap_Auto260FA8E7F4C4417DF0B395DB040BA1B8A.tmp' to '../../../../../../Users/dbcot/OneDrive/Documents/AirplaneTest2/AirplaneTest2/AirplaneGame_Git/Saved/Autosaves/Game/VRTemplate/Maps/VRTemplateMap_Auto2.umap'
+[2023.06.22-15.16.23:559][143]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/VRTemplate/Maps/VRTemplateMap' took 0.993
+[2023.06.22-15.16.23:559][143]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.993
