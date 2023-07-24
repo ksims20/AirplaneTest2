@@ -25,22 +25,6 @@
 		{
 			"Name": "Water",
 			"Enabled": true
-		},
-		{
-			"Name": "SteamVR",
-			"Enabled": true,
-			"SupportedTargetPlatforms": [
-				"Win64",
-				"Linux"
-			]
-		},
-		{
-			"Name": "OculusVR",
-			"Enabled": true,
-			"SupportedTargetPlatforms": [
-				"Win64",
-				"Android"
-			]
 		}
 	],
 	"TargetPlatforms": [
