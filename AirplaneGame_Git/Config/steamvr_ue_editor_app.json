@@ -5,7 +5,7 @@
 			"app_key": "application.generated.ue.airplanegame-23901901.unrealeditor.exe",
 			"launch_type": "url",
 			"url": "steam://launch/",
-			"action_manifest_path": "C:/Users/dbcot/OneDrive/Documents/AirplaneTest2/AirplaneTest2/AirplaneGame_Git/Config/SteamVRBindings/steamvr_manifest.json",
+			"action_manifest_path": "D:/UnrealProjects/AirplaneGame/AirplaneTest2/AirplaneGame_Git/Config/SteamVRBindings/steamvr_manifest.json",
 			"strings":
 			{
 				"en_us":
