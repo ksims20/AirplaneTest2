@@ -1,0 +1,21 @@
+{
+	"StructTypeName": "FClearBufferUAVParameters",
+	"ShaderVariableName": "",
+	"FileName": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Runtime\\RenderCore\\Private\\RenderGraphUtils.cpp",
+	"FileLine": 435,
+	"Size": 16,
+	"Members": [
+		{
+			"Name": "BufferUAV",
+			"ShaderType": "RWBuffer<uint>",
+			"FileLine": 436,
+			"Offset": 0,
+			"BaseType": "UBMT_RDG_BUFFER_UAV",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "0000000000000000"
+		}
+	]
+}

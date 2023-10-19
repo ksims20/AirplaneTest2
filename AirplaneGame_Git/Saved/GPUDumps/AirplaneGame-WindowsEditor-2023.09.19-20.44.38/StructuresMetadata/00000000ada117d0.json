@@ -1,0 +1,57 @@
+{
+	"StructTypeName": "FTranslucencyLightingVolumeParameters",
+	"ShaderVariableName": "",
+	"FileName": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Runtime\\Renderer\\Private\\TranslucentLighting.h",
+	"FileLine": 46,
+	"Size": 32,
+	"Members": [
+		{
+			"Name": "TranslucencyLightingVolumeAmbientInner",
+			"ShaderType": "Texture3D",
+			"FileLine": 47,
+			"Offset": 0,
+			"BaseType": "UBMT_RDG_TEXTURE",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "0000000000000000"
+		},
+		{
+			"Name": "TranslucencyLightingVolumeAmbientOuter",
+			"ShaderType": "Texture3D",
+			"FileLine": 48,
+			"Offset": 8,
+			"BaseType": "UBMT_RDG_TEXTURE",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "0000000000000000"
+		},
+		{
+			"Name": "TranslucencyLightingVolumeDirectionalInner",
+			"ShaderType": "Texture3D",
+			"FileLine": 49,
+			"Offset": 16,
+			"BaseType": "UBMT_RDG_TEXTURE",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "0000000000000000"
+		},
+		{
+			"Name": "TranslucencyLightingVolumeDirectionalOuter",
+			"ShaderType": "Texture3D",
+			"FileLine": 50,
+			"Offset": 24,
+			"BaseType": "UBMT_RDG_TEXTURE",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "0000000000000000"
+		}
+	]
+}

@@ -1,0 +1,45 @@
+{
+	"StructTypeName": "FDepthPassParameters",
+	"ShaderVariableName": "",
+	"FileName": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Runtime\\Renderer\\Private\\DepthRendering.cpp",
+	"FileLine": 97,
+	"Size": 336,
+	"Members": [
+		{
+			"Name": "View",
+			"ShaderType": "FViewShaderParameters",
+			"FileLine": 98,
+			"Offset": 0,
+			"BaseType": "UBMT_INCLUDED_STRUCT",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "00000000ada12760"
+		},
+		{
+			"Name": "InstanceCullingDrawParams",
+			"ShaderType": "FInstanceCullingDrawParams",
+			"FileLine": 99,
+			"Offset": 32,
+			"BaseType": "UBMT_INCLUDED_STRUCT",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "00000000ada12900"
+		},
+		{
+			"Name": "RenderTargets",
+			"ShaderType": "",
+			"FileLine": 100,
+			"Offset": 96,
+			"BaseType": "UBMT_RENDER_TARGET_BINDING_SLOTS",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "0000000000000000"
+		}
+	]
+}

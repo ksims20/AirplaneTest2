@@ -1,0 +1,45 @@
+{
+	"StructTypeName": "FScreenPassTextureInput",
+	"ShaderVariableName": "",
+	"FileName": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Runtime\\Renderer\\Private\\ScreenPass.h",
+	"FileLine": 333,
+	"Size": 128,
+	"Members": [
+		{
+			"Name": "Viewport",
+			"ShaderType": "FScreenPassTextureViewportParameters",
+			"FileLine": 334,
+			"Offset": 0,
+			"BaseType": "UBMT_INCLUDED_STRUCT",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "00000000ada15c00"
+		},
+		{
+			"Name": "Texture",
+			"ShaderType": "Texture2D",
+			"FileLine": 335,
+			"Offset": 112,
+			"BaseType": "UBMT_RDG_TEXTURE",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "0000000000000000"
+		},
+		{
+			"Name": "Sampler",
+			"ShaderType": "SamplerState",
+			"FileLine": 336,
+			"Offset": 120,
+			"BaseType": "UBMT_SAMPLER",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "0000000000000000"
+		}
+	]
+}

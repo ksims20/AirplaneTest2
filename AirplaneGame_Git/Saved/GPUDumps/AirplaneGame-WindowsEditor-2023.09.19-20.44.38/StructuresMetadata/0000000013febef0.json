@@ -1,0 +1,21 @@
+{
+	"StructTypeName": "FEnqueueCopyTexturePass",
+	"ShaderVariableName": "",
+	"FileName": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Runtime\\RenderCore\\Private\\RenderGraphUtils.cpp",
+	"FileLine": 838,
+	"Size": 16,
+	"Members": [
+		{
+			"Name": "Texture",
+			"ShaderType": "",
+			"FileLine": 839,
+			"Offset": 0,
+			"BaseType": "UBMT_RDG_TEXTURE_ACCESS",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "0000000000000000"
+		}
+	]
+}

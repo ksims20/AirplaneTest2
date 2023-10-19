@@ -1,0 +1,57 @@
+{
+	"StructTypeName": "FShaderParameters",
+	"ShaderVariableName": "",
+	"FileName": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Runtime\\Renderer\\Private\\InstanceCulling\\InstanceCullingLoadBalancer.h",
+	"FileLine": 79,
+	"Size": 32,
+	"Members": [
+		{
+			"Name": "BatchBuffer",
+			"ShaderType": "StructuredBuffer< FPackedBatch >",
+			"FileLine": 80,
+			"Offset": 0,
+			"BaseType": "UBMT_RDG_BUFFER_SRV",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "0000000000000000"
+		},
+		{
+			"Name": "ItemBuffer",
+			"ShaderType": "StructuredBuffer< FPackedItem >",
+			"FileLine": 81,
+			"Offset": 8,
+			"BaseType": "UBMT_RDG_BUFFER_SRV",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "0000000000000000"
+		},
+		{
+			"Name": "NumBatches",
+			"ShaderType": "",
+			"FileLine": 82,
+			"Offset": 16,
+			"BaseType": "UBMT_UINT32",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "0000000000000000"
+		},
+		{
+			"Name": "NumItems",
+			"ShaderType": "",
+			"FileLine": 83,
+			"Offset": 20,
+			"BaseType": "UBMT_UINT32",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "0000000000000000"
+		}
+	]
+}

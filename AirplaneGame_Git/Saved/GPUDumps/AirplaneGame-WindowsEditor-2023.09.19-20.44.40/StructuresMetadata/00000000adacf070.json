@@ -1,0 +1,81 @@
+{
+	"StructTypeName": "FTranslucentBasePassParameters",
+	"ShaderVariableName": "",
+	"FileName": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Runtime\\Renderer\\Private\\TranslucentRendering.cpp",
+	"FileLine": 1150,
+	"Size": 384,
+	"Members": [
+		{
+			"Name": "View",
+			"ShaderType": "FViewShaderParameters",
+			"FileLine": 1151,
+			"Offset": 0,
+			"BaseType": "UBMT_INCLUDED_STRUCT",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "00000000ada12760"
+		},
+		{
+			"Name": "ReflectionCapture",
+			"ShaderType": "FReflectionCaptureShaderData",
+			"FileLine": 1152,
+			"Offset": 32,
+			"BaseType": "UBMT_REFERENCED_STRUCT",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "00000000adaa4630"
+		},
+		{
+			"Name": "BasePass",
+			"ShaderType": "FTranslucentBasePassUniformParameters",
+			"FileLine": 1153,
+			"Offset": 48,
+			"BaseType": "UBMT_RDG_UNIFORM_BUFFER",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "00000000ada134d0"
+		},
+		{
+			"Name": "InstanceCullingDrawParams",
+			"ShaderType": "FInstanceCullingDrawParams",
+			"FileLine": 1154,
+			"Offset": 64,
+			"BaseType": "UBMT_INCLUDED_STRUCT",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "00000000ada12900"
+		},
+		{
+			"Name": "VirtualShadowMapSamplingParameters",
+			"ShaderType": "FVirtualShadowMapSamplingParameters",
+			"FileLine": 1155,
+			"Offset": 128,
+			"BaseType": "UBMT_INCLUDED_STRUCT",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "00000000ada12990"
+		},
+		{
+			"Name": "RenderTargets",
+			"ShaderType": "",
+			"FileLine": 1156,
+			"Offset": 144,
+			"BaseType": "UBMT_RENDER_TARGET_BINDING_SLOTS",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "0000000000000000"
+		}
+	]
+}

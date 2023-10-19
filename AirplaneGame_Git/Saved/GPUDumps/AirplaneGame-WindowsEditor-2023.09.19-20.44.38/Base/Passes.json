@@ -1,0 +1,2289 @@
+{
+	"EventName": "Graph Prologue (Graphics)",
+	"ParametersName": "FEmptyShaderParameters",
+	"Parameters": "00000000801d36d0",
+	"ParametersMetadata": "0000000013fdad20",
+	"Pointer": "00000000801d3410",
+	"Id": 0,
+	"ParentEventScopes": [
+		"Frame 9649"
+	],
+	"InputResources": [],
+	"OutputResources": []
+}{
+	"EventName": "ClearGPUMessageBuffer",
+	"ParametersName": "FParameters",
+	"Parameters": "00000000806402b0",
+	"ParametersMetadata": "0000000013fe3030",
+	"Pointer": "00000000806402c0",
+	"Id": 1,
+	"ParentEventScopes": [
+		"Frame 9649"
+	],
+	"InputResources": [],
+	"OutputResources": [
+		"0000000080640010"
+	]
+}{
+	"EventName": "Niagara::GPUProfiler_BeginFrame",
+	"ParametersName": "FEmptyShaderParameters",
+	"Parameters": "0000000080644950",
+	"ParametersMetadata": "000000009ae69940",
+	"Pointer": "0000000080644680",
+	"Id": 2,
+	"ParentEventScopes": [
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [],
+	"OutputResources": []
+}{
+	"EventName": "Niagara::ExecuteTicksPre",
+	"ParametersName": "FEmptyShaderParameters",
+	"Parameters": "0000000080644c40",
+	"ParametersMetadata": "000000009ae69940",
+	"Pointer": "0000000080644960",
+	"Id": 3,
+	"ParentEventScopes": [
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [],
+	"OutputResources": []
+}{
+	"EventName": "ClearBuffer(PathTracer.DecalGridData Size=4bytes)",
+	"ParametersName": "FClearBufferUAVParameters",
+	"Parameters": "0000000080644f20",
+	"ParametersMetadata": "0000000013febc40",
+	"Pointer": "0000000080644f30",
+	"Id": 4,
+	"ParentEventScopes": [
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [],
+	"OutputResources": [
+		"0000000080644d50"
+	]
+}{
+	"EventName": "FFXSystem::PreRender",
+	"ParametersName": "FEmptyShaderParameters",
+	"Parameters": "0000000080645980",
+	"ParametersMetadata": "00000000bc679250",
+	"Pointer": "00000000806456a0",
+	"Id": 5,
+	"ParentEventScopes": [
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [],
+	"OutputResources": []
+}{
+	"EventName": "FGPUSortManager::OnPreRender",
+	"ParametersName": "FEmptyShaderParameters",
+	"Parameters": "0000000080645d20",
+	"ParametersMetadata": "00000000bc679250",
+	"Pointer": "0000000080645a50",
+	"Id": 6,
+	"ParentEventScopes": [
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [],
+	"OutputResources": []
+}{
+	"EventName": "GPUScene::SetInstancePrimitiveIdCS",
+	"ParametersName": "FParameters",
+	"Parameters": "0000000080647b10",
+	"ParametersMetadata": "00000000ada36120",
+	"Pointer": "0000000080648430",
+	"Id": 7,
+	"ParentEventScopes": [
+		"GPUScene.Update",
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [
+		"0000000080647b60",
+		"0000000080648120"
+	],
+	"OutputResources": [
+		"0000000080646060"
+	]
+}{
+	"EventName": "GPUScene::SetInstancePrimitiveIdCS",
+	"ParametersName": "FParameters",
+	"Parameters": "0000000080649730",
+	"ParametersMetadata": "00000000ada36120",
+	"Pointer": "0000000080649d90",
+	"Id": 8,
+	"ParentEventScopes": [
+		"GPUScene.UploadDynamicPrimitiveShaderDataForView",
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [
+		"0000000080649780",
+		"0000000080649a80"
+	],
+	"OutputResources": [
+		"0000000080646060"
+	]
+}{
+	"EventName": "ScatterUpload[0] (Resource: GPUScene.PrimitiveData, Offset: 0)",
+	"ParametersName": "FParameters",
+	"Parameters": "000000008064b270",
+	"ParametersMetadata": "0000000013ff3960",
+	"Pointer": "000000008064b2e0",
+	"Id": 9,
+	"ParentEventScopes": [
+		"UpdateGPUScene NumPrimitiveDataUploads 1",
+		"GPUScene.UploadDynamicPrimitiveShaderDataForView",
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [
+		"000000008064b030",
+		"000000008064ae50"
+	],
+	"OutputResources": [
+		"0000000080645ed0"
+	]
+}{
+	"EventName": "ScatterUpload[0] (Resource: GPUScene.InstanceSceneData, Offset: 0, GroupSize: 1)",
+	"ParametersName": "FParameters",
+	"Parameters": "000000008064c5e0",
+	"ParametersMetadata": "0000000013ff3960",
+	"Pointer": "000000008064c650",
+	"Id": 10,
+	"ParentEventScopes": [
+		"UpdateGPUScene NumPrimitiveDataUploads 1",
+		"GPUScene.UploadDynamicPrimitiveShaderDataForView",
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [
+		"000000008064c3a0",
+		"000000008064c1c0"
+	],
+	"OutputResources": [
+		"0000000080646060"
+	]
+}{
+	"EventName": "ClearBuffer(InstanceCulling.Compaction.BlockInstanceCounts Size=4bytes)",
+	"ParametersName": "FClearBufferUAVParameters",
+	"Parameters": "00000000738d0560",
+	"ParametersMetadata": "0000000013febc40",
+	"Pointer": "00000000738d0570",
+	"Id": 11,
+	"ParentEventScopes": [
+		"BuildRenderingCommandsDeferred(Culling=On)",
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [],
+	"OutputResources": [
+		"00000000738d0390"
+	]
+}{
+	"EventName": "ClearIndirectArgInstanceCount",
+	"ParametersName": "FParameters",
+	"Parameters": "00000000738d1320",
+	"ParametersMetadata": "00000000ada48560",
+	"Pointer": "00000000738d1380",
+	"Id": 12,
+	"ParentEventScopes": [
+		"BuildRenderingCommandsDeferred(Culling=On)",
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [],
+	"OutputResources": [
+		"00000000738d11a0"
+	]
+}{
+	"EventName": "CullInstances(Generic)",
+	"ParametersName": "FParameters",
+	"Parameters": "000000008064fce0",
+	"ParametersMetadata": "00000000ada48460",
+	"Pointer": "00000000738d2780",
+	"Id": 13,
+	"ParentEventScopes": [
+		"BuildRenderingCommandsDeferred(Culling=On)",
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [
+		"0000000080646060",
+		"00000000806461f0",
+		"0000000080645ed0",
+		"00000000738d2170",
+		"00000000738d22e0",
+		"00000000738d0d50",
+		"00000000738d0ec0",
+		"000000008064d660",
+		"00000000738d1030",
+		"00000000738d1fb0",
+		"00000000738d1a50",
+		"00000000738d0010"
+	],
+	"OutputResources": [
+		"00000000738d1bc0",
+		"00000000738d11a0",
+		"00000000738d01d0",
+		"00000000738d0390"
+	]
+}{
+	"EventName": "CullInstances(UnCulled)",
+	"ParametersName": "FParameters",
+	"Parameters": "000000008064fdf0",
+	"ParametersMetadata": "00000000ada48460",
+	"Pointer": "00000000738d6470",
+	"Id": 14,
+	"ParentEventScopes": [
+		"BuildRenderingCommandsDeferred(Culling=On)",
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [
+		"00000000738d5ef0",
+		"00000000738d6260",
+		"00000000738d0d50",
+		"00000000738d1030",
+		"00000000738d5d30",
+		"00000000738d1a50",
+		"00000000738d0010"
+	],
+	"OutputResources": [
+		"00000000738d1bc0",
+		"00000000738d11a0",
+		"00000000738d01d0",
+		"00000000738d0390"
+	]
+}{
+	"EventName": "Instance Compaction Phase 1",
+	"ParametersName": "FParameters",
+	"Parameters": "00000000738d8700",
+	"ParametersMetadata": "00000000ada48260",
+	"Pointer": "00000000738d87c0",
+	"Id": 15,
+	"ParentEventScopes": [
+		"BuildRenderingCommandsDeferred(Culling=On)",
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [
+		"00000000738d0010",
+		"00000000738d0390"
+	],
+	"OutputResources": [
+		"00000000738d8580",
+		"00000000738d11a0"
+	]
+}{
+	"EventName": "Instance Compaction Phase 2",
+	"ParametersName": "FParameters",
+	"Parameters": "00000000738d93f0",
+	"ParametersMetadata": "00000000ada48360",
+	"Pointer": "00000000738d9510",
+	"Id": 16,
+	"ParentEventScopes": [
+		"BuildRenderingCommandsDeferred(Culling=On)",
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [
+		"00000000738d0010",
+		"00000000738d9270",
+		"00000000738d01d0",
+		"00000000738d8580"
+	],
+	"OutputResources": [
+		"00000000738d1bc0"
+	]
+}{
+	"EventName": "ClearDepthStencil (SceneDepthZ)",
+	"ParametersName": "FRenderTargetParameters",
+	"Parameters": "00000000738dc1e0",
+	"ParametersMetadata": "0000000013fea110",
+	"Pointer": "00000000738dcd70",
+	"Id": 17,
+	"ParentEventScopes": [
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [],
+	"OutputResources": [
+		"00000000738da150.mip0",
+		"00000000738da150.stencil"
+	]
+}{
+	"EventName": "DepthPassParallel",
+	"ParametersName": "FDepthPassParameters",
+	"Parameters": "00000000738ddd90",
+	"ParametersMetadata": "00000000ada27c00",
+	"Pointer": "00000000738ddee0",
+	"Id": 18,
+	"ParentEventScopes": [
+		"PrePass DDM_AllOpaque (Forced by ForwardShading)",
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [
+		"00000000738d1bc0",
+		"00000000738d1bc0",
+		"00000000738d11a0",
+		"00000000738d1a50"
+	],
+	"OutputResources": [
+		"00000000738da150.mip0",
+		"00000000738da150.stencil"
+	]
+}{
+	"EventName": "EditorPrimitives",
+	"ParametersName": "FDepthPassParameters",
+	"Parameters": "00000000738ddd90",
+	"ParametersMetadata": "00000000ada27c00",
+	"Pointer": "00000000738df280",
+	"Id": 19,
+	"ParentEventScopes": [
+		"PrePass DDM_AllOpaque (Forced by ForwardShading)",
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [
+		"00000000738d1bc0",
+		"00000000738d1bc0",
+		"00000000738d11a0",
+		"00000000738d1a50"
+	],
+	"OutputResources": [
+		"00000000738da150.mip0",
+		"00000000738da150.stencil"
+	]
+}{
+	"EventName": "ClearBuffer(StartOffsetGrid Size=61440bytes)",
+	"ParametersName": "FClearBufferUAVParameters",
+	"Parameters": "0000000080656230",
+	"ParametersMetadata": "0000000013febc40",
+	"Pointer": "0000000080656240",
+	"Id": 20,
+	"ParentEventScopes": [
+		"CullLights 20x12x32 NumLights 27 NumCaptures 0",
+		"ComputeLightGrid",
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [],
+	"OutputResources": [
+		"0000000080655120"
+	]
+}{
+	"EventName": "ClearBuffer(NextCulledLightLink Size=4bytes)",
+	"ParametersName": "FClearBufferUAVParameters",
+	"Parameters": "00000000806568c0",
+	"ParametersMetadata": "0000000013febc40",
+	"Pointer": "00000000806568d0",
+	"Id": 21,
+	"ParentEventScopes": [
+		"CullLights 20x12x32 NumLights 27 NumCaptures 0",
+		"ComputeLightGrid",
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [],
+	"OutputResources": [
+		"0000000080655290"
+	]
+}{
+	"EventName": "ClearBuffer(NextCulledLightData Size=4bytes)",
+	"ParametersName": "FClearBufferUAVParameters",
+	"Parameters": "0000000080656f50",
+	"ParametersMetadata": "0000000013febc40",
+	"Pointer": "0000000080656f60",
+	"Id": 22,
+	"ParentEventScopes": [
+		"CullLights 20x12x32 NumLights 27 NumCaptures 0",
+		"ComputeLightGrid",
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [],
+	"OutputResources": [
+		"0000000080655400"
+	]
+}{
+	"EventName": "ClearBuffer(NumCulledLightsGrid Size=122880bytes)",
+	"ParametersName": "FClearBufferUAVParameters",
+	"Parameters": "00000000806575e0",
+	"ParametersMetadata": "0000000013febc40",
+	"Pointer": "00000000806575f0",
+	"Id": 23,
+	"ParentEventScopes": [
+		"CullLights 20x12x32 NumLights 27 NumCaptures 0",
+		"ComputeLightGrid",
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [],
+	"OutputResources": [
+		"0000000080655780"
+	]
+}{
+	"EventName": "LightGridInject:LinkedList",
+	"ParametersName": "FParameters",
+	"Parameters": "0000000080655950",
+	"ParametersMetadata": "00000000ada4c990",
+	"Pointer": "0000000080657c60",
+	"Id": 24,
+	"ParentEventScopes": [
+		"CullLights 20x12x32 NumLights 27 NumCaptures 0",
+		"ComputeLightGrid",
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [
+		"0000000080655b40",
+		"0000000080655e60"
+	],
+	"OutputResources": [
+		"0000000080655290",
+		"0000000080655120",
+		"0000000080654fb0"
+	]
+}{
+	"EventName": "CompactLinks",
+	"ParametersName": "FParameters",
+	"Parameters": "0000000080659190",
+	"ParametersMetadata": "00000000ada4ca90",
+	"Pointer": "0000000080659290",
+	"Id": 25,
+	"ParentEventScopes": [
+		"CullLights 20x12x32 NumLights 27 NumCaptures 0",
+		"ComputeLightGrid",
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [
+		"0000000080655120",
+		"0000000080654fb0"
+	],
+	"OutputResources": [
+		"0000000080655780",
+		"00000000806555c0",
+		"0000000080655400"
+	]
+}{
+	"EventName": "BeginOcclusionTests",
+	"ParametersName": "FRenderTargetParameters",
+	"Parameters": "000000008065a5e0",
+	"ParametersMetadata": "00000000ada126c0",
+	"Pointer": "000000008065a710",
+	"Id": 26,
+	"ParentEventScopes": [
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [
+		"00000000738da150.mip0"
+	],
+	"OutputResources": [
+		"00000000738da150.stencil"
+	]
+}{
+	"EventName": "SubmitCommands",
+	"ParametersName": "FEmptyShaderParameters",
+	"Parameters": "000000008065b9a0",
+	"ParametersMetadata": "00000000ada24d50",
+	"Pointer": "000000008065b6d0",
+	"Id": 27,
+	"ParentEventScopes": [
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [],
+	"OutputResources": []
+}{
+	"EventName": "FenceOcclusionTests",
+	"ParametersName": "FEmptyShaderParameters",
+	"Parameters": "000000008065bc80",
+	"ParametersMetadata": "00000000ada24d50",
+	"Pointer": "000000008065b9b0",
+	"Id": 28,
+	"ParentEventScopes": [
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [],
+	"OutputResources": []
+}{
+	"EventName": "TransmittanceLut",
+	"ParametersName": "FParameters",
+	"Parameters": "000000008065cce0",
+	"ParametersMetadata": "00000000adac8b40",
+	"Pointer": "000000008065cd60",
+	"Id": 29,
+	"ParentEventScopes": [
+		"SkyAtmosphereLUTs",
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [],
+	"OutputResources": [
+		"000000008065c8e0.mip0"
+	]
+}{
+	"EventName": "MultiScatteringLut",
+	"ParametersName": "FParameters",
+	"Parameters": "000000008065d4c0",
+	"ParametersMetadata": "00000000adac8c40",
+	"Pointer": "000000008065d510",
+	"Id": 30,
+	"ParentEventScopes": [
+		"SkyAtmosphereLUTs",
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [
+		"000000008065c8e0.mip0"
+	],
+	"OutputResources": [
+		"000000008065caf0.mip0"
+	]
+}{
+	"EventName": "DistantSkyLightLut",
+	"ParametersName": "FParameters",
+	"Parameters": "000000008065dea0",
+	"ParametersMetadata": "00000000adac8d40",
+	"Pointer": "000000008065df40",
+	"Id": 31,
+	"ParentEventScopes": [
+		"SkyAtmosphereLUTs",
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [
+		"000000008065c8e0.mip0",
+		"000000008065caf0.mip0"
+	],
+	"OutputResources": [
+		"000000008065dcb0.mip0"
+	]
+}{
+	"EventName": "RealTimeCaptureSkyViewLut",
+	"ParametersName": "FParameters",
+	"Parameters": "000000008065e930",
+	"ParametersMetadata": "00000000adac8e40",
+	"Pointer": "000000008065ea20",
+	"Id": 32,
+	"ParentEventScopes": [
+		"SkyAtmosphereLUTs",
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [
+		"000000008065c8e0.mip0",
+		"000000008065caf0.mip0"
+	],
+	"OutputResources": [
+		"000000008065e770.mip0"
+	]
+}{
+	"EventName": "RealTimeCaptureCamera360VolumeLut",
+	"ParametersName": "FParameters",
+	"Parameters": "000000008065f510",
+	"ParametersMetadata": "00000000adac8f40",
+	"Pointer": "000000008065f5f0",
+	"Id": 33,
+	"ParentEventScopes": [
+		"SkyAtmosphereLUTs",
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [
+		"000000008065c8e0.mip0",
+		"000000008065caf0.mip0"
+	],
+	"OutputResources": [
+		"000000008065f350.mip0"
+	]
+}{
+	"EventName": "SkyViewLut",
+	"ParametersName": "FParameters",
+	"Parameters": "00000000733a10a0",
+	"ParametersMetadata": "00000000adac8e40",
+	"Pointer": "00000000733a1190",
+	"Id": 34,
+	"ParentEventScopes": [
+		"SkyAtmosphereLUTs",
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [
+		"00000000806432e0",
+		"0000000080643100",
+		"00000000806437b0",
+		"0000000080643b30",
+		"0000000080644080.[0].mip0",
+		"000000008065c8e0.mip0",
+		"000000008065caf0.mip0"
+	],
+	"OutputResources": [
+		"000000008065fb20.mip0"
+	]
+}{
+	"EventName": "CameraVolumeLut",
+	"ParametersName": "FParameters",
+	"Parameters": "00000000733a1aa0",
+	"ParametersMetadata": "00000000adac8f40",
+	"Pointer": "00000000733a1b80",
+	"Id": 35,
+	"ParentEventScopes": [
+		"SkyAtmosphereLUTs",
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [
+		"00000000806432e0",
+		"0000000080643100",
+		"00000000806437b0",
+		"0000000080643b30",
+		"0000000080644080.[0].mip0",
+		"000000008065c8e0.mip0",
+		"000000008065caf0.mip0"
+	],
+	"OutputResources": [
+		"00000000733a0830.mip0"
+	]
+}{
+	"EventName": "CloudView (CS) 128x128",
+	"ParametersName": "FParameters",
+	"Parameters": "00000000733a5420",
+	"ParametersMetadata": "00000000adad60e0",
+	"Pointer": "00000000733a5fa0",
+	"Id": 36,
+	"ParentEventScopes": [
+		"Capture Face=0",
+		"RenderCloud StartFace=0 EndFace=6",
+		"CaptureConvolveSkyEnvMap",
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"00000000806423f0.mip0",
+		"0000000080641040.mip0",
+		"0000000080640db0.mip0",
+		"0000000080641040.mip0",
+		"0000000080641f40.mip0",
+		"0000000080641690.mip0",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"0000000080640db0.mip0",
+		"0000000080641c40.mip0",
+		"0000000080641c40.mip0",
+		"0000000080641040.mip0",
+		"0000000080642710.mip0",
+		"0000000080641040.mip0",
+		"0000000080650ef0",
+		"0000000080655780",
+		"00000000806555c0"
+	],
+	"OutputResources": [
+		"00000000733a3210.mip0",
+		"00000000733a3370.mip0",
+		"00000000733a22f0.mip0"
+	]
+}{
+	"EventName": "CloudView (CS) 128x128",
+	"ParametersName": "FParameters",
+	"Parameters": "00000000733a81b0",
+	"ParametersMetadata": "00000000adad60e0",
+	"Pointer": "00000000733a8230",
+	"Id": 37,
+	"ParentEventScopes": [
+		"Capture Face=1",
+		"RenderCloud StartFace=0 EndFace=6",
+		"CaptureConvolveSkyEnvMap",
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"00000000806423f0.mip0",
+		"0000000080641040.mip0",
+		"0000000080640db0.mip0",
+		"0000000080641040.mip0",
+		"0000000080641f40.mip0",
+		"0000000080641690.mip0",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"0000000080640db0.mip0",
+		"0000000080641c40.mip0",
+		"0000000080641c40.mip0",
+		"0000000080641040.mip0",
+		"0000000080642710.mip0",
+		"0000000080641040.mip0",
+		"0000000080650ef0",
+		"0000000080655780",
+		"00000000806555c0"
+	],
+	"OutputResources": [
+		"00000000733a3210.mip0",
+		"00000000733a3370.mip0",
+		"00000000733a22f0.mip0"
+	]
+}{
+	"EventName": "CloudView (CS) 128x128",
+	"ParametersName": "FParameters",
+	"Parameters": "00000000733aa0f0",
+	"ParametersMetadata": "00000000adad60e0",
+	"Pointer": "00000000733aa170",
+	"Id": 38,
+	"ParentEventScopes": [
+		"Capture Face=2",
+		"RenderCloud StartFace=0 EndFace=6",
+		"CaptureConvolveSkyEnvMap",
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"00000000806423f0.mip0",
+		"0000000080641040.mip0",
+		"0000000080640db0.mip0",
+		"0000000080641040.mip0",
+		"0000000080641f40.mip0",
+		"0000000080641690.mip0",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"0000000080640db0.mip0",
+		"0000000080641c40.mip0",
+		"0000000080641c40.mip0",
+		"0000000080641040.mip0",
+		"0000000080642710.mip0",
+		"0000000080641040.mip0",
+		"0000000080650ef0",
+		"0000000080655780",
+		"00000000806555c0"
+	],
+	"OutputResources": [
+		"00000000733a3210.mip0",
+		"00000000733a3370.mip0",
+		"00000000733a22f0.mip0"
+	]
+}{
+	"EventName": "CloudView (CS) 128x128",
+	"ParametersName": "FParameters",
+	"Parameters": "00000000733ac030",
+	"ParametersMetadata": "00000000adad60e0",
+	"Pointer": "00000000733ac0b0",
+	"Id": 39,
+	"ParentEventScopes": [
+		"Capture Face=3",
+		"RenderCloud StartFace=0 EndFace=6",
+		"CaptureConvolveSkyEnvMap",
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"00000000806423f0.mip0",
+		"0000000080641040.mip0",
+		"0000000080640db0.mip0",
+		"0000000080641040.mip0",
+		"0000000080641f40.mip0",
+		"0000000080641690.mip0",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"0000000080640db0.mip0",
+		"0000000080641c40.mip0",
+		"0000000080641c40.mip0",
+		"0000000080641040.mip0",
+		"0000000080642710.mip0",
+		"0000000080641040.mip0",
+		"0000000080650ef0",
+		"0000000080655780",
+		"00000000806555c0"
+	],
+	"OutputResources": [
+		"00000000733a3210.mip0",
+		"00000000733a3370.mip0",
+		"00000000733a22f0.mip0"
+	]
+}{
+	"EventName": "CloudView (CS) 128x128",
+	"ParametersName": "FParameters",
+	"Parameters": "00000000733ae270",
+	"ParametersMetadata": "00000000adad60e0",
+	"Pointer": "00000000733ae2f0",
+	"Id": 40,
+	"ParentEventScopes": [
+		"Capture Face=4",
+		"RenderCloud StartFace=0 EndFace=6",
+		"CaptureConvolveSkyEnvMap",
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"00000000806423f0.mip0",
+		"0000000080641040.mip0",
+		"0000000080640db0.mip0",
+		"0000000080641040.mip0",
+		"0000000080641f40.mip0",
+		"0000000080641690.mip0",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"0000000080640db0.mip0",
+		"0000000080641c40.mip0",
+		"0000000080641c40.mip0",
+		"0000000080641040.mip0",
+		"0000000080642710.mip0",
+		"0000000080641040.mip0",
+		"0000000080650ef0",
+		"0000000080655780",
+		"00000000806555c0"
+	],
+	"OutputResources": [
+		"00000000733a3210.mip0",
+		"00000000733a3370.mip0",
+		"00000000733a22f0.mip0"
+	]
+}{
+	"EventName": "CloudView (CS) 128x128",
+	"ParametersName": "FParameters",
+	"Parameters": "00000000803d0b80",
+	"ParametersMetadata": "00000000adad60e0",
+	"Pointer": "00000000803d0c00",
+	"Id": 41,
+	"ParentEventScopes": [
+		"Capture Face=5",
+		"RenderCloud StartFace=0 EndFace=6",
+		"CaptureConvolveSkyEnvMap",
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"00000000806423f0.mip0",
+		"0000000080641040.mip0",
+		"0000000080640db0.mip0",
+		"0000000080641040.mip0",
+		"0000000080641f40.mip0",
+		"0000000080641690.mip0",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"0000000080640db0.mip0",
+		"0000000080641c40.mip0",
+		"0000000080641c40.mip0",
+		"0000000080641040.mip0",
+		"0000000080642710.mip0",
+		"0000000080641040.mip0",
+		"0000000080650ef0",
+		"0000000080655780",
+		"00000000806555c0"
+	],
+	"OutputResources": [
+		"00000000733a3210.mip0",
+		"00000000733a3370.mip0",
+		"00000000733a22f0.mip0"
+	]
+}{
+	"EventName": "ApplyLowerHemisphereColor",
+	"ParametersName": "FParameters",
+	"Parameters": "00000000803d1ea0",
+	"ParametersMetadata": "00000000adaacef0",
+	"Pointer": "00000000803d1f20",
+	"Id": 42,
+	"ParentEventScopes": [
+		"RenderCloud StartFace=0 EndFace=6",
+		"CaptureConvolveSkyEnvMap",
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [],
+	"OutputResources": [
+		"00000000733a22f0.mip0"
+	]
+}{
+	"EventName": "ClearBuffer(InstanceCulling.Compaction.BlockInstanceCounts Size=4bytes)",
+	"ParametersName": "FClearBufferUAVParameters",
+	"Parameters": "00000000803d4070",
+	"ParametersMetadata": "0000000013febc40",
+	"Pointer": "00000000803d49c0",
+	"Id": 43,
+	"ParentEventScopes": [
+		"BuildRenderingCommandsDeferred(Culling=On)",
+		"ShadowDepths",
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [],
+	"OutputResources": [
+		"00000000803d3ea0"
+	]
+}{
+	"EventName": "ClearIndirectArgInstanceCount",
+	"ParametersName": "FParameters",
+	"Parameters": "00000000803d5770",
+	"ParametersMetadata": "00000000ada48560",
+	"Pointer": "00000000803d57d0",
+	"Id": 44,
+	"ParentEventScopes": [
+		"BuildRenderingCommandsDeferred(Culling=On)",
+		"ShadowDepths",
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [],
+	"OutputResources": [
+		"00000000803d55f0"
+	]
+}{
+	"EventName": "CullInstances(Generic)",
+	"ParametersName": "FParameters",
+	"Parameters": "00000000803d3910",
+	"ParametersMetadata": "00000000ada48460",
+	"Pointer": "00000000803d6940",
+	"Id": 45,
+	"ParentEventScopes": [
+		"BuildRenderingCommandsDeferred(Culling=On)",
+		"ShadowDepths",
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [
+		"0000000080646060",
+		"00000000806461f0",
+		"0000000080645ed0",
+		"00000000803d65c0",
+		"00000000803d6730",
+		"00000000803d51a0",
+		"00000000803d5310",
+		"000000008064d660",
+		"00000000803d5480",
+		"00000000803d6400",
+		"00000000803d5ea0",
+		"00000000803d3b20"
+	],
+	"OutputResources": [
+		"00000000803d6010",
+		"00000000803d55f0",
+		"00000000803d3ce0",
+		"00000000803d3ea0"
+	]
+}{
+	"EventName": "CullInstances(UnCulled)",
+	"ParametersName": "FParameters",
+	"Parameters": "00000000803d3a20",
+	"ParametersMetadata": "00000000ada48460",
+	"Pointer": "00000000803da3b0",
+	"Id": 46,
+	"ParentEventScopes": [
+		"BuildRenderingCommandsDeferred(Culling=On)",
+		"ShadowDepths",
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [
+		"00000000803da030",
+		"00000000803da1a0",
+		"00000000803d51a0",
+		"00000000803d5480",
+		"00000000803d9e70",
+		"00000000803d5ea0",
+		"00000000803d3b20"
+	],
+	"OutputResources": [
+		"00000000803d6010",
+		"00000000803d55f0",
+		"00000000803d3ce0",
+		"00000000803d3ea0"
+	]
+}{
+	"EventName": "Instance Compaction Phase 1",
+	"ParametersName": "FParameters",
+	"Parameters": "00000000803dc3b0",
+	"ParametersMetadata": "00000000ada48260",
+	"Pointer": "00000000803dc870",
+	"Id": 47,
+	"ParentEventScopes": [
+		"BuildRenderingCommandsDeferred(Culling=On)",
+		"ShadowDepths",
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [
+		"00000000803d3b20",
+		"00000000803d3ea0"
+	],
+	"OutputResources": [
+		"00000000803dc230",
+		"00000000803d55f0"
+	]
+}{
+	"EventName": "Instance Compaction Phase 2",
+	"ParametersName": "FParameters",
+	"Parameters": "00000000803dd4a0",
+	"ParametersMetadata": "00000000ada48360",
+	"Pointer": "00000000803dd5c0",
+	"Id": 48,
+	"ParentEventScopes": [
+		"BuildRenderingCommandsDeferred(Culling=On)",
+		"ShadowDepths",
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [
+		"00000000803d3b20",
+		"00000000803dd320",
+		"00000000803d3ce0",
+		"00000000803dc230"
+	],
+	"OutputResources": [
+		"00000000803d6010"
+	]
+}{
+	"EventName": "GBufferClear",
+	"ParametersName": "FRenderTargetParameters",
+	"Parameters": "00000000803df3f0",
+	"ParametersMetadata": "00000000ada126c0",
+	"Pointer": "00000000803df4e0",
+	"Id": 49,
+	"ParentEventScopes": [
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [],
+	"OutputResources": [
+		"00000000738da370.mip0",
+		"00000000738db5d0.mip0"
+	]
+}{
+	"EventName": "SkyAtmosphereEditor",
+	"ParametersName": "FParameters",
+	"Parameters": "00000000803b0490",
+	"ParametersMetadata": "00000000adac9140",
+	"Pointer": "00000000803b05a0",
+	"Id": 50,
+	"ParentEventScopes": [
+		"SkyAtmosphereEditor",
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [],
+	"OutputResources": [
+		"00000000738da370.mip0"
+	]
+}{
+	"EventName": "BasePassParallel",
+	"ParametersName": "FOpaqueBasePassParameters",
+	"Parameters": "00000000803b10a0",
+	"ParametersMetadata": "00000000ada1e8c0",
+	"Pointer": "00000000803b1f00",
+	"Id": 51,
+	"ParentEventScopes": [
+		"BasePass",
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [
+		"0000000080641040.mip0",
+		"0000000080650ef0",
+		"0000000080655780",
+		"00000000806555c0",
+		"0000000080641040.mip0",
+		"0000000080650ef0",
+		"0000000080655780",
+		"00000000806555c0",
+		"0000000080642710.mip0",
+		"0000000080642710.mip0",
+		"0000000080640db0.mip0",
+		"0000000080640db0.mip0",
+		"0000000080640db0.mip0",
+		"0000000080641330.mip0",
+		"0000000080642260.mip0",
+		"0000000080641330.mip0",
+		"0000000080640db0.mip0",
+		"00000000803de760.mip0",
+		"00000000803d6010",
+		"00000000803d6010",
+		"00000000803d55f0",
+		"00000000803d5ea0",
+		"00000000738da150.mip0"
+	],
+	"OutputResources": [
+		"00000000803b1cf0.[0].mip0",
+		"00000000803b1b40.mip0",
+		"00000000738da370.mip0",
+		"00000000738db5d0.mip0",
+		"00000000738da150.stencil"
+	]
+}{
+	"EventName": "SDPG_World",
+	"ParametersName": "FOpaqueBasePassParameters",
+	"Parameters": "00000000803b10a0",
+	"ParametersMetadata": "00000000ada1e8c0",
+	"Pointer": "00000000803b42f0",
+	"Id": 52,
+	"ParentEventScopes": [
+		"EditorPrimitives",
+		"BasePass",
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [
+		"0000000080641040.mip0",
+		"0000000080650ef0",
+		"0000000080655780",
+		"00000000806555c0",
+		"0000000080641040.mip0",
+		"0000000080650ef0",
+		"0000000080655780",
+		"00000000806555c0",
+		"0000000080642710.mip0",
+		"0000000080642710.mip0",
+		"0000000080640db0.mip0",
+		"0000000080640db0.mip0",
+		"0000000080640db0.mip0",
+		"0000000080641330.mip0",
+		"0000000080642260.mip0",
+		"0000000080641330.mip0",
+		"0000000080640db0.mip0",
+		"00000000803de760.mip0",
+		"00000000803d6010",
+		"00000000803d6010",
+		"00000000803d55f0",
+		"00000000803d5ea0",
+		"00000000738da150.mip0"
+	],
+	"OutputResources": [
+		"00000000803b1cf0.[0].mip0",
+		"00000000803b1b40.mip0",
+		"00000000738da370.mip0",
+		"00000000738db5d0.mip0",
+		"00000000738da150.stencil"
+	]
+}{
+	"EventName": "SkyPassParallel",
+	"ParametersName": "FOpaqueBasePassParameters",
+	"Parameters": "00000000803b62c0",
+	"ParametersMetadata": "00000000ada1e8c0",
+	"Pointer": "00000000803b6430",
+	"Id": 53,
+	"ParentEventScopes": [
+		"BasePass",
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [
+		"0000000080641040.mip0",
+		"0000000080650ef0",
+		"0000000080655780",
+		"00000000806555c0",
+		"0000000080641040.mip0",
+		"0000000080650ef0",
+		"0000000080655780",
+		"00000000806555c0",
+		"0000000080642710.mip0",
+		"0000000080642710.mip0",
+		"0000000080640db0.mip0",
+		"0000000080640db0.mip0",
+		"0000000080640db0.mip0",
+		"0000000080641330.mip0",
+		"0000000080642260.mip0",
+		"0000000080641330.mip0",
+		"0000000080640db0.mip0",
+		"00000000803de760.mip0",
+		"00000000803d6010",
+		"00000000803d6010",
+		"00000000803d55f0",
+		"00000000803d5ea0",
+		"00000000738da150.mip0"
+	],
+	"OutputResources": [
+		"00000000803b1cf0.[0].mip0",
+		"00000000803b1b40.mip0",
+		"00000000738da370.mip0",
+		"00000000738db5d0.mip0",
+		"00000000738da150.stencil"
+	]
+}{
+	"EventName": "DispatchToRHI",
+	"ParametersName": "FEmptyShaderParameters",
+	"Parameters": "00000000803b8770",
+	"ParametersMetadata": "00000000ada24d50",
+	"Pointer": "00000000803b84a0",
+	"Id": 54,
+	"ParentEventScopes": [
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [],
+	"OutputResources": []
+}{
+	"EventName": "DownsampleDepth(CheckerMinMax) 1280x720x -> 640x360",
+	"ParametersName": "FParameters",
+	"Parameters": "00000000803b8bc0",
+	"ParametersMetadata": "00000000adab53d0",
+	"Pointer": "00000000803b8cf0",
+	"Id": 55,
+	"ParentEventScopes": [
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [
+		"00000000738da150.mip0"
+	],
+	"OutputResources": [
+		"00000000803b8a00.mip0",
+		"00000000803b8a00.stencil"
+	]
+}{
+	"EventName": "CloudView (CS) 320x180",
+	"ParametersName": "FParameters",
+	"Parameters": "00000000803bbd70",
+	"ParametersMetadata": "00000000adad60e0",
+	"Pointer": "00000000803bbdf0",
+	"Id": 56,
+	"ParentEventScopes": [
+		"VolumetricCloud",
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"00000000806423f0.mip0",
+		"0000000080641040.mip0",
+		"0000000080640db0.mip0",
+		"0000000080641040.mip0",
+		"0000000080641f40.mip0",
+		"00000000803b8a00.mip0",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"0000000080640db0.mip0",
+		"0000000080641c40.mip0",
+		"0000000080641c40.mip0",
+		"0000000080641040.mip0",
+		"0000000080642710.mip0",
+		"0000000080641040.mip0",
+		"0000000080650ef0",
+		"0000000080655780",
+		"00000000806555c0"
+	],
+	"OutputResources": [
+		"00000000803b9f90.mip0",
+		"00000000803ba120.mip0",
+		"00000000803bb0a0.mip0"
+	]
+}{
+	"EventName": "VolumetricReconstruct",
+	"ParametersName": "FParameters",
+	"Parameters": "00000000803bec20",
+	"ParametersMetadata": "00000000adad7790",
+	"Pointer": "00000000803bede0",
+	"Id": 57,
+	"ParentEventScopes": [
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [
+		"00000000803b9f90.mip0",
+		"00000000803ba120.mip0",
+		"00000000803bcf50.mip0",
+		"00000000803bea80.mip0",
+		"00000000803b8a00.mip0"
+	],
+	"OutputResources": [
+		"00000000803bcc30.mip0",
+		"00000000803bcdc0.mip0"
+	]
+}{
+	"EventName": "VolumetricComposeOverScene",
+	"ParametersName": "FParameters",
+	"Parameters": "00000000ee9b0b60",
+	"ParametersMetadata": "00000000adad7890",
+	"Pointer": "00000000ee9b0d00",
+	"Id": 58,
+	"ParentEventScopes": [
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [
+		"00000000738da370.mip0",
+		"00000000738da150.mip0",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"00000000806423f0.mip0",
+		"00000000738db5d0.mip0",
+		"0000000080640db0.mip0",
+		"0000000080641040.mip0",
+		"0000000080641f40.mip0",
+		"00000000803bcc30.mip0",
+		"00000000803bcdc0.mip0"
+	],
+	"OutputResources": [
+		"00000000738da370.mip0"
+	]
+}{
+	"EventName": "SetSceneTexturesUniformBuffer",
+	"ParametersName": "FRenderOpaqueFXPassParameters",
+	"Parameters": "00000000ee9b19a0",
+	"ParametersMetadata": "00000000ada279c0",
+	"Pointer": "00000000ee9b19b0",
+	"Id": 59,
+	"ParentEventScopes": [
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [
+		"00000000738da370.mip0",
+		"00000000738da150.mip0",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"00000000806423f0.mip0",
+		"00000000738db5d0.mip0",
+		"0000000080640db0.mip0",
+		"0000000080641040.mip0",
+		"0000000080641f40.mip0"
+	],
+	"OutputResources": []
+}{
+	"EventName": "FFXSystem::PostRenderOpaque",
+	"ParametersName": "FEmptyShaderParameters",
+	"Parameters": "00000000ee9b2150",
+	"ParametersMetadata": "00000000bc679250",
+	"Pointer": "00000000ee9b1e70",
+	"Id": 60,
+	"ParentEventScopes": [
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [],
+	"OutputResources": []
+}{
+	"EventName": "AsyncGpuTraceHelper::PostRenderOpaque",
+	"ParametersName": "FEmptyShaderParameters",
+	"Parameters": "00000000ee9b2440",
+	"ParametersMetadata": "000000009ae69940",
+	"Pointer": "00000000ee9b2160",
+	"Id": 61,
+	"ParentEventScopes": [
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [],
+	"OutputResources": []
+}{
+	"EventName": "Niagara::PostRenderFinish",
+	"ParametersName": "FEmptyShaderParameters",
+	"Parameters": "00000000ee9b2730",
+	"ParametersMetadata": "000000009ae69940",
+	"Pointer": "00000000ee9b2450",
+	"Id": 62,
+	"ParentEventScopes": [
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [],
+	"OutputResources": []
+}{
+	"EventName": "UnsetSceneTexturesUniformBuffer",
+	"ParametersName": "FRenderOpaqueFXPassParameters",
+	"Parameters": "00000000ee9b19a0",
+	"ParametersMetadata": "00000000ada279c0",
+	"Pointer": "00000000ee9b3030",
+	"Id": 63,
+	"ParentEventScopes": [
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [
+		"00000000738da370.mip0",
+		"00000000738da150.mip0",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"00000000806423f0.mip0",
+		"00000000738db5d0.mip0",
+		"0000000080640db0.mip0",
+		"0000000080641040.mip0",
+		"0000000080641f40.mip0"
+	],
+	"OutputResources": []
+}{
+	"EventName": "FGPUSortManager::OnPostRenderOpaque",
+	"ParametersName": "FEmptyShaderParameters",
+	"Parameters": "00000000ee9b38f0",
+	"ParametersMetadata": "00000000bc679250",
+	"Pointer": "00000000ee9b3620",
+	"Id": 64,
+	"ParentEventScopes": [
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [],
+	"OutputResources": []
+}{
+	"EventName": "Translucency(BeforeDistortion Parallel) 1280x720",
+	"ParametersName": "FTranslucentBasePassParameters",
+	"Parameters": "00000000ee9b5030",
+	"ParametersMetadata": "00000000adacf070",
+	"Pointer": "00000000ee9b51b0",
+	"Id": 65,
+	"ParentEventScopes": [
+		"Translucency",
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [
+		"0000000080641040.mip0",
+		"0000000080650ef0",
+		"0000000080655780",
+		"00000000806555c0",
+		"0000000080641040.mip0",
+		"0000000080650ef0",
+		"0000000080655780",
+		"00000000806555c0",
+		"0000000080642710.mip0",
+		"0000000080642710.mip0",
+		"0000000080641040.mip0",
+		"00000000738da150.mip0",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"00000000806423f0.mip0",
+		"00000000738db5d0.mip0",
+		"0000000080640db0.mip0",
+		"0000000080641040.mip0",
+		"0000000080641f40.mip0",
+		"00000000ee9b4ca0.[0].mip0",
+		"0000000080642260.mip0",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"0000000080642580.mip0",
+		"0000000080642580.mip0",
+		"0000000080642580.mip0",
+		"0000000080642580.mip0",
+		"00000000806428a0.mip0",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"0000000080643b30",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"0000000080642580.mip0",
+		"0000000080642580.mip0",
+		"0000000080642580.mip0",
+		"0000000080642580.mip0",
+		"00000000803de760.mip0",
+		"0000000080641040.mip0",
+		"00000000803d6010",
+		"00000000803d6010",
+		"00000000806432e0",
+		"0000000080643100",
+		"00000000806437b0",
+		"0000000080643b30",
+		"0000000080644080.[0].mip0",
+		"00000000803d55f0",
+		"00000000803d5ea0",
+		"00000000738da150.mip0"
+	],
+	"OutputResources": [
+		"00000000ee9b3e90.mip0",
+		"00000000ee9b3a70.mip0",
+		"00000000ee9b3bd0.mip0",
+		"00000000ee9b3d30.mip0",
+		"00000000738da370.mip0",
+		"00000000738da150.stencil"
+	]
+}{
+	"EventName": "ClearRenderTarget(Translucency.AfterDOF.Color, slice 0, mip 0) 1280x720 ClearAction",
+	"ParametersName": "FRenderTargetParameters",
+	"Parameters": "00000000ee9b8aa0",
+	"ParametersMetadata": "0000000013fea110",
+	"Pointer": "00000000ee9b8b90",
+	"Id": 66,
+	"ParentEventScopes": [
+		"Translucency",
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [],
+	"OutputResources": [
+		"00000000ee9b7510.mip0"
+	]
+}{
+	"EventName": "Translucency(AfterDOF Parallel) 1280x720",
+	"ParametersName": "FTranslucentBasePassParameters",
+	"Parameters": "00000000ee9b95a0",
+	"ParametersMetadata": "00000000adacf070",
+	"Pointer": "00000000ee9b9720",
+	"Id": 67,
+	"ParentEventScopes": [
+		"Translucency",
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [
+		"0000000080641040.mip0",
+		"0000000080650ef0",
+		"0000000080655780",
+		"00000000806555c0",
+		"0000000080641040.mip0",
+		"0000000080650ef0",
+		"0000000080655780",
+		"00000000806555c0",
+		"0000000080642710.mip0",
+		"0000000080642710.mip0",
+		"0000000080641040.mip0",
+		"00000000738da150.mip0",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"00000000806423f0.mip0",
+		"00000000738db5d0.mip0",
+		"0000000080640db0.mip0",
+		"0000000080641040.mip0",
+		"0000000080641f40.mip0",
+		"00000000ee9b4ca0.[0].mip0",
+		"0000000080642260.mip0",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"0000000080642580.mip0",
+		"0000000080642580.mip0",
+		"0000000080642580.mip0",
+		"0000000080642580.mip0",
+		"00000000806428a0.mip0",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"0000000080643b30",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"0000000080642580.mip0",
+		"0000000080642580.mip0",
+		"0000000080642580.mip0",
+		"0000000080642580.mip0",
+		"00000000803de760.mip0",
+		"0000000080641040.mip0",
+		"00000000806437b0",
+		"00000000806437b0",
+		"00000000806432e0",
+		"0000000080643100",
+		"00000000806437b0",
+		"0000000080643b30",
+		"0000000080644080.[0].mip0",
+		"00000000738da150.mip0"
+	],
+	"OutputResources": [
+		"00000000ee9b7a90.mip0",
+		"00000000ee9b7670.mip0",
+		"00000000ee9b77d0.mip0",
+		"00000000ee9b7930.mip0",
+		"00000000ee9b7510.mip0",
+		"00000000738da150.stencil"
+	]
+}{
+	"EventName": "",
+	"ParametersName": "FDistortionPassParameters",
+	"Parameters": "00000000ee9bbe90",
+	"ParametersMetadata": "00000000ada2e7c0",
+	"Pointer": "00000000ee9bc0e0",
+	"Id": 68,
+	"ParentEventScopes": [
+		"Accumulate",
+		"Distortion",
+		"Translucency",
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [
+		"00000000738da370.mip0",
+		"00000000738da150.mip0",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"00000000806423f0.mip0",
+		"00000000738db5d0.mip0",
+		"0000000080640db0.mip0",
+		"0000000080641040.mip0",
+		"0000000080641f40.mip0",
+		"00000000803d6010",
+		"00000000803d6010",
+		"00000000803d55f0",
+		"00000000803d5ea0",
+		"00000000738da150.mip0"
+	],
+	"OutputResources": [
+		"00000000ee9bbd20.mip0",
+		"00000000738da150.stencil"
+	]
+}{
+	"EventName": "",
+	"ParametersName": "FParameters",
+	"Parameters": "00000000ee9bd5c0",
+	"ParametersMetadata": "00000000ada2e580",
+	"Pointer": "00000000ee9bd710",
+	"Id": 69,
+	"ParentEventScopes": [
+		"Apply",
+		"Distortion",
+		"Translucency",
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [
+		"00000000ee9bbd20.mip0",
+		"00000000738da370.mip0",
+		"00000000738da150.mip0",
+		"00000000738da150.stencil"
+	],
+	"OutputResources": [
+		"00000000ee9bd3f0.mip0"
+	]
+}{
+	"EventName": "",
+	"ParametersName": "FParameters",
+	"Parameters": "00000000ee9be430",
+	"ParametersMetadata": "00000000ada2e580",
+	"Pointer": "00000000ee9be580",
+	"Id": 70,
+	"ParentEventScopes": [
+		"Merge",
+		"Distortion",
+		"Translucency",
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [
+		"00000000ee9bd3f0.mip0",
+		"00000000738da150.mip0"
+	],
+	"OutputResources": [
+		"00000000738da370.mip0",
+		"00000000738da150.stencil"
+	]
+}{
+	"EventName": "ComposeTranslucencyToNewSceneColor(AfterDOF) 1280x720 -> 1280x720",
+	"ParametersName": "FParameters",
+	"Parameters": "00000000ee9bfb60",
+	"ParametersMetadata": "00000000adacee30",
+	"Pointer": "00000000733f0010",
+	"Id": 71,
+	"ParentEventScopes": [
+		"PostProcessing",
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [
+		"00000000738da370.mip0",
+		"00000000ee9b7510.mip0",
+		"0000000080640db0.mip0"
+	],
+	"OutputResources": [
+		"00000000ee9bf9f0.mip0"
+	]
+}{
+	"EventName": "Downsample(PostProcessing.SceneColor.HalfRes Quality=Bilinear PS) 1280x720 -> 640x360",
+	"ParametersName": "FParameters",
+	"Parameters": "00000000733f0e00",
+	"ParametersMetadata": "00000000ada8f780",
+	"Pointer": "00000000733f0ff0",
+	"Id": 72,
+	"ParentEventScopes": [
+		"PostProcessing",
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [
+		"00000000ee9bf9f0.mip0"
+	],
+	"OutputResources": [
+		"00000000733f0c90.mip0"
+	]
+}{
+	"EventName": "Downsample(Scene(1/4) Quality=High PS) 640x360 -> 320x180",
+	"ParametersName": "FParameters",
+	"Parameters": "00000000733f1c50",
+	"ParametersMetadata": "00000000ada8f780",
+	"Pointer": "00000000733f1e40",
+	"Id": 73,
+	"ParentEventScopes": [
+		"SceneDownsample",
+		"PostProcessing",
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [
+		"00000000733f0c90.mip0"
+	],
+	"OutputResources": [
+		"00000000733f1ae0.mip0"
+	]
+}{
+	"EventName": "Downsample(Scene(1/8) Quality=High PS) 320x180 -> 160x90",
+	"ParametersName": "FParameters",
+	"Parameters": "00000000733f2a40",
+	"ParametersMetadata": "00000000ada8f780",
+	"Pointer": "00000000733f2c30",
+	"Id": 74,
+	"ParentEventScopes": [
+		"SceneDownsample",
+		"PostProcessing",
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [
+		"00000000733f1ae0.mip0"
+	],
+	"OutputResources": [
+		"00000000733f28d0.mip0"
+	]
+}{
+	"EventName": "Downsample(Scene(1/16) Quality=High PS) 160x90 -> 80x45",
+	"ParametersName": "FParameters",
+	"Parameters": "00000000733f3830",
+	"ParametersMetadata": "00000000ada8f780",
+	"Pointer": "00000000733f3a20",
+	"Id": 75,
+	"ParentEventScopes": [
+		"SceneDownsample",
+		"PostProcessing",
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [
+		"00000000733f28d0.mip0"
+	],
+	"OutputResources": [
+		"00000000733f36c0.mip0"
+	]
+}{
+	"EventName": "Downsample(Scene(1/32) Quality=High PS) 80x45 -> 40x23",
+	"ParametersName": "FParameters",
+	"Parameters": "00000000733f4620",
+	"ParametersMetadata": "00000000ada8f780",
+	"Pointer": "00000000733f4810",
+	"Id": 76,
+	"ParentEventScopes": [
+		"SceneDownsample",
+		"PostProcessing",
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [
+		"00000000733f36c0.mip0"
+	],
+	"OutputResources": [
+		"00000000733f44b0.mip0"
+	]
+}{
+	"EventName": "Downsample(Scene(1/64) Quality=High PS) 40x23 -> 20x12",
+	"ParametersName": "FParameters",
+	"Parameters": "00000000733f5410",
+	"ParametersMetadata": "00000000ada8f780",
+	"Pointer": "00000000733f5600",
+	"Id": 77,
+	"ParentEventScopes": [
+		"SceneDownsample",
+		"PostProcessing",
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [
+		"00000000733f44b0.mip0"
+	],
+	"OutputResources": [
+		"00000000733f52a0.mip0"
+	]
+}{
+	"EventName": "HistogramEyeAdaptation (CS)",
+	"ParametersName": "FParameters",
+	"Parameters": "00000000733f6230",
+	"ParametersMetadata": "00000000ada8f8c0",
+	"Pointer": "00000000733f6310",
+	"Id": 78,
+	"ParentEventScopes": [
+		"PostProcessing",
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [
+		"0000000080641040.mip0"
+	],
+	"OutputResources": [
+		"00000000733f6090.mip0"
+	]
+}{
+	"EventName": "EnqueueCopy(EyeAdaptation)",
+	"ParametersName": "FEnqueueCopyTexturePass",
+	"Parameters": "00000000733f6ac0",
+	"ParametersMetadata": "0000000013febef0",
+	"Pointer": "00000000733f6ad0",
+	"Id": 79,
+	"ParentEventScopes": [
+		"PostProcessing",
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [
+		"00000000733f6090.mip0"
+	],
+	"OutputResources": []
+}{
+	"EventName": "GaussianBlur.BloomX 20x12 (PS, Static)",
+	"ParametersName": "FParameters",
+	"Parameters": "00000000733f7500",
+	"ParametersMetadata": "00000000ada9f680",
+	"Pointer": "00000000733f8320",
+	"Id": 80,
+	"ParentEventScopes": [
+		"Bloom",
+		"PostProcessing",
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [
+		"00000000733f52a0.mip0"
+	],
+	"OutputResources": [
+		"00000000733f7390.mip0"
+	]
+}{
+	"EventName": "GaussianBlur.BloomY 20x12 (PS, Static)",
+	"ParametersName": "FParameters",
+	"Parameters": "00000000733f8fd0",
+	"ParametersMetadata": "00000000ada9f680",
+	"Pointer": "00000000733f9df0",
+	"Id": 81,
+	"ParentEventScopes": [
+		"Bloom",
+		"PostProcessing",
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [
+		"00000000733f7390.mip0"
+	],
+	"OutputResources": [
+		"00000000733f8e60.mip0"
+	]
+}{
+	"EventName": "GaussianBlur.BloomX 40x23 (PS, Static)",
+	"ParametersName": "FParameters",
+	"Parameters": "00000000733faaa0",
+	"ParametersMetadata": "00000000ada9f680",
+	"Pointer": "00000000733fb8c0",
+	"Id": 82,
+	"ParentEventScopes": [
+		"Bloom",
+		"PostProcessing",
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [
+		"00000000733f44b0.mip0"
+	],
+	"OutputResources": [
+		"00000000733fa930.mip0"
+	]
+}{
+	"EventName": "GaussianBlur.BloomY 40x23 (PS, Static)",
+	"ParametersName": "FParameters",
+	"Parameters": "00000000733fc570",
+	"ParametersMetadata": "00000000ada9f680",
+	"Pointer": "00000000733fd390",
+	"Id": 83,
+	"ParentEventScopes": [
+		"Bloom",
+		"PostProcessing",
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [
+		"00000000733fa930.mip0",
+		"00000000733f8e60.mip0"
+	],
+	"OutputResources": [
+		"00000000733fc400.mip0"
+	]
+}{
+	"EventName": "GaussianBlur.BloomX 80x45 (PS, Static)",
+	"ParametersName": "FParameters",
+	"Parameters": "00000000733fe040",
+	"ParametersMetadata": "00000000ada9f680",
+	"Pointer": "00000000733fee60",
+	"Id": 84,
+	"ParentEventScopes": [
+		"Bloom",
+		"PostProcessing",
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [
+		"00000000733f36c0.mip0"
+	],
+	"OutputResources": [
+		"00000000733fded0.mip0"
+	]
+}{
+	"EventName": "GaussianBlur.BloomY 80x45 (PS, Static)",
+	"ParametersName": "FParameters",
+	"Parameters": "0000000077e00020",
+	"ParametersMetadata": "00000000ada9f680",
+	"Pointer": "0000000077e00e40",
+	"Id": 85,
+	"ParentEventScopes": [
+		"Bloom",
+		"PostProcessing",
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [
+		"00000000733fded0.mip0",
+		"00000000733fc400.mip0"
+	],
+	"OutputResources": [
+		"00000000733ff9a0.mip0"
+	]
+}{
+	"EventName": "GaussianBlur.BloomX 160x90 (PS, Static)",
+	"ParametersName": "FParameters",
+	"Parameters": "0000000077e01af0",
+	"ParametersMetadata": "00000000ada9f680",
+	"Pointer": "0000000077e02910",
+	"Id": 86,
+	"ParentEventScopes": [
+		"Bloom",
+		"PostProcessing",
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [
+		"00000000733f28d0.mip0"
+	],
+	"OutputResources": [
+		"0000000077e01980.mip0"
+	]
+}{
+	"EventName": "GaussianBlur.BloomY 160x90 (PS, Static)",
+	"ParametersName": "FParameters",
+	"Parameters": "0000000077e035c0",
+	"ParametersMetadata": "00000000ada9f680",
+	"Pointer": "0000000077e043e0",
+	"Id": 87,
+	"ParentEventScopes": [
+		"Bloom",
+		"PostProcessing",
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [
+		"0000000077e01980.mip0",
+		"00000000733ff9a0.mip0"
+	],
+	"OutputResources": [
+		"0000000077e03450.mip0"
+	]
+}{
+	"EventName": "GaussianBlur.BloomX 320x180 (PS, Static)",
+	"ParametersName": "FParameters",
+	"Parameters": "0000000077e05090",
+	"ParametersMetadata": "00000000ada9f680",
+	"Pointer": "0000000077e05eb0",
+	"Id": 88,
+	"ParentEventScopes": [
+		"Bloom",
+		"PostProcessing",
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [
+		"00000000733f1ae0.mip0"
+	],
+	"OutputResources": [
+		"0000000077e04f20.mip0"
+	]
+}{
+	"EventName": "GaussianBlur.BloomY 320x180 (PS, Static)",
+	"ParametersName": "FParameters",
+	"Parameters": "0000000077e06b60",
+	"ParametersMetadata": "00000000ada9f680",
+	"Pointer": "0000000077e07980",
+	"Id": 89,
+	"ParentEventScopes": [
+		"Bloom",
+		"PostProcessing",
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [
+		"0000000077e04f20.mip0",
+		"0000000077e03450.mip0"
+	],
+	"OutputResources": [
+		"0000000077e069f0.mip0"
+	]
+}{
+	"EventName": "GaussianBlur.BloomX 640x360 (PS, Static)",
+	"ParametersName": "FParameters",
+	"Parameters": "0000000077e08630",
+	"ParametersMetadata": "00000000ada9f680",
+	"Pointer": "0000000077e09450",
+	"Id": 90,
+	"ParentEventScopes": [
+		"Bloom",
+		"PostProcessing",
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [
+		"00000000733f0c90.mip0"
+	],
+	"OutputResources": [
+		"0000000077e084c0.mip0"
+	]
+}{
+	"EventName": "GaussianBlur.BloomY 640x360 (PS, Static)",
+	"ParametersName": "FParameters",
+	"Parameters": "0000000077e0a100",
+	"ParametersMetadata": "00000000ada9f680",
+	"Pointer": "0000000077e0af20",
+	"Id": 91,
+	"ParentEventScopes": [
+		"Bloom",
+		"PostProcessing",
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [
+		"0000000077e084c0.mip0",
+		"0000000077e069f0.mip0"
+	],
+	"OutputResources": [
+		"0000000077e09f90.mip0"
+	]
+}{
+	"EventName": "CombineLUTS (PS)",
+	"ParametersName": "FParameters",
+	"Parameters": "0000000077e0bc00",
+	"ParametersMetadata": "00000000ada8ecb0",
+	"Pointer": "0000000077e0bf90",
+	"Id": 92,
+	"ParentEventScopes": [
+		"PostProcessing",
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [],
+	"OutputResources": [
+		"0000000077e0ba60.mip0"
+	]
+}{
+	"EventName": "Tonemap 1280x720 (PS GammaOnly=0)",
+	"ParametersName": "FParameters",
+	"Parameters": "0000000077e0c7f0",
+	"ParametersMetadata": "00000000ada9a0d0",
+	"Pointer": "0000000077e0cbe0",
+	"Id": 93,
+	"ParentEventScopes": [
+		"PostProcessing",
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [
+		"0000000080640db0.mip0",
+		"0000000077e0c5b0",
+		"00000000ee9bf9f0.mip0",
+		"0000000077e0c5b0",
+		"0000000077e09f90.mip0",
+		"0000000080641040.mip0",
+		"00000000733f6090.mip0",
+		"0000000077e0ba60.mip0"
+	],
+	"OutputResources": [
+		"00000000ee9bf720.mip0"
+	]
+}{
+	"EventName": "ReleaseRayTracingResources",
+	"ParametersName": "FEmptyShaderParameters",
+	"Parameters": "0000000077e0dc40",
+	"ParametersMetadata": "00000000ada24d50",
+	"Pointer": "0000000077e0d950",
+	"Id": 94,
+	"ParentEventScopes": [
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [],
+	"OutputResources": []
+}{
+	"EventName": "EndScene",
+	"ParametersName": "FEmptyShaderParameters",
+	"Parameters": "0000000077e0e740",
+	"ParametersMetadata": "00000000ada24d50",
+	"Pointer": "0000000077e0e470",
+	"Id": 95,
+	"ParentEventScopes": [
+		"RenderFinish",
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [],
+	"OutputResources": []
+}{
+	"EventName": "ExtractUniformBuffer",
+	"ParametersName": "FSceneTextureShaderParameters",
+	"Parameters": "0000000077e0e7a0",
+	"ParametersMetadata": "00000000ada12bd0",
+	"Pointer": "0000000077e0e8a0",
+	"Id": 96,
+	"ParentEventScopes": [
+		"Scene",
+		"Frame 9649"
+	],
+	"InputResources": [
+		"0000000080641040.mip0",
+		"00000000738da150.mip0",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"0000000080641040.mip0",
+		"00000000806423f0.mip0",
+		"0000000080641040.mip0",
+		"0000000080640db0.mip0",
+		"0000000080641040.mip0",
+		"0000000080641f40.mip0"
+	],
+	"OutputResources": []
+}{
+	"EventName": "EnqueueCopy(GPUMessageManager.MessageBuffer)",
+	"ParametersName": "FEnqueueCopyBufferPass",
+	"Parameters": "0000000077e0ed20",
+	"ParametersMetadata": "0000000013febf80",
+	"Pointer": "0000000077e0ed30",
+	"Id": 97,
+	"ParentEventScopes": [
+		"Frame 9649"
+	],
+	"InputResources": [
+		"0000000080640010"
+	],
+	"OutputResources": []
+}{
+	"EventName": "Graph Epilogue",
+	"ParametersName": "FEmptyShaderParameters",
+	"Parameters": "0000000080520ba0",
+	"ParametersMetadata": "0000000013fdad20",
+	"Pointer": "00000000805208e0",
+	"Id": 98,
+	"ParentEventScopes": [
+		"Frame 9649"
+	],
+	"InputResources": [],
+	"OutputResources": []
+}{
+	"EventName": "Graph Prologue (Graphics)",
+	"ParametersName": "FEmptyShaderParameters",
+	"Parameters": "00000000801d2ad0",
+	"ParametersMetadata": "0000000013fdad20",
+	"Pointer": "00000000801d2810",
+	"Id": 99,
+	"ParentEventScopes": [
+		"Frame 9649"
+	],
+	"InputResources": [],
+	"OutputResources": []
+}{
+	"EventName": "CanvasBatchedElements",
+	"ParametersName": "FRenderTargetParameters",
+	"Parameters": "00000000ee9902b0",
+	"ParametersMetadata": "00000000bc7c4a70",
+	"Pointer": "00000000ee9903a0",
+	"Id": 100,
+	"ParentEventScopes": [
+		"CanvasFlush",
+		"Frame 9649"
+	],
+	"InputResources": [],
+	"OutputResources": [
+		"00000000ee990010.mip0"
+	]
+}{
+	"EventName": "Graph Epilogue",
+	"ParametersName": "FEmptyShaderParameters",
+	"Parameters": "00000000ee9910e0",
+	"ParametersMetadata": "0000000013fdad20",
+	"Pointer": "00000000ee990e20",
+	"Id": 101,
+	"ParentEventScopes": [
+		"Frame 9649"
+	],
+	"InputResources": [],
+	"OutputResources": []
+}

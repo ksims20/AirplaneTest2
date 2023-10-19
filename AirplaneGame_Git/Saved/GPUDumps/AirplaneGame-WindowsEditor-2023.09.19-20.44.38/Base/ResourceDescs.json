@@ -1,0 +1,2078 @@
+{
+	"Name": "GPUMessageManager.MessageBuffer",
+	"UniqueResourceName": "0000000080640010",
+	"ByteSize": 262144,
+	"Desc": "FRDGBufferDesc",
+	"BytesPerElement": 4,
+	"NumElements": 65536,
+	"Metadata": "0000000000000000",
+	"Usage": [
+		"Static",
+		"UnorderedAccess",
+		"SourceCopy",
+		"ShaderResource",
+		"StructuredBuffer"
+	]
+}{
+	"Name": "PathTracer.DecalGridData",
+	"UniqueResourceName": "0000000080644d50",
+	"ByteSize": 4,
+	"Desc": "FRDGBufferDesc",
+	"BytesPerElement": 4,
+	"NumElements": 1,
+	"Metadata": "0000000000000000",
+	"Usage": [
+		"Static",
+		"UnorderedAccess",
+		"ShaderResource",
+		"VertexBuffer"
+	]
+}{
+	"Name": "InstanceCullingLoadBalancer.Batches",
+	"UniqueResourceName": "0000000080647b60",
+	"ByteSize": 4,
+	"Desc": "FRDGBufferDesc",
+	"BytesPerElement": 4,
+	"NumElements": 1,
+	"Metadata": "0000000000000000",
+	"Usage": [
+		"Static",
+		"UnorderedAccess",
+		"ShaderResource",
+		"StructuredBuffer"
+	]
+}{
+	"Name": "InstanceCullingLoadBalancer.Items",
+	"UniqueResourceName": "0000000080648120",
+	"ByteSize": 8,
+	"Desc": "FRDGBufferDesc",
+	"BytesPerElement": 8,
+	"NumElements": 1,
+	"Metadata": "0000000000000000",
+	"Usage": [
+		"Static",
+		"UnorderedAccess",
+		"ShaderResource",
+		"StructuredBuffer"
+	]
+}{
+	"Name": "GPUScene.InstanceSceneData",
+	"UniqueResourceName": "0000000080646060",
+	"ByteSize": 20480,
+	"Desc": "FRDGBufferDesc",
+	"BytesPerElement": 16,
+	"NumElements": 1280,
+	"Metadata": "0000000000000000",
+	"Usage": [
+		"Static",
+		"UnorderedAccess",
+		"ShaderResource",
+		"StructuredBuffer"
+	]
+}{
+	"Name": "InstanceCullingLoadBalancer.Batches",
+	"UniqueResourceName": "0000000080649780",
+	"ByteSize": 4,
+	"Desc": "FRDGBufferDesc",
+	"BytesPerElement": 4,
+	"NumElements": 1,
+	"Metadata": "0000000000000000",
+	"Usage": [
+		"Static",
+		"UnorderedAccess",
+		"ShaderResource",
+		"StructuredBuffer"
+	]
+}{
+	"Name": "InstanceCullingLoadBalancer.Items",
+	"UniqueResourceName": "0000000080649a80",
+	"ByteSize": 8,
+	"Desc": "FRDGBufferDesc",
+	"BytesPerElement": 8,
+	"NumElements": 1,
+	"Metadata": "0000000000000000",
+	"Usage": [
+		"Static",
+		"UnorderedAccess",
+		"ShaderResource",
+		"StructuredBuffer"
+	]
+}{
+	"Name": "GPUScene.PrimitiveData",
+	"UniqueResourceName": "0000000080645ed0",
+	"ByteSize": 172032,
+	"Desc": "FRDGBufferDesc",
+	"BytesPerElement": 16,
+	"NumElements": 10752,
+	"Metadata": "0000000000000000",
+	"Usage": [
+		"Static",
+		"UnorderedAccess",
+		"ShaderResource",
+		"StructuredBuffer"
+	]
+}{
+	"Name": "PrimitiveUploadBuffer",
+	"UniqueResourceName": "000000008064b030",
+	"ByteSize": 1024,
+	"Desc": "FRDGBufferDesc",
+	"BytesPerElement": 16,
+	"NumElements": 64,
+	"Metadata": "0000000000000000",
+	"Usage": [
+		"ShaderResource",
+		"StructuredBuffer"
+	]
+}{
+	"Name": "PrimitiveUploadBuffer",
+	"UniqueResourceName": "000000008064ae50",
+	"ByteSize": 4,
+	"Desc": "FRDGBufferDesc",
+	"BytesPerElement": 4,
+	"NumElements": 1,
+	"Metadata": "0000000000000000",
+	"Usage": [
+		"ShaderResource",
+		"StructuredBuffer"
+	]
+}{
+	"Name": "InstanceSceneUploadBuffer",
+	"UniqueResourceName": "000000008064c3a0",
+	"ByteSize": 128,
+	"Desc": "FRDGBufferDesc",
+	"BytesPerElement": 16,
+	"NumElements": 8,
+	"Metadata": "0000000000000000",
+	"Usage": [
+		"ShaderResource",
+		"StructuredBuffer"
+	]
+}{
+	"Name": "InstanceSceneUploadBuffer",
+	"UniqueResourceName": "000000008064c1c0",
+	"ByteSize": 32,
+	"Desc": "FRDGBufferDesc",
+	"BytesPerElement": 4,
+	"NumElements": 8,
+	"Metadata": "0000000000000000",
+	"Usage": [
+		"ShaderResource",
+		"StructuredBuffer"
+	]
+}{
+	"Name": "InstanceCulling.Compaction.BlockInstanceCounts",
+	"UniqueResourceName": "00000000738d0390",
+	"ByteSize": 4,
+	"Desc": "FRDGBufferDesc",
+	"BytesPerElement": 4,
+	"NumElements": 1,
+	"Metadata": "0000000000000000",
+	"Usage": [
+		"Static",
+		"UnorderedAccess",
+		"ShaderResource",
+		"StructuredBuffer"
+	]
+}{
+	"Name": "InstanceCulling.DrawIndirectArgsBuffer",
+	"UniqueResourceName": "00000000738d11a0",
+	"ByteSize": 4,
+	"Desc": "FRDGBufferDesc",
+	"BytesPerElement": 4,
+	"NumElements": 1,
+	"Metadata": "0000000000000000",
+	"Usage": [
+		"Static",
+		"UnorderedAccess",
+		"DrawIndirect",
+		"ShaderResource",
+		"VertexBuffer"
+	]
+}{
+	"Name": "GPUScene.InstancePayloadData",
+	"UniqueResourceName": "00000000806461f0",
+	"ByteSize": 4096,
+	"Desc": "FRDGBufferDesc",
+	"BytesPerElement": 16,
+	"NumElements": 256,
+	"Metadata": "0000000000000000",
+	"Usage": [
+		"Static",
+		"UnorderedAccess",
+		"ShaderResource",
+		"StructuredBuffer"
+	]
+}{
+	"Name": "InstanceCullingLoadBalancer.Batches",
+	"UniqueResourceName": "00000000738d2170",
+	"ByteSize": 4,
+	"Desc": "FRDGBufferDesc",
+	"BytesPerElement": 4,
+	"NumElements": 1,
+	"Metadata": "0000000000000000",
+	"Usage": [
+		"Static",
+		"UnorderedAccess",
+		"ShaderResource",
+		"StructuredBuffer"
+	]
+}{
+	"Name": "InstanceCullingLoadBalancer.Items",
+	"UniqueResourceName": "00000000738d22e0",
+	"ByteSize": 8,
+	"Desc": "FRDGBufferDesc",
+	"BytesPerElement": 8,
+	"NumElements": 1,
+	"Metadata": "0000000000000000",
+	"Usage": [
+		"Static",
+		"UnorderedAccess",
+		"ShaderResource",
+		"StructuredBuffer"
+	]
+}{
+	"Name": "InstanceCulling.PayloadData",
+	"UniqueResourceName": "00000000738d0d50",
+	"ByteSize": 16,
+	"Desc": "FRDGBufferDesc",
+	"BytesPerElement": 16,
+	"NumElements": 1,
+	"Metadata": "0000000000000000",
+	"Usage": [
+		"Static",
+		"UnorderedAccess",
+		"ShaderResource",
+		"StructuredBuffer"
+	]
+}{
+	"Name": "InstanceCulling.ViewIds",
+	"UniqueResourceName": "00000000738d0ec0",
+	"ByteSize": 4,
+	"Desc": "FRDGBufferDesc",
+	"BytesPerElement": 4,
+	"NumElements": 1,
+	"Metadata": "0000000000000000",
+	"Usage": [
+		"Static",
+		"UnorderedAccess",
+		"ShaderResource",
+		"StructuredBuffer"
+	]
+}{
+	"Name": "InstanceCulling.CullingViews",
+	"UniqueResourceName": "000000008064d660",
+	"ByteSize": 896,
+	"Desc": "FRDGBufferDesc",
+	"BytesPerElement": 896,
+	"NumElements": 1,
+	"Metadata": "0000000000000000",
+	"Usage": [
+		"Static",
+		"UnorderedAccess",
+		"ShaderResource",
+		"StructuredBuffer"
+	]
+}{
+	"Name": "InstanceCulling.BatchInfos",
+	"UniqueResourceName": "00000000738d1030",
+	"ByteSize": 40,
+	"Desc": "FRDGBufferDesc",
+	"BytesPerElement": 40,
+	"NumElements": 1,
+	"Metadata": "0000000000000000",
+	"Usage": [
+		"Static",
+		"UnorderedAccess",
+		"ShaderResource",
+		"StructuredBuffer"
+	]
+}{
+	"Name": "InstanceCulling.BatchInds",
+	"UniqueResourceName": "00000000738d1fb0",
+	"ByteSize": 4,
+	"Desc": "FRDGBufferDesc",
+	"BytesPerElement": 4,
+	"NumElements": 1,
+	"Metadata": "0000000000000000",
+	"Usage": [
+		"Static",
+		"UnorderedAccess",
+		"ShaderResource",
+		"StructuredBuffer"
+	]
+}{
+	"Name": "InstanceCulling.InstanceIdOffsetBuffer",
+	"UniqueResourceName": "00000000738d1a50",
+	"ByteSize": 4,
+	"Desc": "FRDGBufferDesc",
+	"BytesPerElement": 4,
+	"NumElements": 1,
+	"Metadata": "0000000000000000",
+	"Usage": [
+		"Static",
+		"UnorderedAccess",
+		"ShaderResource",
+		"VertexBuffer"
+	]
+}{
+	"Name": "InstanceCulling.InstanceIdsBuffer",
+	"UniqueResourceName": "00000000738d1bc0",
+	"ByteSize": 4,
+	"Desc": "FRDGBufferDesc",
+	"BytesPerElement": 4,
+	"NumElements": 1,
+	"Metadata": "0000000000000000",
+	"Usage": [
+		"Static",
+		"UnorderedAccess",
+		"ShaderResource",
+		"StructuredBuffer"
+	]
+}{
+	"Name": "InstanceCulling.DrawCommandCompactionData",
+	"UniqueResourceName": "00000000738d0010",
+	"ByteSize": 20,
+	"Desc": "FRDGBufferDesc",
+	"BytesPerElement": 20,
+	"NumElements": 1,
+	"Metadata": "0000000000000000",
+	"Usage": [
+		"Static",
+		"UnorderedAccess",
+		"ShaderResource",
+		"StructuredBuffer"
+	]
+}{
+	"Name": "InstanceCulling.Compaction.TempInstanceIdsBuffer",
+	"UniqueResourceName": "00000000738d01d0",
+	"ByteSize": 4,
+	"Desc": "FRDGBufferDesc",
+	"BytesPerElement": 4,
+	"NumElements": 1,
+	"Metadata": "0000000000000000",
+	"Usage": [
+		"Static",
+		"UnorderedAccess",
+		"ShaderResource",
+		"StructuredBuffer"
+	]
+}{
+	"Name": "InstanceCullingLoadBalancer.Batches",
+	"UniqueResourceName": "00000000738d5ef0",
+	"ByteSize": 4,
+	"Desc": "FRDGBufferDesc",
+	"BytesPerElement": 4,
+	"NumElements": 1,
+	"Metadata": "0000000000000000",
+	"Usage": [
+		"Static",
+		"UnorderedAccess",
+		"ShaderResource",
+		"StructuredBuffer"
+	]
+}{
+	"Name": "InstanceCullingLoadBalancer.Items",
+	"UniqueResourceName": "00000000738d6260",
+	"ByteSize": 8,
+	"Desc": "FRDGBufferDesc",
+	"BytesPerElement": 8,
+	"NumElements": 1,
+	"Metadata": "0000000000000000",
+	"Usage": [
+		"Static",
+		"UnorderedAccess",
+		"ShaderResource",
+		"StructuredBuffer"
+	]
+}{
+	"Name": "InstanceCulling.BatchInds",
+	"UniqueResourceName": "00000000738d5d30",
+	"ByteSize": 4,
+	"Desc": "FRDGBufferDesc",
+	"BytesPerElement": 4,
+	"NumElements": 1,
+	"Metadata": "0000000000000000",
+	"Usage": [
+		"Static",
+		"UnorderedAccess",
+		"ShaderResource",
+		"StructuredBuffer"
+	]
+}{
+	"Name": "InstanceCulling.Compaction.BlockDestInstanceOffsets",
+	"UniqueResourceName": "00000000738d8580",
+	"ByteSize": 4,
+	"Desc": "FRDGBufferDesc",
+	"BytesPerElement": 4,
+	"NumElements": 1,
+	"Metadata": "0000000000000000",
+	"Usage": [
+		"Static",
+		"UnorderedAccess",
+		"ShaderResource",
+		"StructuredBuffer"
+	]
+}{
+	"Name": "InstanceCulling.CompactionBlockDataIndices",
+	"UniqueResourceName": "00000000738d9270",
+	"ByteSize": 4,
+	"Desc": "FRDGBufferDesc",
+	"BytesPerElement": 4,
+	"NumElements": 1,
+	"Metadata": "0000000000000000",
+	"Usage": [
+		"Static",
+		"UnorderedAccess",
+		"ShaderResource",
+		"StructuredBuffer"
+	]
+}{
+	"Name": "SceneDepthZ",
+	"UniqueResourceName": "00000000738da150",
+	"ByteSize": 4608000,
+	"Desc": "FRDGTextureDesc",
+	"Type": "Texture2D",
+	"Format": "PF_DepthStencil",
+	"ExtentX": 1280,
+	"ExtentY": 720,
+	"Depth": 1,
+	"ArraySize": 1,
+	"NumMips": 1,
+	"NumSamples": 1,
+	"Flags": [
+		"DepthStencilTargetable",
+		"ShaderResource",
+		"InputAttachmentRead",
+		"FastVRAM"
+	]
+}{
+	"Name": "StartOffsetGrid",
+	"UniqueResourceName": "0000000080655120",
+	"ByteSize": 61440,
+	"Desc": "FRDGBufferDesc",
+	"BytesPerElement": 4,
+	"NumElements": 15360,
+	"Metadata": "0000000000000000",
+	"Usage": [
+		"Static",
+		"UnorderedAccess",
+		"ShaderResource",
+		"VertexBuffer"
+	]
+}{
+	"Name": "NextCulledLightLink",
+	"UniqueResourceName": "0000000080655290",
+	"ByteSize": 4,
+	"Desc": "FRDGBufferDesc",
+	"BytesPerElement": 4,
+	"NumElements": 1,
+	"Metadata": "0000000000000000",
+	"Usage": [
+		"Static",
+		"UnorderedAccess",
+		"ShaderResource",
+		"VertexBuffer"
+	]
+}{
+	"Name": "NextCulledLightData",
+	"UniqueResourceName": "0000000080655400",
+	"ByteSize": 4,
+	"Desc": "FRDGBufferDesc",
+	"BytesPerElement": 4,
+	"NumElements": 1,
+	"Metadata": "0000000000000000",
+	"Usage": [
+		"Static",
+		"UnorderedAccess",
+		"ShaderResource",
+		"VertexBuffer"
+	]
+}{
+	"Name": "NumCulledLightsGrid",
+	"UniqueResourceName": "0000000080655780",
+	"ByteSize": 122880,
+	"Desc": "FRDGBufferDesc",
+	"BytesPerElement": 4,
+	"NumElements": 30720,
+	"Metadata": "0000000000000000",
+	"Usage": [
+		"Static",
+		"UnorderedAccess",
+		"ShaderResource",
+		"VertexBuffer"
+	]
+}{
+	"Name": "CulledLightLinks",
+	"UniqueResourceName": "0000000080654fb0",
+	"ByteSize": 3932160,
+	"Desc": "FRDGBufferDesc",
+	"BytesPerElement": 4,
+	"NumElements": 983040,
+	"Metadata": "0000000000000000",
+	"Usage": [
+		"Static",
+		"UnorderedAccess",
+		"ShaderResource",
+		"VertexBuffer"
+	]
+}{
+	"Name": "ViewSpacePosAndRadiusData",
+	"UniqueResourceName": "0000000080655b40",
+	"ByteSize": 432,
+	"Desc": "FRDGBufferDesc",
+	"BytesPerElement": 16,
+	"NumElements": 27,
+	"Metadata": "0000000000000000",
+	"Usage": [
+		"ShaderResource",
+		"VertexBuffer"
+	]
+}{
+	"Name": "ViewSpacePosAndRadiusData",
+	"UniqueResourceName": "0000000080655e60",
+	"ByteSize": 432,
+	"Desc": "FRDGBufferDesc",
+	"BytesPerElement": 16,
+	"NumElements": 27,
+	"Metadata": "0000000000000000",
+	"Usage": [
+		"ShaderResource",
+		"VertexBuffer"
+	]
+}{
+	"Name": "CulledLightDataGrid",
+	"UniqueResourceName": "00000000806555c0",
+	"ByteSize": 983040,
+	"Desc": "FRDGBufferDesc",
+	"BytesPerElement": 2,
+	"NumElements": 491520,
+	"Metadata": "0000000000000000",
+	"Usage": [
+		"Static",
+		"UnorderedAccess",
+		"ShaderResource",
+		"VertexBuffer"
+	]
+}{
+	"Name": "SkyAtmosphere.TransmittanceLut",
+	"UniqueResourceName": "000000008065c8e0",
+	"ByteSize": 65536,
+	"Desc": "FRDGTextureDesc",
+	"Type": "Texture2D",
+	"Format": "PF_FloatRGB",
+	"ExtentX": 256,
+	"ExtentY": 64,
+	"Depth": 1,
+	"ArraySize": 1,
+	"NumMips": 1,
+	"NumSamples": 1,
+	"Flags": [
+		"ShaderResource",
+		"UAV"
+	]
+}{
+	"Name": "SkyAtmosphere.MultiScatteredLuminanceLut",
+	"UniqueResourceName": "000000008065caf0",
+	"ByteSize": 4096,
+	"Desc": "FRDGTextureDesc",
+	"Type": "Texture2D",
+	"Format": "PF_FloatRGB",
+	"ExtentX": 32,
+	"ExtentY": 32,
+	"Depth": 1,
+	"ArraySize": 1,
+	"NumMips": 1,
+	"NumSamples": 1,
+	"Flags": [
+		"ShaderResource",
+		"UAV"
+	]
+}{
+	"Name": "SkyAtmosphere.DistantSkyLightLut",
+	"UniqueResourceName": "000000008065dcb0",
+	"ByteSize": 4,
+	"Desc": "FRDGTextureDesc",
+	"Type": "Texture2D",
+	"Format": "PF_FloatRGB",
+	"ExtentX": 1,
+	"ExtentY": 1,
+	"Depth": 1,
+	"ArraySize": 1,
+	"NumMips": 1,
+	"NumSamples": 1,
+	"Flags": [
+		"ShaderResource",
+		"UAV"
+	]
+}{
+	"Name": "SkyAtmosphere.RealTimeSkyCapViewLut",
+	"UniqueResourceName": "000000008065e770",
+	"ByteSize": 79872,
+	"Desc": "FRDGTextureDesc",
+	"Type": "Texture2D",
+	"Format": "PF_FloatRGB",
+	"ExtentX": 192,
+	"ExtentY": 104,
+	"Depth": 1,
+	"ArraySize": 1,
+	"NumMips": 1,
+	"NumSamples": 1,
+	"Flags": [
+		"ShaderResource",
+		"UAV"
+	]
+}{
+	"Name": "SkyAtmosphere.RealTimeSkyCapCamera360APLut",
+	"UniqueResourceName": "000000008065f350",
+	"ByteSize": 131072,
+	"Desc": "FRDGTextureDesc",
+	"Type": "Texture3D",
+	"Format": "PF_FloatRGBA",
+	"ExtentX": 32,
+	"ExtentY": 32,
+	"Depth": 16,
+	"ArraySize": 1,
+	"NumMips": 1,
+	"NumSamples": 1,
+	"Flags": [
+		"ShaderResource",
+		"UAV"
+	]
+}{
+	"Name": "DefaultStructuredBuffer",
+	"UniqueResourceName": "00000000806432e0",
+	"ByteSize": 336,
+	"Desc": "FRDGBufferDesc",
+	"BytesPerElement": 336,
+	"NumElements": 1,
+	"Metadata": "0000000000000000",
+	"Usage": [
+		"Static",
+		"ShaderResource"
+	]
+}{
+	"Name": "DefaultStructuredBuffer",
+	"UniqueResourceName": "0000000080643100",
+	"ByteSize": 4,
+	"Desc": "FRDGBufferDesc",
+	"BytesPerElement": 4,
+	"NumElements": 1,
+	"Metadata": "0000000000000000",
+	"Usage": [
+		"Static",
+		"ShaderResource"
+	]
+}{
+	"Name": "DefaultStructuredBuffer",
+	"UniqueResourceName": "00000000806437b0",
+	"ByteSize": 4,
+	"Desc": "FRDGBufferDesc",
+	"BytesPerElement": 4,
+	"NumElements": 1,
+	"Metadata": "0000000000000000",
+	"Usage": [
+		"Static",
+		"ShaderResource"
+	]
+}{
+	"Name": "DefaultStructuredBuffer",
+	"UniqueResourceName": "0000000080643b30",
+	"ByteSize": 16,
+	"Desc": "FRDGBufferDesc",
+	"BytesPerElement": 16,
+	"NumElements": 1,
+	"Metadata": "0000000000000000",
+	"Usage": [
+		"Static",
+		"ShaderResource"
+	]
+}{
+	"Name": "ZeroUIntArrayDummy",
+	"UniqueResourceName": "0000000080644080",
+	"ByteSize": 4,
+	"Desc": "FRDGTextureDesc",
+	"Type": "Texture2DArray",
+	"Format": "PF_R32_UINT",
+	"ExtentX": 1,
+	"ExtentY": 1,
+	"Depth": 1,
+	"ArraySize": 1,
+	"NumMips": 1,
+	"NumSamples": 1,
+	"Flags": [
+		"ShaderResource"
+	]
+}{
+	"Name": "SkyAtmosphere.SkyViewLut",
+	"UniqueResourceName": "000000008065fb20",
+	"ByteSize": 79872,
+	"Desc": "FRDGTextureDesc",
+	"Type": "Texture2D",
+	"Format": "PF_FloatRGB",
+	"ExtentX": 192,
+	"ExtentY": 104,
+	"Depth": 1,
+	"ArraySize": 1,
+	"NumMips": 1,
+	"NumSamples": 1,
+	"Flags": [
+		"ShaderResource",
+		"UAV"
+	]
+}{
+	"Name": "SkyAtmosphere.CameraAPVolume0",
+	"UniqueResourceName": "00000000733a0830",
+	"ByteSize": 131072,
+	"Desc": "FRDGTextureDesc",
+	"Type": "Texture3D",
+	"Format": "PF_FloatRGBA",
+	"ExtentX": 32,
+	"ExtentY": 32,
+	"Depth": 16,
+	"ArraySize": 1,
+	"NumMips": 1,
+	"NumSamples": 1,
+	"Flags": [
+		"ShaderResource",
+		"UAV"
+	]
+}{
+	"Name": "BlackDummy",
+	"UniqueResourceName": "0000000080641040",
+	"ByteSize": 4,
+	"Desc": "FRDGTextureDesc",
+	"Type": "Texture2D",
+	"Format": "PF_B8G8R8A8",
+	"ExtentX": 1,
+	"ExtentY": 1,
+	"Depth": 1,
+	"ArraySize": 1,
+	"NumMips": 1,
+	"NumSamples": 1,
+	"Flags": [
+		"ShaderResource"
+	]
+}{
+	"Name": "MidGreyDummy",
+	"UniqueResourceName": "00000000806423f0",
+	"ByteSize": 8,
+	"Desc": "FRDGTextureDesc",
+	"Type": "Texture2D",
+	"Format": "PF_FloatRGBA",
+	"ExtentX": 1,
+	"ExtentY": 1,
+	"Depth": 1,
+	"ArraySize": 1,
+	"NumMips": 1,
+	"NumSamples": 1,
+	"Flags": [
+		"ShaderResource"
+	]
+}{
+	"Name": "WhiteDummy",
+	"UniqueResourceName": "0000000080640db0",
+	"ByteSize": 4,
+	"Desc": "FRDGTextureDesc",
+	"Type": "Texture2D",
+	"Format": "PF_R8G8B8A8",
+	"ExtentX": 1,
+	"ExtentY": 1,
+	"Depth": 1,
+	"ArraySize": 1,
+	"NumMips": 1,
+	"NumSamples": 1,
+	"Flags": [
+		"ShaderResource"
+	]
+}{
+	"Name": "StencilDummy",
+	"UniqueResourceName": "0000000080641f40",
+	"ByteSize": 4,
+	"Desc": "FRDGTextureDesc",
+	"Type": "Texture2D",
+	"Format": "PF_R8G8B8A8_UINT",
+	"ExtentX": 1,
+	"ExtentY": 1,
+	"Depth": 1,
+	"ArraySize": 1,
+	"NumMips": 1,
+	"NumSamples": 1,
+	"Flags": [
+		"ShaderResource"
+	]
+}{
+	"Name": "MaxFP16Depth",
+	"UniqueResourceName": "0000000080641690",
+	"ByteSize": 8,
+	"Desc": "FRDGTextureDesc",
+	"Type": "Texture2D",
+	"Format": "PF_FloatRGBA",
+	"ExtentX": 1,
+	"ExtentY": 1,
+	"Depth": 1,
+	"ArraySize": 1,
+	"NumMips": 1,
+	"NumSamples": 1,
+	"Flags": [
+		"ShaderResource"
+	]
+}{
+	"Name": "BlackDepthCube",
+	"UniqueResourceName": "0000000080641c40",
+	"ByteSize": 2,
+	"Desc": "FRDGTextureDesc",
+	"Type": "TextureCube",
+	"Format": "PF_ShadowDepth",
+	"ExtentX": 1,
+	"ExtentY": 1,
+	"Depth": 1,
+	"ArraySize": 1,
+	"NumMips": 1,
+	"NumSamples": 1,
+	"Flags": [
+		"ShaderResource"
+	]
+}{
+	"Name": "VolumetricBlackAlphaOneDummy",
+	"UniqueResourceName": "0000000080642710",
+	"ByteSize": 4,
+	"Desc": "FRDGTextureDesc",
+	"Type": "Texture3D",
+	"Format": "PF_B8G8R8A8",
+	"ExtentX": 1,
+	"ExtentY": 1,
+	"Depth": 1,
+	"ArraySize": 1,
+	"NumMips": 1,
+	"NumSamples": 1,
+	"Flags": [
+		"ShaderResource"
+	]
+}{
+	"Name": "ForwardLocalLightBuffer",
+	"UniqueResourceName": "0000000080650ef0",
+	"ByteSize": 2592,
+	"Desc": "FRDGBufferDesc",
+	"BytesPerElement": 96,
+	"NumElements": 27,
+	"Metadata": "0000000000000000",
+	"Usage": [
+		"ShaderResource",
+		"VertexBuffer"
+	]
+}{
+	"Name": "Cloud.ColorDummy",
+	"UniqueResourceName": "00000000733a3210",
+	"ByteSize": 8,
+	"Desc": "FRDGTextureDesc",
+	"Type": "Texture2D",
+	"Format": "PF_FloatRGBA",
+	"ExtentX": 1,
+	"ExtentY": 1,
+	"Depth": 1,
+	"ArraySize": 1,
+	"NumMips": 1,
+	"NumSamples": 1,
+	"Flags": [
+		"RenderTargetable",
+		"ShaderResource",
+		"UAV"
+	]
+}{
+	"Name": "Cloud.DepthDummy",
+	"UniqueResourceName": "00000000733a3370",
+	"ByteSize": 4,
+	"Desc": "FRDGTextureDesc",
+	"Type": "Texture2D",
+	"Format": "PF_G16R16F",
+	"ExtentX": 1,
+	"ExtentY": 1,
+	"Depth": 1,
+	"ArraySize": 1,
+	"NumMips": 1,
+	"NumSamples": 1,
+	"Flags": [
+		"RenderTargetable",
+		"ShaderResource",
+		"UAV"
+	]
+}{
+	"Name": "SkyRenderTarget",
+	"UniqueResourceName": "00000000733a22f0",
+	"ByteSize": 65536,
+	"Desc": "FRDGTextureDesc",
+	"Type": "TextureCube",
+	"Format": "PF_FloatR11G11B10",
+	"ExtentX": 128,
+	"ExtentY": 128,
+	"Depth": 1,
+	"ArraySize": 1,
+	"NumMips": 8,
+	"NumSamples": 1,
+	"Flags": [
+		"RenderTargetable",
+		"ShaderResource",
+		"UAV",
+		"TargetArraySlicesIndependently"
+	]
+}{
+	"Name": "InstanceCulling.Compaction.BlockInstanceCounts",
+	"UniqueResourceName": "00000000803d3ea0",
+	"ByteSize": 4,
+	"Desc": "FRDGBufferDesc",
+	"BytesPerElement": 4,
+	"NumElements": 1,
+	"Metadata": "0000000000000000",
+	"Usage": [
+		"Static",
+		"UnorderedAccess",
+		"ShaderResource",
+		"StructuredBuffer"
+	]
+}{
+	"Name": "InstanceCulling.DrawIndirectArgsBuffer",
+	"UniqueResourceName": "00000000803d55f0",
+	"ByteSize": 4,
+	"Desc": "FRDGBufferDesc",
+	"BytesPerElement": 4,
+	"NumElements": 1,
+	"Metadata": "0000000000000000",
+	"Usage": [
+		"Static",
+		"UnorderedAccess",
+		"DrawIndirect",
+		"ShaderResource",
+		"VertexBuffer"
+	]
+}{
+	"Name": "InstanceCullingLoadBalancer.Batches",
+	"UniqueResourceName": "00000000803d65c0",
+	"ByteSize": 4,
+	"Desc": "FRDGBufferDesc",
+	"BytesPerElement": 4,
+	"NumElements": 1,
+	"Metadata": "0000000000000000",
+	"Usage": [
+		"Static",
+		"UnorderedAccess",
+		"ShaderResource",
+		"StructuredBuffer"
+	]
+}{
+	"Name": "InstanceCullingLoadBalancer.Items",
+	"UniqueResourceName": "00000000803d6730",
+	"ByteSize": 8,
+	"Desc": "FRDGBufferDesc",
+	"BytesPerElement": 8,
+	"NumElements": 1,
+	"Metadata": "0000000000000000",
+	"Usage": [
+		"Static",
+		"UnorderedAccess",
+		"ShaderResource",
+		"StructuredBuffer"
+	]
+}{
+	"Name": "InstanceCulling.PayloadData",
+	"UniqueResourceName": "00000000803d51a0",
+	"ByteSize": 16,
+	"Desc": "FRDGBufferDesc",
+	"BytesPerElement": 16,
+	"NumElements": 1,
+	"Metadata": "0000000000000000",
+	"Usage": [
+		"Static",
+		"UnorderedAccess",
+		"ShaderResource",
+		"StructuredBuffer"
+	]
+}{
+	"Name": "InstanceCulling.ViewIds",
+	"UniqueResourceName": "00000000803d5310",
+	"ByteSize": 4,
+	"Desc": "FRDGBufferDesc",
+	"BytesPerElement": 4,
+	"NumElements": 1,
+	"Metadata": "0000000000000000",
+	"Usage": [
+		"Static",
+		"UnorderedAccess",
+		"ShaderResource",
+		"StructuredBuffer"
+	]
+}{
+	"Name": "InstanceCulling.BatchInfos",
+	"UniqueResourceName": "00000000803d5480",
+	"ByteSize": 40,
+	"Desc": "FRDGBufferDesc",
+	"BytesPerElement": 40,
+	"NumElements": 1,
+	"Metadata": "0000000000000000",
+	"Usage": [
+		"Static",
+		"UnorderedAccess",
+		"ShaderResource",
+		"StructuredBuffer"
+	]
+}{
+	"Name": "InstanceCulling.BatchInds",
+	"UniqueResourceName": "00000000803d6400",
+	"ByteSize": 4,
+	"Desc": "FRDGBufferDesc",
+	"BytesPerElement": 4,
+	"NumElements": 1,
+	"Metadata": "0000000000000000",
+	"Usage": [
+		"Static",
+		"UnorderedAccess",
+		"ShaderResource",
+		"StructuredBuffer"
+	]
+}{
+	"Name": "InstanceCulling.InstanceIdOffsetBuffer",
+	"UniqueResourceName": "00000000803d5ea0",
+	"ByteSize": 4,
+	"Desc": "FRDGBufferDesc",
+	"BytesPerElement": 4,
+	"NumElements": 1,
+	"Metadata": "0000000000000000",
+	"Usage": [
+		"Static",
+		"UnorderedAccess",
+		"ShaderResource",
+		"VertexBuffer"
+	]
+}{
+	"Name": "InstanceCulling.InstanceIdsBuffer",
+	"UniqueResourceName": "00000000803d6010",
+	"ByteSize": 4,
+	"Desc": "FRDGBufferDesc",
+	"BytesPerElement": 4,
+	"NumElements": 1,
+	"Metadata": "0000000000000000",
+	"Usage": [
+		"Static",
+		"UnorderedAccess",
+		"ShaderResource",
+		"StructuredBuffer"
+	]
+}{
+	"Name": "InstanceCulling.DrawCommandCompactionData",
+	"UniqueResourceName": "00000000803d3b20",
+	"ByteSize": 20,
+	"Desc": "FRDGBufferDesc",
+	"BytesPerElement": 20,
+	"NumElements": 1,
+	"Metadata": "0000000000000000",
+	"Usage": [
+		"Static",
+		"UnorderedAccess",
+		"ShaderResource",
+		"StructuredBuffer"
+	]
+}{
+	"Name": "InstanceCulling.Compaction.TempInstanceIdsBuffer",
+	"UniqueResourceName": "00000000803d3ce0",
+	"ByteSize": 4,
+	"Desc": "FRDGBufferDesc",
+	"BytesPerElement": 4,
+	"NumElements": 1,
+	"Metadata": "0000000000000000",
+	"Usage": [
+		"Static",
+		"UnorderedAccess",
+		"ShaderResource",
+		"StructuredBuffer"
+	]
+}{
+	"Name": "InstanceCullingLoadBalancer.Batches",
+	"UniqueResourceName": "00000000803da030",
+	"ByteSize": 4,
+	"Desc": "FRDGBufferDesc",
+	"BytesPerElement": 4,
+	"NumElements": 1,
+	"Metadata": "0000000000000000",
+	"Usage": [
+		"Static",
+		"UnorderedAccess",
+		"ShaderResource",
+		"StructuredBuffer"
+	]
+}{
+	"Name": "InstanceCullingLoadBalancer.Items",
+	"UniqueResourceName": "00000000803da1a0",
+	"ByteSize": 8,
+	"Desc": "FRDGBufferDesc",
+	"BytesPerElement": 8,
+	"NumElements": 1,
+	"Metadata": "0000000000000000",
+	"Usage": [
+		"Static",
+		"UnorderedAccess",
+		"ShaderResource",
+		"StructuredBuffer"
+	]
+}{
+	"Name": "InstanceCulling.BatchInds",
+	"UniqueResourceName": "00000000803d9e70",
+	"ByteSize": 4,
+	"Desc": "FRDGBufferDesc",
+	"BytesPerElement": 4,
+	"NumElements": 1,
+	"Metadata": "0000000000000000",
+	"Usage": [
+		"Static",
+		"UnorderedAccess",
+		"ShaderResource",
+		"StructuredBuffer"
+	]
+}{
+	"Name": "InstanceCulling.Compaction.BlockDestInstanceOffsets",
+	"UniqueResourceName": "00000000803dc230",
+	"ByteSize": 4,
+	"Desc": "FRDGBufferDesc",
+	"BytesPerElement": 4,
+	"NumElements": 1,
+	"Metadata": "0000000000000000",
+	"Usage": [
+		"Static",
+		"UnorderedAccess",
+		"ShaderResource",
+		"StructuredBuffer"
+	]
+}{
+	"Name": "InstanceCulling.CompactionBlockDataIndices",
+	"UniqueResourceName": "00000000803dd320",
+	"ByteSize": 4,
+	"Desc": "FRDGBufferDesc",
+	"BytesPerElement": 4,
+	"NumElements": 1,
+	"Metadata": "0000000000000000",
+	"Usage": [
+		"Static",
+		"UnorderedAccess",
+		"ShaderResource",
+		"StructuredBuffer"
+	]
+}{
+	"Name": "SceneColor",
+	"UniqueResourceName": "00000000738da370",
+	"ByteSize": 7372800,
+	"Desc": "FRDGTextureDesc",
+	"Type": "Texture2D",
+	"Format": "PF_FloatRGBA",
+	"ExtentX": 1280,
+	"ExtentY": 720,
+	"Depth": 1,
+	"ArraySize": 1,
+	"NumMips": 1,
+	"NumSamples": 1,
+	"Flags": [
+		"RenderTargetable",
+		"ShaderResource",
+		"UAV",
+		"FastVRAM"
+	]
+}{
+	"Name": "SceneVelocity",
+	"UniqueResourceName": "00000000738db5d0",
+	"ByteSize": 7372800,
+	"Desc": "FRDGTextureDesc",
+	"Type": "Texture2D",
+	"Format": "PF_A16B16G16R16",
+	"ExtentX": 1280,
+	"ExtentY": 720,
+	"Depth": 1,
+	"ArraySize": 1,
+	"NumMips": 1,
+	"NumSamples": 1,
+	"Flags": [
+		"RenderTargetable",
+		"ShaderResource",
+		"UAV"
+	]
+}{
+	"Name": "Strata.DummyWritableTexture",
+	"UniqueResourceName": "00000000803b1cf0",
+	"ByteSize": 4,
+	"Desc": "FRDGTextureDesc",
+	"Type": "Texture2DArray",
+	"Format": "PF_R32_UINT",
+	"ExtentX": 1,
+	"ExtentY": 1,
+	"Depth": 1,
+	"ArraySize": 1,
+	"NumMips": 1,
+	"NumSamples": 1,
+	"Flags": [
+		"ShaderResource",
+		"UAV"
+	]
+}{
+	"Name": "Strata.DummyWritableTexture",
+	"UniqueResourceName": "00000000803b1b40",
+	"ByteSize": 1,
+	"Desc": "FRDGTextureDesc",
+	"Type": "Texture2D",
+	"Format": "PF_R8",
+	"ExtentX": 1,
+	"ExtentY": 1,
+	"Depth": 1,
+	"ArraySize": 1,
+	"NumMips": 1,
+	"NumSamples": 1,
+	"Flags": [
+		"ShaderResource",
+		"UAV"
+	]
+}{
+	"Name": "BlackAlphaOneDummy",
+	"UniqueResourceName": "0000000080641330",
+	"ByteSize": 4,
+	"Desc": "FRDGTextureDesc",
+	"Type": "Texture2D",
+	"Format": "PF_B8G8R8A8",
+	"ExtentX": 1,
+	"ExtentY": 1,
+	"Depth": 1,
+	"ArraySize": 1,
+	"NumMips": 1,
+	"NumSamples": 1,
+	"Flags": [
+		"ShaderResource"
+	]
+}{
+	"Name": "DefaultNormal8Bit",
+	"UniqueResourceName": "0000000080642260",
+	"ByteSize": 4,
+	"Desc": "FRDGTextureDesc",
+	"Type": "Texture2D",
+	"Format": "PF_B8G8R8A8",
+	"ExtentX": 1,
+	"ExtentY": 1,
+	"Depth": 1,
+	"ArraySize": 1,
+	"NumMips": 1,
+	"NumSamples": 1,
+	"Flags": [
+		"ShaderResource"
+	]
+}{
+	"Name": "EyeAdaptation",
+	"UniqueResourceName": "00000000803de760",
+	"ByteSize": 16,
+	"Desc": "FRDGTextureDesc",
+	"Type": "Texture2D",
+	"Format": "PF_A32B32G32R32F",
+	"ExtentX": 1,
+	"ExtentY": 1,
+	"Depth": 1,
+	"ArraySize": 1,
+	"NumMips": 1,
+	"NumSamples": 1,
+	"Flags": [
+		"RenderTargetable",
+		"ShaderResource",
+		"UAV"
+	]
+}{
+	"Name": "HalfResolutionDepthCheckerboardMinMax",
+	"UniqueResourceName": "00000000803b8a00",
+	"ByteSize": 1152000,
+	"Desc": "FRDGTextureDesc",
+	"Type": "Texture2D",
+	"Format": "PF_DepthStencil",
+	"ExtentX": 640,
+	"ExtentY": 360,
+	"Depth": 1,
+	"ArraySize": 1,
+	"NumMips": 1,
+	"NumSamples": 1,
+	"Flags": [
+		"DepthStencilTargetable",
+		"ShaderResource"
+	]
+}{
+	"Name": "VolumetricRenderTarget.Tracing",
+	"UniqueResourceName": "00000000803b9f90",
+	"ByteSize": 460800,
+	"Desc": "FRDGTextureDesc",
+	"Type": "Texture2D",
+	"Format": "PF_FloatRGBA",
+	"ExtentX": 320,
+	"ExtentY": 180,
+	"Depth": 1,
+	"ArraySize": 1,
+	"NumMips": 1,
+	"NumSamples": 1,
+	"Flags": [
+		"RenderTargetable",
+		"ShaderResource",
+		"UAV"
+	]
+}{
+	"Name": "VolumetricRenderTarget.TracingDepth",
+	"UniqueResourceName": "00000000803ba120",
+	"ByteSize": 230400,
+	"Desc": "FRDGTextureDesc",
+	"Type": "Texture2D",
+	"Format": "PF_G16R16F",
+	"ExtentX": 320,
+	"ExtentY": 180,
+	"Depth": 1,
+	"ArraySize": 1,
+	"NumMips": 1,
+	"NumSamples": 1,
+	"Flags": [
+		"RenderTargetable",
+		"ShaderResource",
+		"UAV"
+	]
+}{
+	"Name": "Cloud.ColorCubeDummy",
+	"UniqueResourceName": "00000000803bb0a0",
+	"ByteSize": 8,
+	"Desc": "FRDGTextureDesc",
+	"Type": "TextureCube",
+	"Format": "PF_FloatRGBA",
+	"ExtentX": 1,
+	"ExtentY": 1,
+	"Depth": 1,
+	"ArraySize": 1,
+	"NumMips": 1,
+	"NumSamples": 1,
+	"Flags": [
+		"RenderTargetable",
+		"ShaderResource",
+		"UAV"
+	]
+}{
+	"Name": "VolumetricRenderTarget.Reconstruct",
+	"UniqueResourceName": "00000000803bcf50",
+	"ByteSize": 1843200,
+	"Desc": "FRDGTextureDesc",
+	"Type": "Texture2D",
+	"Format": "PF_FloatRGBA",
+	"ExtentX": 640,
+	"ExtentY": 360,
+	"Depth": 1,
+	"ArraySize": 1,
+	"NumMips": 1,
+	"NumSamples": 1,
+	"Flags": [
+		"RenderTargetable",
+		"ShaderResource"
+	]
+}{
+	"Name": "VolumetricRenderTarget.ReconstructDepth",
+	"UniqueResourceName": "00000000803bea80",
+	"ByteSize": 921600,
+	"Desc": "FRDGTextureDesc",
+	"Type": "Texture2D",
+	"Format": "PF_G16R16F",
+	"ExtentX": 640,
+	"ExtentY": 360,
+	"Depth": 1,
+	"ArraySize": 1,
+	"NumMips": 1,
+	"NumSamples": 1,
+	"Flags": [
+		"RenderTargetable",
+		"ShaderResource"
+	]
+}{
+	"Name": "VolumetricRenderTarget.Reconstruct",
+	"UniqueResourceName": "00000000803bcc30",
+	"ByteSize": 1843200,
+	"Desc": "FRDGTextureDesc",
+	"Type": "Texture2D",
+	"Format": "PF_FloatRGBA",
+	"ExtentX": 640,
+	"ExtentY": 360,
+	"Depth": 1,
+	"ArraySize": 1,
+	"NumMips": 1,
+	"NumSamples": 1,
+	"Flags": [
+		"RenderTargetable",
+		"ShaderResource"
+	]
+}{
+	"Name": "VolumetricRenderTarget.ReconstructDepth",
+	"UniqueResourceName": "00000000803bcdc0",
+	"ByteSize": 921600,
+	"Desc": "FRDGTextureDesc",
+	"Type": "Texture2D",
+	"Format": "PF_G16R16F",
+	"ExtentX": 640,
+	"ExtentY": 360,
+	"Depth": 1,
+	"ArraySize": 1,
+	"NumMips": 1,
+	"NumSamples": 1,
+	"Flags": [
+		"RenderTargetable",
+		"ShaderResource"
+	]
+}{
+	"Name": "DefaultTexture2DArray",
+	"UniqueResourceName": "00000000ee9b4ca0",
+	"ByteSize": 4,
+	"Desc": "FRDGTextureDesc",
+	"Type": "Texture2DArray",
+	"Format": "PF_R32_UINT",
+	"ExtentX": 1,
+	"ExtentY": 1,
+	"Depth": 1,
+	"ArraySize": 1,
+	"NumMips": 1,
+	"NumSamples": 1,
+	"Flags": [
+		"ShaderResource"
+	]
+}{
+	"Name": "OIT.SampleCount",
+	"UniqueResourceName": "00000000ee9b3e90",
+	"ByteSize": 4,
+	"Desc": "FRDGTextureDesc",
+	"Type": "Texture2D",
+	"Format": "PF_R32_UINT",
+	"ExtentX": 1,
+	"ExtentY": 1,
+	"Depth": 1,
+	"ArraySize": 1,
+	"NumMips": 1,
+	"NumSamples": 1,
+	"Flags": [
+		"ShaderResource",
+		"UAV"
+	]
+}{
+	"Name": "OIT.SampleColor",
+	"UniqueResourceName": "00000000ee9b3a70",
+	"ByteSize": 4,
+	"Desc": "FRDGTextureDesc",
+	"Type": "Texture2D",
+	"Format": "PF_R32_UINT",
+	"ExtentX": 1,
+	"ExtentY": 1,
+	"Depth": 1,
+	"ArraySize": 1,
+	"NumMips": 1,
+	"NumSamples": 1,
+	"Flags": [
+		"ShaderResource",
+		"UAV"
+	]
+}{
+	"Name": "OIT.SampleTrans",
+	"UniqueResourceName": "00000000ee9b3bd0",
+	"ByteSize": 4,
+	"Desc": "FRDGTextureDesc",
+	"Type": "Texture2D",
+	"Format": "PF_R32_UINT",
+	"ExtentX": 1,
+	"ExtentY": 1,
+	"Depth": 1,
+	"ArraySize": 1,
+	"NumMips": 1,
+	"NumSamples": 1,
+	"Flags": [
+		"ShaderResource",
+		"UAV"
+	]
+}{
+	"Name": "OIT.SampleDepth",
+	"UniqueResourceName": "00000000ee9b3d30",
+	"ByteSize": 4,
+	"Desc": "FRDGTextureDesc",
+	"Type": "Texture2D",
+	"Format": "PF_R32_FLOAT",
+	"ExtentX": 1,
+	"ExtentY": 1,
+	"Depth": 1,
+	"ArraySize": 1,
+	"NumMips": 1,
+	"NumSamples": 1,
+	"Flags": [
+		"ShaderResource",
+		"UAV"
+	]
+}{
+	"Name": "VolumetricBlackDummy",
+	"UniqueResourceName": "0000000080642580",
+	"ByteSize": 4,
+	"Desc": "FRDGTextureDesc",
+	"Type": "Texture3D",
+	"Format": "PF_B8G8R8A8",
+	"ExtentX": 1,
+	"ExtentY": 1,
+	"Depth": 1,
+	"ArraySize": 1,
+	"NumMips": 1,
+	"NumSamples": 1,
+	"Flags": [
+		"ShaderResource"
+	]
+}{
+	"Name": "VolumetricBlackUintDummy",
+	"UniqueResourceName": "00000000806428a0",
+	"ByteSize": 4,
+	"Desc": "FRDGTextureDesc",
+	"Type": "Texture3D",
+	"Format": "PF_R8G8B8A8_UINT",
+	"ExtentX": 1,
+	"ExtentY": 1,
+	"Depth": 1,
+	"ArraySize": 1,
+	"NumMips": 1,
+	"NumSamples": 1,
+	"Flags": [
+		"ShaderResource"
+	]
+}{
+	"Name": "Translucency.AfterDOF.Color",
+	"UniqueResourceName": "00000000ee9b7510",
+	"ByteSize": 7372800,
+	"Desc": "FRDGTextureDesc",
+	"Type": "Texture2D",
+	"Format": "PF_FloatRGBA",
+	"ExtentX": 1280,
+	"ExtentY": 720,
+	"Depth": 1,
+	"ArraySize": 1,
+	"NumMips": 1,
+	"NumSamples": 1,
+	"Flags": [
+		"RenderTargetable",
+		"ShaderResource"
+	]
+}{
+	"Name": "OIT.SampleCount",
+	"UniqueResourceName": "00000000ee9b7a90",
+	"ByteSize": 4,
+	"Desc": "FRDGTextureDesc",
+	"Type": "Texture2D",
+	"Format": "PF_R32_UINT",
+	"ExtentX": 1,
+	"ExtentY": 1,
+	"Depth": 1,
+	"ArraySize": 1,
+	"NumMips": 1,
+	"NumSamples": 1,
+	"Flags": [
+		"ShaderResource",
+		"UAV"
+	]
+}{
+	"Name": "OIT.SampleColor",
+	"UniqueResourceName": "00000000ee9b7670",
+	"ByteSize": 4,
+	"Desc": "FRDGTextureDesc",
+	"Type": "Texture2D",
+	"Format": "PF_R32_UINT",
+	"ExtentX": 1,
+	"ExtentY": 1,
+	"Depth": 1,
+	"ArraySize": 1,
+	"NumMips": 1,
+	"NumSamples": 1,
+	"Flags": [
+		"ShaderResource",
+		"UAV"
+	]
+}{
+	"Name": "OIT.SampleTrans",
+	"UniqueResourceName": "00000000ee9b77d0",
+	"ByteSize": 4,
+	"Desc": "FRDGTextureDesc",
+	"Type": "Texture2D",
+	"Format": "PF_R32_UINT",
+	"ExtentX": 1,
+	"ExtentY": 1,
+	"Depth": 1,
+	"ArraySize": 1,
+	"NumMips": 1,
+	"NumSamples": 1,
+	"Flags": [
+		"ShaderResource",
+		"UAV"
+	]
+}{
+	"Name": "OIT.SampleDepth",
+	"UniqueResourceName": "00000000ee9b7930",
+	"ByteSize": 4,
+	"Desc": "FRDGTextureDesc",
+	"Type": "Texture2D",
+	"Format": "PF_R32_FLOAT",
+	"ExtentX": 1,
+	"ExtentY": 1,
+	"Depth": 1,
+	"ArraySize": 1,
+	"NumMips": 1,
+	"NumSamples": 1,
+	"Flags": [
+		"ShaderResource",
+		"UAV"
+	]
+}{
+	"Name": "Distortion",
+	"UniqueResourceName": "00000000ee9bbd20",
+	"ByteSize": 3686400,
+	"Desc": "FRDGTextureDesc",
+	"Type": "Texture2D",
+	"Format": "PF_B8G8R8A8",
+	"ExtentX": 1280,
+	"ExtentY": 720,
+	"Depth": 1,
+	"ArraySize": 1,
+	"NumMips": 1,
+	"NumSamples": 1,
+	"Flags": [
+		"RenderTargetable",
+		"ShaderResource",
+		"FastVRAM"
+	]
+}{
+	"Name": "DistortedSceneColor",
+	"UniqueResourceName": "00000000ee9bd3f0",
+	"ByteSize": 7372800,
+	"Desc": "FRDGTextureDesc",
+	"Type": "Texture2D",
+	"Format": "PF_FloatRGBA",
+	"ExtentX": 1280,
+	"ExtentY": 720,
+	"Depth": 1,
+	"ArraySize": 1,
+	"NumMips": 1,
+	"NumSamples": 1,
+	"Flags": [
+		"RenderTargetable",
+		"ShaderResource",
+		"UAV"
+	]
+}{
+	"Name": "PostDOFTranslucency.SceneColor",
+	"UniqueResourceName": "00000000ee9bf9f0",
+	"ByteSize": 3686400,
+	"Desc": "FRDGTextureDesc",
+	"Type": "Texture2D",
+	"Format": "PF_FloatR11G11B10",
+	"ExtentX": 1280,
+	"ExtentY": 720,
+	"Depth": 1,
+	"ArraySize": 1,
+	"NumMips": 1,
+	"NumSamples": 1,
+	"Flags": [
+		"RenderTargetable",
+		"ShaderResource"
+	]
+}{
+	"Name": "PostProcessing.SceneColor.HalfRes",
+	"UniqueResourceName": "00000000733f0c90",
+	"ByteSize": 921600,
+	"Desc": "FRDGTextureDesc",
+	"Type": "Texture2D",
+	"Format": "PF_FloatRGB",
+	"ExtentX": 640,
+	"ExtentY": 360,
+	"Depth": 1,
+	"ArraySize": 1,
+	"NumMips": 1,
+	"NumSamples": 1,
+	"Flags": [
+		"RenderTargetable",
+		"ShaderResource",
+		"FastVRAM"
+	]
+}{
+	"Name": "Scene(1/4)",
+	"UniqueResourceName": "00000000733f1ae0",
+	"ByteSize": 230400,
+	"Desc": "FRDGTextureDesc",
+	"Type": "Texture2D",
+	"Format": "PF_FloatRGB",
+	"ExtentX": 320,
+	"ExtentY": 180,
+	"Depth": 1,
+	"ArraySize": 1,
+	"NumMips": 1,
+	"NumSamples": 1,
+	"Flags": [
+		"RenderTargetable",
+		"ShaderResource",
+		"FastVRAM"
+	]
+}{
+	"Name": "Scene(1/8)",
+	"UniqueResourceName": "00000000733f28d0",
+	"ByteSize": 57600,
+	"Desc": "FRDGTextureDesc",
+	"Type": "Texture2D",
+	"Format": "PF_FloatRGB",
+	"ExtentX": 160,
+	"ExtentY": 90,
+	"Depth": 1,
+	"ArraySize": 1,
+	"NumMips": 1,
+	"NumSamples": 1,
+	"Flags": [
+		"RenderTargetable",
+		"ShaderResource",
+		"FastVRAM"
+	]
+}{
+	"Name": "Scene(1/16)",
+	"UniqueResourceName": "00000000733f36c0",
+	"ByteSize": 14400,
+	"Desc": "FRDGTextureDesc",
+	"Type": "Texture2D",
+	"Format": "PF_FloatRGB",
+	"ExtentX": 80,
+	"ExtentY": 45,
+	"Depth": 1,
+	"ArraySize": 1,
+	"NumMips": 1,
+	"NumSamples": 1,
+	"Flags": [
+		"RenderTargetable",
+		"ShaderResource",
+		"FastVRAM"
+	]
+}{
+	"Name": "Scene(1/32)",
+	"UniqueResourceName": "00000000733f44b0",
+	"ByteSize": 3680,
+	"Desc": "FRDGTextureDesc",
+	"Type": "Texture2D",
+	"Format": "PF_FloatRGB",
+	"ExtentX": 40,
+	"ExtentY": 23,
+	"Depth": 1,
+	"ArraySize": 1,
+	"NumMips": 1,
+	"NumSamples": 1,
+	"Flags": [
+		"RenderTargetable",
+		"ShaderResource",
+		"FastVRAM"
+	]
+}{
+	"Name": "Scene(1/64)",
+	"UniqueResourceName": "00000000733f52a0",
+	"ByteSize": 960,
+	"Desc": "FRDGTextureDesc",
+	"Type": "Texture2D",
+	"Format": "PF_FloatRGB",
+	"ExtentX": 20,
+	"ExtentY": 12,
+	"Depth": 1,
+	"ArraySize": 1,
+	"NumMips": 1,
+	"NumSamples": 1,
+	"Flags": [
+		"RenderTargetable",
+		"ShaderResource",
+		"FastVRAM"
+	]
+}{
+	"Name": "EyeAdaptation",
+	"UniqueResourceName": "00000000733f6090",
+	"ByteSize": 16,
+	"Desc": "FRDGTextureDesc",
+	"Type": "Texture2D",
+	"Format": "PF_A32B32G32R32F",
+	"ExtentX": 1,
+	"ExtentY": 1,
+	"Depth": 1,
+	"ArraySize": 1,
+	"NumMips": 1,
+	"NumSamples": 1,
+	"Flags": [
+		"RenderTargetable",
+		"ShaderResource",
+		"UAV"
+	]
+}{
+	"Name": "BloomX",
+	"UniqueResourceName": "00000000733f7390",
+	"ByteSize": 960,
+	"Desc": "FRDGTextureDesc",
+	"Type": "Texture2D",
+	"Format": "PF_FloatRGB",
+	"ExtentX": 20,
+	"ExtentY": 12,
+	"Depth": 1,
+	"ArraySize": 1,
+	"NumMips": 1,
+	"NumSamples": 1,
+	"Flags": [
+		"RenderTargetable",
+		"ShaderResource",
+		"FastVRAM"
+	]
+}{
+	"Name": "BloomY",
+	"UniqueResourceName": "00000000733f8e60",
+	"ByteSize": 960,
+	"Desc": "FRDGTextureDesc",
+	"Type": "Texture2D",
+	"Format": "PF_FloatRGB",
+	"ExtentX": 20,
+	"ExtentY": 12,
+	"Depth": 1,
+	"ArraySize": 1,
+	"NumMips": 1,
+	"NumSamples": 1,
+	"Flags": [
+		"RenderTargetable",
+		"ShaderResource",
+		"FastVRAM"
+	]
+}{
+	"Name": "BloomX",
+	"UniqueResourceName": "00000000733fa930",
+	"ByteSize": 3680,
+	"Desc": "FRDGTextureDesc",
+	"Type": "Texture2D",
+	"Format": "PF_FloatRGB",
+	"ExtentX": 40,
+	"ExtentY": 23,
+	"Depth": 1,
+	"ArraySize": 1,
+	"NumMips": 1,
+	"NumSamples": 1,
+	"Flags": [
+		"RenderTargetable",
+		"ShaderResource",
+		"FastVRAM"
+	]
+}{
+	"Name": "BloomY",
+	"UniqueResourceName": "00000000733fc400",
+	"ByteSize": 3680,
+	"Desc": "FRDGTextureDesc",
+	"Type": "Texture2D",
+	"Format": "PF_FloatRGB",
+	"ExtentX": 40,
+	"ExtentY": 23,
+	"Depth": 1,
+	"ArraySize": 1,
+	"NumMips": 1,
+	"NumSamples": 1,
+	"Flags": [
+		"RenderTargetable",
+		"ShaderResource",
+		"FastVRAM"
+	]
+}{
+	"Name": "BloomX",
+	"UniqueResourceName": "00000000733fded0",
+	"ByteSize": 14400,
+	"Desc": "FRDGTextureDesc",
+	"Type": "Texture2D",
+	"Format": "PF_FloatRGB",
+	"ExtentX": 80,
+	"ExtentY": 45,
+	"Depth": 1,
+	"ArraySize": 1,
+	"NumMips": 1,
+	"NumSamples": 1,
+	"Flags": [
+		"RenderTargetable",
+		"ShaderResource",
+		"FastVRAM"
+	]
+}{
+	"Name": "BloomY",
+	"UniqueResourceName": "00000000733ff9a0",
+	"ByteSize": 14400,
+	"Desc": "FRDGTextureDesc",
+	"Type": "Texture2D",
+	"Format": "PF_FloatRGB",
+	"ExtentX": 80,
+	"ExtentY": 45,
+	"Depth": 1,
+	"ArraySize": 1,
+	"NumMips": 1,
+	"NumSamples": 1,
+	"Flags": [
+		"RenderTargetable",
+		"ShaderResource",
+		"FastVRAM"
+	]
+}{
+	"Name": "BloomX",
+	"UniqueResourceName": "0000000077e01980",
+	"ByteSize": 57600,
+	"Desc": "FRDGTextureDesc",
+	"Type": "Texture2D",
+	"Format": "PF_FloatRGB",
+	"ExtentX": 160,
+	"ExtentY": 90,
+	"Depth": 1,
+	"ArraySize": 1,
+	"NumMips": 1,
+	"NumSamples": 1,
+	"Flags": [
+		"RenderTargetable",
+		"ShaderResource",
+		"FastVRAM"
+	]
+}{
+	"Name": "BloomY",
+	"UniqueResourceName": "0000000077e03450",
+	"ByteSize": 57600,
+	"Desc": "FRDGTextureDesc",
+	"Type": "Texture2D",
+	"Format": "PF_FloatRGB",
+	"ExtentX": 160,
+	"ExtentY": 90,
+	"Depth": 1,
+	"ArraySize": 1,
+	"NumMips": 1,
+	"NumSamples": 1,
+	"Flags": [
+		"RenderTargetable",
+		"ShaderResource",
+		"FastVRAM"
+	]
+}{
+	"Name": "BloomX",
+	"UniqueResourceName": "0000000077e04f20",
+	"ByteSize": 230400,
+	"Desc": "FRDGTextureDesc",
+	"Type": "Texture2D",
+	"Format": "PF_FloatRGB",
+	"ExtentX": 320,
+	"ExtentY": 180,
+	"Depth": 1,
+	"ArraySize": 1,
+	"NumMips": 1,
+	"NumSamples": 1,
+	"Flags": [
+		"RenderTargetable",
+		"ShaderResource",
+		"FastVRAM"
+	]
+}{
+	"Name": "BloomY",
+	"UniqueResourceName": "0000000077e069f0",
+	"ByteSize": 230400,
+	"Desc": "FRDGTextureDesc",
+	"Type": "Texture2D",
+	"Format": "PF_FloatRGB",
+	"ExtentX": 320,
+	"ExtentY": 180,
+	"Depth": 1,
+	"ArraySize": 1,
+	"NumMips": 1,
+	"NumSamples": 1,
+	"Flags": [
+		"RenderTargetable",
+		"ShaderResource",
+		"FastVRAM"
+	]
+}{
+	"Name": "BloomX",
+	"UniqueResourceName": "0000000077e084c0",
+	"ByteSize": 921600,
+	"Desc": "FRDGTextureDesc",
+	"Type": "Texture2D",
+	"Format": "PF_FloatRGB",
+	"ExtentX": 640,
+	"ExtentY": 360,
+	"Depth": 1,
+	"ArraySize": 1,
+	"NumMips": 1,
+	"NumSamples": 1,
+	"Flags": [
+		"RenderTargetable",
+		"ShaderResource",
+		"FastVRAM"
+	]
+}{
+	"Name": "BloomY",
+	"UniqueResourceName": "0000000077e09f90",
+	"ByteSize": 921600,
+	"Desc": "FRDGTextureDesc",
+	"Type": "Texture2D",
+	"Format": "PF_FloatRGB",
+	"ExtentX": 640,
+	"ExtentY": 360,
+	"Depth": 1,
+	"ArraySize": 1,
+	"NumMips": 1,
+	"NumSamples": 1,
+	"Flags": [
+		"RenderTargetable",
+		"ShaderResource",
+		"FastVRAM"
+	]
+}{
+	"Name": "CombineLUTs",
+	"UniqueResourceName": "0000000077e0ba60",
+	"ByteSize": 131072,
+	"Desc": "FRDGTextureDesc",
+	"Type": "Texture3D",
+	"Format": "PF_A2B10G10R10",
+	"ExtentX": 32,
+	"ExtentY": 32,
+	"Depth": 32,
+	"ArraySize": 1,
+	"NumMips": 1,
+	"NumSamples": 1,
+	"Flags": [
+		"RenderTargetable",
+		"ShaderResource"
+	]
+}{
+	"Name": "DefaultStructuredBuffer",
+	"UniqueResourceName": "0000000077e0c5b0",
+	"ByteSize": 16,
+	"Desc": "FRDGBufferDesc",
+	"BytesPerElement": 16,
+	"NumElements": 1,
+	"Metadata": "0000000000000000",
+	"Usage": [
+		"Static",
+		"ShaderResource"
+	]
+}{
+	"Name": "ViewFamilyTexture",
+	"UniqueResourceName": "00000000ee9bf720",
+	"ByteSize": 3686400,
+	"Desc": "FRDGTextureDesc",
+	"Type": "Texture2D",
+	"Format": "PF_A2B10G10R10",
+	"ExtentX": 1280,
+	"ExtentY": 720,
+	"Depth": 1,
+	"ArraySize": 1,
+	"NumMips": 1,
+	"NumSamples": 1,
+	"Flags": [
+		"RenderTargetable",
+		"ResolveTargetable",
+		"Presentable"
+	]
+}{
+	"Name": "RenderTarget",
+	"UniqueResourceName": "00000000ee990010",
+	"ByteSize": 3686400,
+	"Desc": "FRDGTextureDesc",
+	"Type": "Texture2D",
+	"Format": "PF_A2B10G10R10",
+	"ExtentX": 1280,
+	"ExtentY": 720,
+	"Depth": 1,
+	"ArraySize": 1,
+	"NumMips": 1,
+	"NumSamples": 1,
+	"Flags": [
+		"RenderTargetable",
+		"ResolveTargetable",
+		"Presentable"
+	]
+}

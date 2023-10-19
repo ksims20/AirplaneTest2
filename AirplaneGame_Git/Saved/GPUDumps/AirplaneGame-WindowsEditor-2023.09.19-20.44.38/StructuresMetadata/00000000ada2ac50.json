@@ -1,0 +1,33 @@
+{
+	"StructTypeName": "FDistortionPassUniformParameters",
+	"ShaderVariableName": "DistortionPass",
+	"FileName": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Runtime\\Renderer\\Private\\DistortionRendering.cpp",
+	"FileLine": 61,
+	"Size": 128,
+	"Members": [
+		{
+			"Name": "SceneTextures",
+			"ShaderType": "FSceneTextureUniformParameters",
+			"FileLine": 62,
+			"Offset": 0,
+			"BaseType": "UBMT_NESTED_STRUCT",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "00000000bc6a6570"
+		},
+		{
+			"Name": "DistortionParams",
+			"ShaderType": "",
+			"FileLine": 63,
+			"Offset": 112,
+			"BaseType": "UBMT_FLOAT32",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 4,
+			"NumElements": 0,
+			"StructMetadata": "0000000000000000"
+		}
+	]
+}

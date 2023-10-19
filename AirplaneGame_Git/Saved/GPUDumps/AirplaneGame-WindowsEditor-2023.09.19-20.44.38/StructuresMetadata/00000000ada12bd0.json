@@ -1,0 +1,33 @@
+{
+	"StructTypeName": "FSceneTextureShaderParameters",
+	"ShaderVariableName": "",
+	"FileName": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Runtime\\Engine\\Public\\SceneTexturesConfig.h",
+	"FileLine": 61,
+	"Size": 32,
+	"Members": [
+		{
+			"Name": "SceneTextures",
+			"ShaderType": "FSceneTextureUniformParameters",
+			"FileLine": 62,
+			"Offset": 0,
+			"BaseType": "UBMT_RDG_UNIFORM_BUFFER",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "00000000bc6a6570"
+		},
+		{
+			"Name": "MobileSceneTextures",
+			"ShaderType": "FMobileSceneTextureUniformParameters",
+			"FileLine": 63,
+			"Offset": 16,
+			"BaseType": "UBMT_RDG_UNIFORM_BUFFER",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "00000000bc6a6600"
+		}
+	]
+}

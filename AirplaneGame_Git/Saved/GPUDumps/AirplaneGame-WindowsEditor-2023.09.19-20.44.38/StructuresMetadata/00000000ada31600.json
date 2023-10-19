@@ -1,0 +1,93 @@
+{
+	"StructTypeName": "FGPUSceneWriterParameters",
+	"ShaderVariableName": "",
+	"FileName": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Runtime\\Engine\\Public\\GPUSceneWriter.h",
+	"FileLine": 12,
+	"Size": 48,
+	"Members": [
+		{
+			"Name": "GPUSceneInstanceSceneDataRW",
+			"ShaderType": "RWStructuredBuffer<float4>",
+			"FileLine": 13,
+			"Offset": 0,
+			"BaseType": "UBMT_RDG_BUFFER_UAV",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "0000000000000000"
+		},
+		{
+			"Name": "GPUSceneInstancePayloadDataRW",
+			"ShaderType": "RWStructuredBuffer<float4>",
+			"FileLine": 14,
+			"Offset": 8,
+			"BaseType": "UBMT_RDG_BUFFER_UAV",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "0000000000000000"
+		},
+		{
+			"Name": "GPUScenePrimitiveSceneDataRW",
+			"ShaderType": "RWStructuredBuffer<float4>",
+			"FileLine": 15,
+			"Offset": 16,
+			"BaseType": "UBMT_RDG_BUFFER_UAV",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "0000000000000000"
+		},
+		{
+			"Name": "GPUSceneInstanceSceneDataSOAStride",
+			"ShaderType": "",
+			"FileLine": 16,
+			"Offset": 24,
+			"BaseType": "UBMT_UINT32",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "0000000000000000"
+		},
+		{
+			"Name": "GPUSceneFrameNumber",
+			"ShaderType": "",
+			"FileLine": 17,
+			"Offset": 28,
+			"BaseType": "UBMT_UINT32",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "0000000000000000"
+		},
+		{
+			"Name": "GPUSceneNumAllocatedInstances",
+			"ShaderType": "",
+			"FileLine": 18,
+			"Offset": 32,
+			"BaseType": "UBMT_UINT32",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "0000000000000000"
+		},
+		{
+			"Name": "GPUSceneNumAllocatedPrimitives",
+			"ShaderType": "",
+			"FileLine": 19,
+			"Offset": 36,
+			"BaseType": "UBMT_UINT32",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "0000000000000000"
+		}
+	]
+}

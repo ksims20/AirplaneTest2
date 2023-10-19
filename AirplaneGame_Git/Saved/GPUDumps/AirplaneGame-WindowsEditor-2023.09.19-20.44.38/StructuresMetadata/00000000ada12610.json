@@ -1,0 +1,129 @@
+{
+	"StructTypeName": "FLumenTranslucencyLightingParameters",
+	"ShaderVariableName": "",
+	"FileName": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Runtime\\Renderer\\Private\\Lumen\\LumenTranslucencyVolumeLighting.h",
+	"FileLine": 32,
+	"Size": 560,
+	"Members": [
+		{
+			"Name": "RadianceCacheInterpolationParameters",
+			"ShaderType": "LumenRadianceCache::FRadianceCacheInterpolationParameters",
+			"FileLine": 33,
+			"Offset": 0,
+			"BaseType": "UBMT_INCLUDED_STRUCT",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "00000000ada123e0"
+		},
+		{
+			"Name": "FrontLayerTranslucencyReflectionParameters",
+			"ShaderType": "FLumenFrontLayerTranslucencyReflectionParameters",
+			"FileLine": 34,
+			"Offset": 448,
+			"BaseType": "UBMT_INCLUDED_STRUCT",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "00000000ada12570"
+		},
+		{
+			"Name": "TranslucencyGIVolume0",
+			"ShaderType": "Texture3D",
+			"FileLine": 35,
+			"Offset": 480,
+			"BaseType": "UBMT_RDG_TEXTURE",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "0000000000000000"
+		},
+		{
+			"Name": "TranslucencyGIVolume1",
+			"ShaderType": "Texture3D",
+			"FileLine": 36,
+			"Offset": 488,
+			"BaseType": "UBMT_RDG_TEXTURE",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "0000000000000000"
+		},
+		{
+			"Name": "TranslucencyGIVolumeHistory0",
+			"ShaderType": "Texture3D",
+			"FileLine": 37,
+			"Offset": 496,
+			"BaseType": "UBMT_RDG_TEXTURE",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "0000000000000000"
+		},
+		{
+			"Name": "TranslucencyGIVolumeHistory1",
+			"ShaderType": "Texture3D",
+			"FileLine": 38,
+			"Offset": 504,
+			"BaseType": "UBMT_RDG_TEXTURE",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "0000000000000000"
+		},
+		{
+			"Name": "TranslucencyGIVolumeSampler",
+			"ShaderType": "SamplerState",
+			"FileLine": 39,
+			"Offset": 512,
+			"BaseType": "UBMT_SAMPLER",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "0000000000000000"
+		},
+		{
+			"Name": "TranslucencyGIGridZParams",
+			"ShaderType": "",
+			"FileLine": 40,
+			"Offset": 528,
+			"BaseType": "UBMT_FLOAT32",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 3,
+			"NumElements": 0,
+			"StructMetadata": "0000000000000000"
+		},
+		{
+			"Name": "TranslucencyGIGridPixelSizeShift",
+			"ShaderType": "",
+			"FileLine": 41,
+			"Offset": 540,
+			"BaseType": "UBMT_UINT32",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "0000000000000000"
+		},
+		{
+			"Name": "TranslucencyGIGridSize",
+			"ShaderType": "",
+			"FileLine": 42,
+			"Offset": 544,
+			"BaseType": "UBMT_INT32",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 3,
+			"NumElements": 0,
+			"StructMetadata": "0000000000000000"
+		}
+	]
+}

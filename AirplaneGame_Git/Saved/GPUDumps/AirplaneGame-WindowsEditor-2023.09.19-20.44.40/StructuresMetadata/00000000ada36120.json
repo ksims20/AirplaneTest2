@@ -1,0 +1,33 @@
+{
+	"StructTypeName": "FParameters",
+	"ShaderVariableName": "",
+	"FileName": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Runtime\\Renderer\\Private\\GPUScene.cpp",
+	"FileLine": 2004,
+	"Size": 80,
+	"Members": [
+		{
+			"Name": "BatcherParameters",
+			"ShaderType": "FGPUScene::FInstanceGPULoadBalancer::FShaderParameters",
+			"FileLine": 2005,
+			"Offset": 0,
+			"BaseType": "UBMT_INCLUDED_STRUCT",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "00000000ada35db0"
+		},
+		{
+			"Name": "GPUSceneWriterParameters",
+			"ShaderType": "FGPUSceneWriterParameters",
+			"FileLine": 2006,
+			"Offset": 32,
+			"BaseType": "UBMT_INCLUDED_STRUCT",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "00000000ada31600"
+		}
+	]
+}

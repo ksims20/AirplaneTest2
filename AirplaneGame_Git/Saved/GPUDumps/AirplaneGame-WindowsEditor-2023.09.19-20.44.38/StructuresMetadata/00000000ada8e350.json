@@ -1,0 +1,21 @@
+{
+	"StructTypeName": "FColorRemapParameters",
+	"ShaderVariableName": "",
+	"FileName": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Runtime\\Renderer\\Private\\PostProcess\\PostProcessCombineLUTs.h",
+	"FileLine": 7,
+	"Size": 16,
+	"Members": [
+		{
+			"Name": "MappingPolynomial",
+			"ShaderType": "",
+			"FileLine": 8,
+			"Offset": 0,
+			"BaseType": "UBMT_FLOAT32",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 3,
+			"NumElements": 0,
+			"StructMetadata": "0000000000000000"
+		}
+	]
+}

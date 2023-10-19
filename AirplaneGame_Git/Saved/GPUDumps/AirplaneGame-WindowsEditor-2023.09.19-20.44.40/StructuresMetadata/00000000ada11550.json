@@ -1,0 +1,93 @@
+{
+	"StructTypeName": "FStrataBasePassUniformParameters",
+	"ShaderVariableName": "",
+	"FileName": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Runtime\\Renderer\\Private\\Strata\\Strata.h",
+	"FileLine": 21,
+	"Size": 48,
+	"Members": [
+		{
+			"Name": "MaxBytesPerPixel",
+			"ShaderType": "",
+			"FileLine": 22,
+			"Offset": 0,
+			"BaseType": "UBMT_UINT32",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "0000000000000000"
+		},
+		{
+			"Name": "bRoughDiffuse",
+			"ShaderType": "",
+			"FileLine": 23,
+			"Offset": 4,
+			"BaseType": "UBMT_UINT32",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "0000000000000000"
+		},
+		{
+			"Name": "PeelLayersAboveDepth",
+			"ShaderType": "",
+			"FileLine": 24,
+			"Offset": 8,
+			"BaseType": "UBMT_UINT32",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "0000000000000000"
+		},
+		{
+			"Name": "SliceStoringDebugStrataTree",
+			"ShaderType": "",
+			"FileLine": 25,
+			"Offset": 12,
+			"BaseType": "UBMT_INT32",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "0000000000000000"
+		},
+		{
+			"Name": "FirstSliceStoringStrataSSSDataWithoutMRT",
+			"ShaderType": "",
+			"FileLine": 26,
+			"Offset": 16,
+			"BaseType": "UBMT_INT32",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "0000000000000000"
+		},
+		{
+			"Name": "MaterialTextureArrayUAVWithoutRTs",
+			"ShaderType": "RWTexture2DArray<uint>",
+			"FileLine": 27,
+			"Offset": 24,
+			"BaseType": "UBMT_RDG_TEXTURE_UAV",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "0000000000000000"
+		},
+		{
+			"Name": "OpaqueRoughRefractionTextureUAV",
+			"ShaderType": "RWTexture2D<float3>",
+			"FileLine": 28,
+			"Offset": 32,
+			"BaseType": "UBMT_RDG_TEXTURE_UAV",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "0000000000000000"
+		}
+	]
+}

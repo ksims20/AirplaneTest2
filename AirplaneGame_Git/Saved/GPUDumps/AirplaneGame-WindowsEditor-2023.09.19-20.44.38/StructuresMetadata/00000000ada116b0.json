@@ -1,0 +1,93 @@
+{
+	"StructTypeName": "FDBufferParameters",
+	"ShaderVariableName": "",
+	"FileName": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Runtime\\Renderer\\Private\\DBufferTextures.h",
+	"FileLine": 44,
+	"Size": 64,
+	"Members": [
+		{
+			"Name": "DBufferATexture",
+			"ShaderType": "Texture2D",
+			"FileLine": 45,
+			"Offset": 0,
+			"BaseType": "UBMT_RDG_TEXTURE",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "0000000000000000"
+		},
+		{
+			"Name": "DBufferBTexture",
+			"ShaderType": "Texture2D",
+			"FileLine": 46,
+			"Offset": 8,
+			"BaseType": "UBMT_RDG_TEXTURE",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "0000000000000000"
+		},
+		{
+			"Name": "DBufferCTexture",
+			"ShaderType": "Texture2D",
+			"FileLine": 47,
+			"Offset": 16,
+			"BaseType": "UBMT_RDG_TEXTURE",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "0000000000000000"
+		},
+		{
+			"Name": "DBufferRenderMask",
+			"ShaderType": "Texture2D<uint>",
+			"FileLine": 48,
+			"Offset": 24,
+			"BaseType": "UBMT_RDG_TEXTURE",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "0000000000000000"
+		},
+		{
+			"Name": "DBufferATextureSampler",
+			"ShaderType": "SamplerState",
+			"FileLine": 49,
+			"Offset": 32,
+			"BaseType": "UBMT_SAMPLER",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "0000000000000000"
+		},
+		{
+			"Name": "DBufferBTextureSampler",
+			"ShaderType": "SamplerState",
+			"FileLine": 50,
+			"Offset": 40,
+			"BaseType": "UBMT_SAMPLER",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "0000000000000000"
+		},
+		{
+			"Name": "DBufferCTextureSampler",
+			"ShaderType": "SamplerState",
+			"FileLine": 51,
+			"Offset": 48,
+			"BaseType": "UBMT_SAMPLER",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "0000000000000000"
+		}
+	]
+}

@@ -1,0 +1,45 @@
+{
+	"StructTypeName": "FParameters",
+	"ShaderVariableName": "",
+	"FileName": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Runtime\\Renderer\\Private\\PostProcess\\PostProcessEyeAdaptation.cpp",
+	"FileLine": 471,
+	"Size": 144,
+	"Members": [
+		{
+			"Name": "EyeAdaptation",
+			"ShaderType": "FEyeAdaptationParameters",
+			"FileLine": 472,
+			"Offset": 0,
+			"BaseType": "UBMT_NESTED_STRUCT",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "00000000ada8df70"
+		},
+		{
+			"Name": "HistogramTexture",
+			"ShaderType": "Texture2D",
+			"FileLine": 473,
+			"Offset": 128,
+			"BaseType": "UBMT_RDG_TEXTURE",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "0000000000000000"
+		},
+		{
+			"Name": "RWEyeAdaptationTexture",
+			"ShaderType": "RWTexture2D<float4>",
+			"FileLine": 474,
+			"Offset": 136,
+			"BaseType": "UBMT_RDG_TEXTURE_UAV",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "0000000000000000"
+		}
+	]
+}

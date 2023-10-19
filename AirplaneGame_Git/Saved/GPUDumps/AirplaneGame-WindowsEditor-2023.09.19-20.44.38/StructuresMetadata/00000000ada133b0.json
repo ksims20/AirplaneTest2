@@ -1,0 +1,93 @@
+{
+	"StructTypeName": "FSharedBasePassUniformParameters",
+	"ShaderVariableName": "BasePass",
+	"FileName": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Runtime\\Renderer\\Private\\BasePassRendering.h",
+	"FileLine": 67,
+	"Size": 2160,
+	"Members": [
+		{
+			"Name": "Forward",
+			"ShaderType": "FForwardLightData",
+			"FileLine": 68,
+			"Offset": 0,
+			"BaseType": "UBMT_NESTED_STRUCT",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "00000000ada49ba0"
+		},
+		{
+			"Name": "ForwardISR",
+			"ShaderType": "FForwardLightData",
+			"FileLine": 69,
+			"Offset": 672,
+			"BaseType": "UBMT_NESTED_STRUCT",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "00000000ada49ba0"
+		},
+		{
+			"Name": "Reflection",
+			"ShaderType": "FReflectionUniformParameters",
+			"FileLine": 70,
+			"Offset": 1344,
+			"BaseType": "UBMT_NESTED_STRUCT",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "00000000ada45c60"
+		},
+		{
+			"Name": "PlanarReflection",
+			"ShaderType": "FPlanarReflectionUniformParameters",
+			"FileLine": 71,
+			"Offset": 1424,
+			"BaseType": "UBMT_NESTED_STRUCT",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "00000000ada84360"
+		},
+		{
+			"Name": "Fog",
+			"ShaderType": "FFogUniformParameters",
+			"FileLine": 72,
+			"Offset": 1760,
+			"BaseType": "UBMT_NESTED_STRUCT",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "00000000ada2b5f0"
+		},
+		{
+			"Name": "FogISR",
+			"ShaderType": "FFogUniformParameters",
+			"FileLine": 73,
+			"Offset": 1952,
+			"BaseType": "UBMT_NESTED_STRUCT",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "00000000ada2b5f0"
+		},
+		{
+			"Name": "UseBasePassSkylight",
+			"ShaderType": "",
+			"FileLine": 74,
+			"Offset": 2144,
+			"BaseType": "UBMT_UINT32",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "0000000000000000"
+		}
+	]
+}

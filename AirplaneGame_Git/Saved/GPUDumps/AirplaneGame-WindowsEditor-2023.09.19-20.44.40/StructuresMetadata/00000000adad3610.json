@@ -1,0 +1,21 @@
+{
+	"StructTypeName": "FVolumetricCloudCommonGlobalShaderParameters",
+	"ShaderVariableName": "VolumetricCloudCommonParameters",
+	"FileName": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Runtime\\Renderer\\Private\\VolumetricCloudRendering.h",
+	"FileLine": 65,
+	"Size": 864,
+	"Members": [
+		{
+			"Name": "VolumetricCloudCommonParams",
+			"ShaderType": "FVolumetricCloudCommonShaderParameters",
+			"FileLine": 66,
+			"Offset": 0,
+			"BaseType": "UBMT_INCLUDED_STRUCT",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "00000000adad2870"
+		}
+	]
+}

@@ -1,0 +1,81 @@
+{
+	"StructTypeName": "FMobileReflectionCaptureShaderData",
+	"ShaderVariableName": "ReflectionCaptureES31",
+	"FileName": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Runtime\\Renderer\\Private\\SceneRendering.h",
+	"FileLine": 852,
+	"Size": 14400,
+	"Members": [
+		{
+			"Name": "PositionAndRadius",
+			"ShaderType": "",
+			"FileLine": 853,
+			"Offset": 0,
+			"BaseType": "UBMT_FLOAT32",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 4,
+			"NumElements": 100,
+			"StructMetadata": "0000000000000000"
+		},
+		{
+			"Name": "TilePosition",
+			"ShaderType": "",
+			"FileLine": 855,
+			"Offset": 1600,
+			"BaseType": "UBMT_FLOAT32",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 4,
+			"NumElements": 100,
+			"StructMetadata": "0000000000000000"
+		},
+		{
+			"Name": "CaptureProperties",
+			"ShaderType": "",
+			"FileLine": 857,
+			"Offset": 3200,
+			"BaseType": "UBMT_FLOAT32",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 4,
+			"NumElements": 100,
+			"StructMetadata": "0000000000000000"
+		},
+		{
+			"Name": "CaptureOffsetAndAverageBrightness",
+			"ShaderType": "",
+			"FileLine": 858,
+			"Offset": 4800,
+			"BaseType": "UBMT_FLOAT32",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 4,
+			"NumElements": 100,
+			"StructMetadata": "0000000000000000"
+		},
+		{
+			"Name": "BoxTransform",
+			"ShaderType": "",
+			"FileLine": 860,
+			"Offset": 6400,
+			"BaseType": "UBMT_FLOAT32",
+			"Precision": 0,
+			"NumRows": 4,
+			"NumColumns": 4,
+			"NumElements": 100,
+			"StructMetadata": "0000000000000000"
+		},
+		{
+			"Name": "BoxScales",
+			"ShaderType": "",
+			"FileLine": 861,
+			"Offset": 12800,
+			"BaseType": "UBMT_FLOAT32",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 4,
+			"NumElements": 100,
+			"StructMetadata": "0000000000000000"
+		}
+	]
+}

@@ -1,0 +1,69 @@
+{
+	"StructTypeName": "FFilterParameters",
+	"ShaderVariableName": "",
+	"FileName": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Runtime\\Renderer\\Private\\PostProcess\\PostProcessWeightedSampleSum.cpp",
+	"FileLine": 53,
+	"Size": 3344,
+	"Members": [
+		{
+			"Name": "Filter",
+			"ShaderType": "FScreenPassTextureInput",
+			"FileLine": 54,
+			"Offset": 0,
+			"BaseType": "UBMT_NESTED_STRUCT",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "00000000ada8a5e0"
+		},
+		{
+			"Name": "Additive",
+			"ShaderType": "FScreenPassTextureInput",
+			"FileLine": 55,
+			"Offset": 128,
+			"BaseType": "UBMT_NESTED_STRUCT",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "00000000ada8a5e0"
+		},
+		{
+			"Name": "SampleOffsets",
+			"ShaderType": "",
+			"FileLine": 56,
+			"Offset": 256,
+			"BaseType": "UBMT_FLOAT32",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 4,
+			"NumElements": 64,
+			"StructMetadata": "0000000000000000"
+		},
+		{
+			"Name": "SampleWeights",
+			"ShaderType": "",
+			"FileLine": 57,
+			"Offset": 1280,
+			"BaseType": "UBMT_FLOAT32",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 4,
+			"NumElements": 128,
+			"StructMetadata": "0000000000000000"
+		},
+		{
+			"Name": "SampleCount",
+			"ShaderType": "",
+			"FileLine": 58,
+			"Offset": 3328,
+			"BaseType": "UBMT_INT32",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "0000000000000000"
+		}
+	]
+}

@@ -1,0 +1,45 @@
+{
+	"StructTypeName": "FParameters",
+	"ShaderVariableName": "",
+	"FileName": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Runtime\\Renderer\\Private\\SkyAtmosphereRendering.cpp",
+	"FileLine": 759,
+	"Size": 48,
+	"Members": [
+		{
+			"Name": "Atmosphere",
+			"ShaderType": "FAtmosphereUniformShaderParameters",
+			"FileLine": 760,
+			"Offset": 0,
+			"BaseType": "UBMT_REFERENCED_STRUCT",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "00000000adac63e0"
+		},
+		{
+			"Name": "SkyAtmosphere",
+			"ShaderType": "FSkyAtmosphereInternalCommonParameters",
+			"FileLine": 761,
+			"Offset": 16,
+			"BaseType": "UBMT_REFERENCED_STRUCT",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "00000000adac6470"
+		},
+		{
+			"Name": "TransmittanceLutUAV",
+			"ShaderType": "RWTexture2D<float3>",
+			"FileLine": 762,
+			"Offset": 32,
+			"BaseType": "UBMT_RDG_TEXTURE_UAV",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "0000000000000000"
+		}
+	]
+}

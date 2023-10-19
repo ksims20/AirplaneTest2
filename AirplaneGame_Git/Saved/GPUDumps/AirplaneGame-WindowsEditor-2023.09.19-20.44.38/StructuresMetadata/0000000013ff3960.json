@@ -1,0 +1,81 @@
+{
+	"StructTypeName": "FParameters",
+	"ShaderVariableName": "",
+	"FileName": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Runtime\\RenderCore\\Private\\UnifiedBuffer.cpp",
+	"FileLine": 203,
+	"Size": 112,
+	"Members": [
+		{
+			"Name": "Common",
+			"ShaderType": "FRDGByteBufferShader::FParameters",
+			"FileLine": 204,
+			"Offset": 0,
+			"BaseType": "UBMT_INCLUDED_STRUCT",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "0000000013ff3760"
+		},
+		{
+			"Name": "NumScatters",
+			"ShaderType": "",
+			"FileLine": 205,
+			"Offset": 64,
+			"BaseType": "UBMT_UINT32",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "0000000000000000"
+		},
+		{
+			"Name": "UploadByteAddressBuffer",
+			"ShaderType": "ByteAddressBuffer",
+			"FileLine": 206,
+			"Offset": 72,
+			"BaseType": "UBMT_RDG_BUFFER_SRV",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "0000000000000000"
+		},
+		{
+			"Name": "UploadStructuredBuffer",
+			"ShaderType": "StructuredBuffer<float4>",
+			"FileLine": 207,
+			"Offset": 80,
+			"BaseType": "UBMT_RDG_BUFFER_SRV",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "0000000000000000"
+		},
+		{
+			"Name": "ScatterByteAddressBuffer",
+			"ShaderType": "ByteAddressBuffer",
+			"FileLine": 208,
+			"Offset": 88,
+			"BaseType": "UBMT_RDG_BUFFER_SRV",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "0000000000000000"
+		},
+		{
+			"Name": "ScatterStructuredBuffer",
+			"ShaderType": "StructuredBuffer<uint>",
+			"FileLine": 209,
+			"Offset": 96,
+			"BaseType": "UBMT_RDG_BUFFER_SRV",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "0000000000000000"
+		}
+	]
+}

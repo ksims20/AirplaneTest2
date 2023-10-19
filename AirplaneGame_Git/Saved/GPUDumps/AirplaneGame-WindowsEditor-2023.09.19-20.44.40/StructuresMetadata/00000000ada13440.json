@@ -1,0 +1,141 @@
+{
+	"StructTypeName": "FOpaqueBasePassUniformParameters",
+	"ShaderVariableName": "OpaqueBasePass",
+	"FileName": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Runtime\\Renderer\\Private\\BasePassRendering.h",
+	"FileLine": 77,
+	"Size": 2336,
+	"Members": [
+		{
+			"Name": "Shared",
+			"ShaderType": "FSharedBasePassUniformParameters",
+			"FileLine": 78,
+			"Offset": 0,
+			"BaseType": "UBMT_NESTED_STRUCT",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "00000000ada133b0"
+		},
+		{
+			"Name": "Strata",
+			"ShaderType": "FStrataBasePassUniformParameters",
+			"FileLine": 79,
+			"Offset": 2160,
+			"BaseType": "UBMT_NESTED_STRUCT",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "00000000ada11550"
+		},
+		{
+			"Name": "UseForwardScreenSpaceShadowMask",
+			"ShaderType": "",
+			"FileLine": 81,
+			"Offset": 2208,
+			"BaseType": "UBMT_INT32",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "0000000000000000"
+		},
+		{
+			"Name": "ForwardScreenSpaceShadowMaskTexture",
+			"ShaderType": "Texture2D",
+			"FileLine": 82,
+			"Offset": 2216,
+			"BaseType": "UBMT_RDG_TEXTURE",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "0000000000000000"
+		},
+		{
+			"Name": "IndirectOcclusionTexture",
+			"ShaderType": "Texture2D",
+			"FileLine": 83,
+			"Offset": 2224,
+			"BaseType": "UBMT_RDG_TEXTURE",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "0000000000000000"
+		},
+		{
+			"Name": "ResolvedSceneDepthTexture",
+			"ShaderType": "Texture2D",
+			"FileLine": 84,
+			"Offset": 2232,
+			"BaseType": "UBMT_RDG_TEXTURE",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "0000000000000000"
+		},
+		{
+			"Name": "DBuffer",
+			"ShaderType": "FDBufferParameters",
+			"FileLine": 86,
+			"Offset": 2240,
+			"BaseType": "UBMT_INCLUDED_STRUCT",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "00000000ada116b0"
+		},
+		{
+			"Name": "PreIntegratedGFTexture",
+			"ShaderType": "Texture2D",
+			"FileLine": 88,
+			"Offset": 2304,
+			"BaseType": "UBMT_TEXTURE",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "0000000000000000"
+		},
+		{
+			"Name": "PreIntegratedGFSampler",
+			"ShaderType": "SamplerState",
+			"FileLine": 89,
+			"Offset": 2312,
+			"BaseType": "UBMT_SAMPLER",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "0000000000000000"
+		},
+		{
+			"Name": "Is24BitUnormDepthStencil",
+			"ShaderType": "",
+			"FileLine": 90,
+			"Offset": 2320,
+			"BaseType": "UBMT_INT32",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "0000000000000000"
+		},
+		{
+			"Name": "EyeAdaptationTexture",
+			"ShaderType": "Texture2D",
+			"FileLine": 91,
+			"Offset": 2328,
+			"BaseType": "UBMT_RDG_TEXTURE",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "0000000000000000"
+		}
+	]
+}

@@ -1,0 +1,81 @@
+{
+	"StructTypeName": "FWorkingColorSpaceShaderParameters",
+	"ShaderVariableName": "WorkingColorSpace",
+	"FileName": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Runtime\\Engine\\Public\\SceneManagement.h",
+	"FileLine": 324,
+	"Size": 336,
+	"Members": [
+		{
+			"Name": "ToXYZ",
+			"ShaderType": "",
+			"FileLine": 325,
+			"Offset": 0,
+			"BaseType": "UBMT_FLOAT32",
+			"Precision": 0,
+			"NumRows": 4,
+			"NumColumns": 4,
+			"NumElements": 0,
+			"StructMetadata": "0000000000000000"
+		},
+		{
+			"Name": "FromXYZ",
+			"ShaderType": "",
+			"FileLine": 326,
+			"Offset": 64,
+			"BaseType": "UBMT_FLOAT32",
+			"Precision": 0,
+			"NumRows": 4,
+			"NumColumns": 4,
+			"NumElements": 0,
+			"StructMetadata": "0000000000000000"
+		},
+		{
+			"Name": "ToAP1",
+			"ShaderType": "",
+			"FileLine": 327,
+			"Offset": 128,
+			"BaseType": "UBMT_FLOAT32",
+			"Precision": 0,
+			"NumRows": 4,
+			"NumColumns": 4,
+			"NumElements": 0,
+			"StructMetadata": "0000000000000000"
+		},
+		{
+			"Name": "FromAP1",
+			"ShaderType": "",
+			"FileLine": 328,
+			"Offset": 192,
+			"BaseType": "UBMT_FLOAT32",
+			"Precision": 0,
+			"NumRows": 4,
+			"NumColumns": 4,
+			"NumElements": 0,
+			"StructMetadata": "0000000000000000"
+		},
+		{
+			"Name": "ToAP0",
+			"ShaderType": "",
+			"FileLine": 329,
+			"Offset": 256,
+			"BaseType": "UBMT_FLOAT32",
+			"Precision": 0,
+			"NumRows": 4,
+			"NumColumns": 4,
+			"NumElements": 0,
+			"StructMetadata": "0000000000000000"
+		},
+		{
+			"Name": "bIsSRGB",
+			"ShaderType": "",
+			"FileLine": 330,
+			"Offset": 320,
+			"BaseType": "UBMT_UINT32",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "0000000000000000"
+		}
+	]
+}

@@ -1,0 +1,33 @@
+{
+	"StructTypeName": "FViewShaderParameters",
+	"ShaderVariableName": "",
+	"FileName": "D:\\build\\++UE5\\Sync\\Engine\\Source\\Runtime\\Engine\\Public\\SceneView.h",
+	"FileLine": 960,
+	"Size": 32,
+	"Members": [
+		{
+			"Name": "View",
+			"ShaderType": "FViewUniformShaderParameters",
+			"FileLine": 961,
+			"Offset": 0,
+			"BaseType": "UBMT_REFERENCED_STRUCT",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "00000000bc6a67a0"
+		},
+		{
+			"Name": "InstancedView",
+			"ShaderType": "FInstancedViewUniformShaderParameters",
+			"FileLine": 962,
+			"Offset": 16,
+			"BaseType": "UBMT_REFERENCED_STRUCT",
+			"Precision": 0,
+			"NumRows": 1,
+			"NumColumns": 1,
+			"NumElements": 0,
+			"StructMetadata": "00000000bc6a6840"
+		}
+	]
+}
