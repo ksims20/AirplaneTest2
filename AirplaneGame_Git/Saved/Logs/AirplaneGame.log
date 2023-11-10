@@ -2820,3 +2820,123 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.11.10-01.31.42:189][173]AssetCheck: New page: Asset Save: multiple assets
 [2023.11.10-01.31.42:189][173]LogContentValidation: Display: Validating /Script/Engine.World /Game/Demo/MeditateLevel.MeditateLevel
 [2023.11.10-01.31.42:189][173]LogContentValidation: Display: Validating /Script/LevelSequence.LevelSequence /Game/Demo/Bubbles_1_10.Bubbles_1_10
+[2023.11.10-01.48.23:601][788]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2023.11.10-01.48.59:725][ 11]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.10-01.48.59:734][ 11]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.10-01.48.59:734][ 11]PIE: New page: PIE session: MeditateLevel (Nov 9, 2023, 3:48:59 PM)
+[2023.11.10-01.48.59:734][ 11]LogPlayLevel: Creating play world package: /Game/Demo/UEDPIE_0_MeditateLevel
+[2023.11.10-01.48.59:738][ 11]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003855s)
+[2023.11.10-01.48.59:738][ 11]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Demo/MeditateLevel.MeditateLevel to /Game/Demo/UEDPIE_0_MeditateLevel.MeditateLevel (0.003881s)
+[2023.11.10-01.48.59:738][ 11]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.10-01.48.59:738][ 11]LogAIModule: Creating AISystem for world MeditateLevel
+[2023.11.10-01.48.59:738][ 11]LogPlayLevel: PIE: World Init took: (0.000639s)
+[2023.11.10-01.48.59:750][ 11]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2023.11.10-01.48.59:752][ 11]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2023.11.10-01.48.59:752][ 11]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.10-01.48.59:752][ 11]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.10-01.48.59:752][ 11]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.10-01.48.59:752][ 11]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.10-01.48.59:752][ 11]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.10-01.48.59:752][ 11]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.11.10-01.48.59:752][ 11]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.10-01.48.59:752][ 11]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.10-01.48.59:752][ 11]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2023.11.10-01.48.59:752][ 11]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2023.11.10-01.48.59:752][ 11]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.10-01.48.59:754][ 11]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.10-01.48.59:774][ 11]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Blackweb PrtySPKR A014)
+[2023.11.10-01.48.59:774][ 11]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.10-01.48.59:774][ 11]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.10-01.48.59:774][ 11]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.10-01.48.59:775][ 11]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2023.11.10-01.48.59:775][ 11]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2023.11.10-01.48.59:776][ 11]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2023.11.10-01.48.59:776][ 11]LogInit: FAudioDevice initialized.
+[2023.11.10-01.48.59:776][ 11]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2023.11.10-01.48.59:776][ 11]LogAudio: Display: Audio Device (ID: 6) registered with world 'MeditateLevel'.
+[2023.11.10-01.48.59:779][ 11]LogLoad: Game class is 'VRGameMode_C'
+[2023.11.10-01.48.59:781][ 11]LogWorld: Bringing World /Game/Demo/UEDPIE_0_MeditateLevel.MeditateLevel up for play (max tick rate 0) at 2023.11.09-20.48.59
+[2023.11.10-01.48.59:781][ 11]LogWorld: Bringing up level for play took: 0.001732
+[2023.11.10-01.48.59:783][ 11]LogOnline: OSS: Created online subsystem instance for: :Context_11
+[2023.11.10-01.48.59:785][ 11]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2023.11.10-01.48.59:785][ 11]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2023.11.10-01.48.59:786][ 11]PIE: Server logged in
+[2023.11.10-01.48.59:786][ 11]PIE: Play in editor total start time 0.054 seconds.
+[2023.11.10-01.48.59:800][ 11]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2023.11.10-01.49.03:365][431]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.10-01.49.03:365][431]LogWorld: BeginTearingDown for /Game/Demo/UEDPIE_0_MeditateLevel
+[2023.11.10-01.49.03:365][431]LogWorld: UWorld::CleanupWorld for MeditateLevel, bSessionEnded=true, bCleanupResources=true
+[2023.11.10-01.49.03:366][431]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.10-01.49.03:368][431]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.10-01.49.03:371][431]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.10-01.49.03:379][431]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.10-01.49.03:379][431]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2023.11.10-01.49.03:379][431]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2023.11.10-01.49.03:380][431]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2023.11.10-01.49.03:383][431]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.10-01.49.03:384][431]LogSlate: Slate User Unregistered.  User Index 8
+[2023.11.10-01.49.03:384][431]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2023.11.10-01.49.03:385][431]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2023.11.10-01.49.03:428][433]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2023.11.10-01.50.15:472][ 53]Cmd: TRANSACTION UNDO
+[2023.11.10-01.50.15:472][ 53]LogEditorTransaction: Undo Set Key Value
+[2023.11.10-01.51.24:120][207]Cmd: TRANSACTION UNDO
+[2023.11.10-01.51.24:120][207]LogEditorTransaction: Undo Set Key Value
+[2023.11.10-01.51.24:624][217]Cmd: TRANSACTION UNDO
+[2023.11.10-01.51.24:624][217]LogEditorTransaction: Undo Set Key Value
+[2023.11.10-01.51.24:922][242]Cmd: TRANSACTION UNDO
+[2023.11.10-01.51.24:922][242]LogEditorTransaction: Undo Set Key Value
+[2023.11.10-01.51.25:355][292]Cmd: TRANSACTION UNDO
+[2023.11.10-01.51.25:355][292]LogEditorTransaction: Undo Set Key Value
+[2023.11.10-01.51.25:745][337]Cmd: TRANSACTION UNDO
+[2023.11.10-01.51.25:745][337]LogEditorTransaction: Undo Set Key Value
+[2023.11.10-01.51.33:647][270]Cmd: TRANSACTION UNDO
+[2023.11.10-01.51.33:647][270]LogEditorTransaction: Undo Set Key Value
+[2023.11.10-01.51.34:068][278]Cmd: TRANSACTION UNDO
+[2023.11.10-01.51.34:068][278]LogEditorTransaction: Undo Set Key Value
+[2023.11.10-01.51.34:339][298]Cmd: TRANSACTION UNDO
+[2023.11.10-01.51.34:339][298]LogEditorTransaction: Undo Set Key Value
+[2023.11.10-01.51.39:542][916]Cmd: TRANSACTION UNDO
+[2023.11.10-01.51.39:543][916]LogEditorTransaction: Undo Set Key Value
+[2023.11.10-01.52.23:704][138]Cmd: TRANSACTION UNDO
+[2023.11.10-01.52.23:704][138]LogEditorTransaction: Undo Set Key Value
+[2023.11.10-01.52.24:275][149]Cmd: TRANSACTION UNDO
+[2023.11.10-01.52.24:275][149]LogEditorTransaction: Undo Set Key Value
+[2023.11.10-01.52.25:003][234]Cmd: TRANSACTION UNDO
+[2023.11.10-01.52.25:003][234]LogEditorTransaction: Undo Set Key Value
+[2023.11.10-01.52.25:658][311]Cmd: TRANSACTION UNDO
+[2023.11.10-01.52.25:658][311]LogEditorTransaction: Undo Set Key Value
+[2023.11.10-01.53.09:208][506]Cmd: TRANSACTION UNDO
+[2023.11.10-01.53.09:209][506]LogEditorTransaction: Undo Set Key Value
+[2023.11.10-01.53.09:819][522]Cmd: TRANSACTION UNDO
+[2023.11.10-01.53.09:819][522]LogEditorTransaction: Undo Set Key Value
+[2023.11.10-01.53.19:583][687]Cmd: TRANSACTION UNDO
+[2023.11.10-01.53.19:583][687]LogEditorTransaction: Undo Set Key Value
+[2023.11.10-01.53.20:053][696]Cmd: TRANSACTION UNDO
+[2023.11.10-01.53.20:053][696]LogEditorTransaction: Undo Set Key Value
+[2023.11.10-01.53.21:762][891]Cmd: TRANSACTION UNDO
+[2023.11.10-01.53.21:762][891]LogEditorTransaction: Undo Set Key Value
+[2023.11.10-01.54.13:033][999]Cmd: TRANSACTION UNDO
+[2023.11.10-01.54.13:033][999]LogEditorTransaction: Undo Set Key Value
+[2023.11.10-01.54.13:580][ 10]Cmd: TRANSACTION UNDO
+[2023.11.10-01.54.13:580][ 10]LogEditorTransaction: Undo Set Key Value
+[2023.11.10-01.55.51:047][631]Cmd: TRANSACTION UNDO
+[2023.11.10-01.55.51:047][631]LogEditorTransaction: Undo Set Key Value
+[2023.11.10-01.56.43:352][783]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2023.11.10-01.56.43:354][783]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.10-01.56.43:411][783]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2023.11.10-01.56.43:424][783]LogSavePackage: Moving output files for package: /Game/Demo/MeditateLevel
+[2023.11.10-01.56.43:425][783]LogSavePackage: Moving '../../../../../../Users/dbcot/OneDrive/Documents/AirplaneTest2/AirplaneTest2/AirplaneGame_Git/Saved/MeditateLevel6D4A913D4B371406A238B6B22BE5AC99.tmp' to '../../../../../../Users/dbcot/OneDrive/Documents/AirplaneTest2/AirplaneTest2/AirplaneGame_Git/Content/Demo/MeditateLevel.umap'
+[2023.11.10-01.56.43:435][783]LogFileHelpers: Saving map 'MeditateLevel' took 0.033
+[2023.11.10-01.56.43:435][783]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Demo/Bubbles_1_10" FILE="../../../../../../Users/dbcot/OneDrive/Documents/AirplaneTest2/AirplaneTest2/AirplaneGame_Git/Content/Demo/Bubbles_1_10.uasset" SILENT=true
+[2023.11.10-01.56.43:438][783]LogSavePackage: Moving output files for package: /Game/Demo/Bubbles_1_10
+[2023.11.10-01.56.43:438][783]LogSavePackage: Moving '../../../../../../Users/dbcot/OneDrive/Documents/AirplaneTest2/AirplaneTest2/AirplaneGame_Git/Saved/Bubbles_1_106C1E982E4ABDBF21E5EFA68716E10269.tmp' to '../../../../../../Users/dbcot/OneDrive/Documents/AirplaneTest2/AirplaneTest2/AirplaneGame_Git/Content/Demo/Bubbles_1_10.uasset'
+[2023.11.10-01.56.43:443][783]LogFileHelpers: InternalPromptForCheckoutAndSave took 89 ms (total: 166 ms)
+[2023.11.10-01.56.43:450][783]AssetCheck: New page: Asset Save: multiple assets
+[2023.11.10-01.56.43:450][783]LogContentValidation: Display: Validating /Script/Engine.World /Game/Demo/MeditateLevel.MeditateLevel
+[2023.11.10-01.56.43:450][783]LogContentValidation: Display: Validating /Script/LevelSequence.LevelSequence /Game/Demo/Bubbles_1_10.Bubbles_1_10
+[2023.11.10-01.56.53:702][ 62]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=DELL S2722DGM (NVIDIA High Definition Audio), InstanceID=1
+[2023.11.10-01.56.53:953][ 62]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=12748
+[2023.11.10-01.56.54:288][ 63]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{463279c3-76f3-4d18-8a5c-bdb700b6622b}, Name=DELL S2722DGM (NVIDIA High Definition Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=58.93
+[2023.11.10-01.56.54:288][ 63]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.11.10-01.56.54:288][ 63]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
