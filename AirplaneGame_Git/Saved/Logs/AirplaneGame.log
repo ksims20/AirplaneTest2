@@ -2666,3 +2666,734 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.11.21-01.50.09:060][650]LogViewport: Scene viewport resized to 1749x1220, mode Windowed.
 [2023.11.21-01.50.09:111][650]LogViewport: Scene viewport resized to 1746x1221, mode Windowed.
 [2023.11.21-01.50.09:161][650]LogViewport: Scene viewport resized to 1745x1221, mode Windowed.
+[2023.11.21-01.52.25:852][459]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2023.11.21-02.07.09:091][393]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=DELL S2722DGM (NVIDIA High Definition Audio), InstanceID=1
+[2023.11.21-02.07.09:104][394]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=3100
+[2023.11.21-02.07.09:112][395]LogAudioMixer: Error: XAudio2System->CreateMasteringVoice() -> 0x88890008: AUDCLNT_E_UNSUPPORTED_FORMAT (line: 345) with Args (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{201d1cb2-1cbd-4dea-a0a2-314fa126a05b} Name=DELL S2722DGM (NVIDIA High Definition Audio))
+[2023.11.21-02.07.09:129][397]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2023.11.21-02.13.16:177][ 20]LogAudioMixer: Warning: FMixerNullCallback: Large time delta between simulated audio clock and realtime [-350411ms], ThreadID=3100
+[2023.11.21-02.13.16:177][ 20]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.11.21-02.13.17:032][ 22]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=System Default, InstanceID=1
+[2023.11.21-02.13.17:075][ 22]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=DELL S2722DGM (NVIDIA High Definition Audio), InstanceID=1
+[2023.11.21-02.13.18:123][ 25]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{463279c3-76f3-4d18-8a5c-bdb700b6622b}, Name=DELL S2722DGM (NVIDIA High Definition Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=775.88
+[2023.11.21-02.13.18:123][ 25]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.11.21-02.13.18:124][ 25]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.11.21-02.18.26:658][832]LogViewport: Scene viewport resized to 1745x1222, mode Windowed.
+[2023.11.21-02.18.26:708][832]LogViewport: Scene viewport resized to 1753x1227, mode Windowed.
+[2023.11.21-02.18.26:758][832]LogViewport: Scene viewport resized to 1788x1239, mode Windowed.
+[2023.11.21-02.18.26:809][832]LogViewport: Scene viewport resized to 1882x1247, mode Windowed.
+[2023.11.21-02.18.26:858][832]LogViewport: Scene viewport resized to 1999x1247, mode Windowed.
+[2023.11.21-02.18.26:910][832]LogViewport: Scene viewport resized to 2068x1246, mode Windowed.
+[2023.11.21-02.18.26:959][832]LogViewport: Scene viewport resized to 2068x1238, mode Windowed.
+[2023.11.21-02.18.27:009][832]LogViewport: Scene viewport resized to 2068x1237, mode Windowed.
+[2023.11.21-02.18.27:492][832]LogViewport: Scene viewport resized to 1882x1248, mode Windowed.
+[2023.11.21-02.18.31:129][246]LogViewport: Scene viewport resized to 1883x1248, mode Windowed.
+[2023.11.21-02.18.31:178][246]LogViewport: Scene viewport resized to 1892x1248, mode Windowed.
+[2023.11.21-02.18.31:228][246]LogViewport: Scene viewport resized to 1919x1248, mode Windowed.
+[2023.11.21-02.18.31:279][246]LogViewport: Scene viewport resized to 1977x1248, mode Windowed.
+[2023.11.21-02.18.31:330][246]LogViewport: Scene viewport resized to 2034x1251, mode Windowed.
+[2023.11.21-02.18.31:379][246]LogViewport: Scene viewport resized to 2067x1248, mode Windowed.
+[2023.11.21-02.18.31:429][246]LogViewport: Scene viewport resized to 2067x1247, mode Windowed.
+[2023.11.21-02.18.31:478][246]LogViewport: Scene viewport resized to 2067x1246, mode Windowed.
+[2023.11.21-02.18.38:217][  2]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.21-02.18.38:225][  2]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.21-02.18.38:225][  2]PIE: New page: PIE session: MeditateLevel (Nov 20, 2023, 4:18:38 PM)
+[2023.11.21-02.18.38:226][  2]LogPlayLevel: Creating play world package: /Game/Demo/UEDPIE_0_MeditateLevel
+[2023.11.21-02.18.38:229][  2]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003689s)
+[2023.11.21-02.18.38:229][  2]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Demo/MeditateLevel.MeditateLevel to /Game/Demo/UEDPIE_0_MeditateLevel.MeditateLevel (0.003718s)
+[2023.11.21-02.18.38:229][  2]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.21-02.18.38:230][  2]LogAIModule: Creating AISystem for world MeditateLevel
+[2023.11.21-02.18.38:230][  2]LogPlayLevel: PIE: World Init took: (0.000664s)
+[2023.11.21-02.18.38:238][  2]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2023.11.21-02.18.38:239][  2]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2023.11.21-02.18.38:239][  2]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.21-02.18.38:239][  2]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.21-02.18.38:239][  2]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.21-02.18.38:239][  2]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.21-02.18.38:239][  2]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.21-02.18.38:239][  2]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.11.21-02.18.38:239][  2]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.21-02.18.38:239][  2]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.21-02.18.38:239][  2]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2023.11.21-02.18.38:239][  2]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2023.11.21-02.18.38:239][  2]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.21-02.18.38:242][  2]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.21-02.18.38:263][  2]LogAudioMixer: Display: Using Audio Hardware Device DELL S2722DGM (NVIDIA High Definition Audio)
+[2023.11.21-02.18.38:263][  2]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.21-02.18.38:263][  2]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.21-02.18.38:263][  2]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.21-02.18.38:264][  2]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2023.11.21-02.18.38:264][  2]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2023.11.21-02.18.38:266][  2]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2023.11.21-02.18.38:266][  2]LogInit: FAudioDevice initialized.
+[2023.11.21-02.18.38:266][  2]LogAudio: Display: Audio Device (ID: 12) registered with world 'MeditateLevel'.
+[2023.11.21-02.18.38:266][  2]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2023.11.21-02.18.38:268][  2]LogLoad: Game class is 'VRGameMode_C'
+[2023.11.21-02.18.38:270][  2]LogWorld: Bringing World /Game/Demo/UEDPIE_0_MeditateLevel.MeditateLevel up for play (max tick rate 0) at 2023.11.20-21.18.38
+[2023.11.21-02.18.38:270][  2]LogWorld: Bringing up level for play took: 0.001537
+[2023.11.21-02.18.38:271][  2]LogOnline: OSS: Created online subsystem instance for: :Context_13
+[2023.11.21-02.18.38:272][  2]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2023.11.21-02.18.38:273][  2]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2023.11.21-02.18.38:274][  2]PIE: Server logged in
+[2023.11.21-02.18.38:275][  2]PIE: Play in editor total start time 0.05 seconds.
+[2023.11.21-02.18.38:290][  2]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2023.11.21-02.18.39:762][174]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.21-02.18.39:762][174]LogWorld: BeginTearingDown for /Game/Demo/UEDPIE_0_MeditateLevel
+[2023.11.21-02.18.39:762][174]LogWorld: UWorld::CleanupWorld for MeditateLevel, bSessionEnded=true, bCleanupResources=true
+[2023.11.21-02.18.39:763][174]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.21-02.18.39:765][174]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.21-02.18.39:768][174]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.21-02.18.39:774][174]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.21-02.18.39:775][174]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2023.11.21-02.18.39:775][174]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2023.11.21-02.18.39:776][174]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2023.11.21-02.18.39:781][174]LogSlate: Slate User Unregistered.  User Index 8
+[2023.11.21-02.18.39:781][174]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2023.11.21-02.18.39:782][174]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2023.11.21-02.18.39:840][177]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2023.11.21-02.22.04:162][151]LogDerivedDataCache: C:/Users/dbcot/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:08.150 and deleted 0 files with total size 0 MiB. Scanned 4593 files in 4559 folders with total size 935 MiB.
+[2023.11.21-02.22.22:939][244]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2023.11.21-02.23.01:776][579]LogShaderCompilers: Display: ================================================
+[2023.11.21-02.23.01:776][579]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.11.21-02.23.01:776][579]LogShaderCompilers: Display: Total job queries 432, among them cache hits 72 (16.67%)
+[2023.11.21-02.23.01:776][579]LogShaderCompilers: Display: Tracking 360 distinct input hashes that result in 151 distinct outputs (41.94%)
+[2023.11.21-02.23.01:776][579]LogShaderCompilers: Display: RAM used: 4.68 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.57%
+[2023.11.21-02.23.01:776][579]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.11.21-02.23.01:776][579]LogShaderCompilers: Display: Shaders Compiled: 0
+[2023.11.21-02.23.01:776][579]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2023.11.21-02.23.01:776][579]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2023.11.21-02.23.01:776][579]LogShaderCompilers: Display: ================================================
+[2023.11.21-02.23.06:794][124]Cmd: TRANSACTION UNDO
+[2023.11.21-02.23.06:794][124]LogEditorTransaction: Undo Clicking on Actors
+[2023.11.21-02.23.20:585][576]LogViewport: Scene viewport resized to 1745x1221, mode Windowed.
+[2023.11.21-02.23.29:200][893]LogEditorViewport: Clicking Background
+[2023.11.21-02.23.52:279][993]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2023.11.21-02.28.28:576][329]Cmd: TRANSACTION UNDO
+[2023.11.21-02.28.28:576][329]LogEditorTransaction: Undo Set Key Value
+[2023.11.21-02.30.43:004][614]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.21-02.30.43:012][614]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.21-02.30.43:012][614]PIE: New page: PIE session: MeditateLevel (Nov 20, 2023, 4:30:43 PM)
+[2023.11.21-02.30.43:012][614]LogPlayLevel: Creating play world package: /Game/Demo/UEDPIE_0_MeditateLevel
+[2023.11.21-02.30.43:017][614]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005114s)
+[2023.11.21-02.30.43:017][614]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Demo/MeditateLevel.MeditateLevel to /Game/Demo/UEDPIE_0_MeditateLevel.MeditateLevel (0.005144s)
+[2023.11.21-02.30.43:017][614]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.21-02.30.43:017][614]LogAIModule: Creating AISystem for world MeditateLevel
+[2023.11.21-02.30.43:019][614]LogPlayLevel: PIE: World Init took: (0.000675s)
+[2023.11.21-02.30.43:038][614]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2023.11.21-02.30.43:040][614]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2023.11.21-02.30.43:040][614]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.21-02.30.43:040][614]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.21-02.30.43:040][614]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.21-02.30.43:040][614]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.21-02.30.43:040][614]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.21-02.30.43:040][614]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.11.21-02.30.43:040][614]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.21-02.30.43:040][614]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.21-02.30.43:041][614]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2023.11.21-02.30.43:041][614]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2023.11.21-02.30.43:041][614]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.21-02.30.43:042][614]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.21-02.30.43:063][614]LogAudioMixer: Display: Using Audio Hardware Device DELL S2722DGM (NVIDIA High Definition Audio)
+[2023.11.21-02.30.43:063][614]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.21-02.30.43:063][614]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.21-02.30.43:063][614]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.21-02.30.43:064][614]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2023.11.21-02.30.43:064][614]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2023.11.21-02.30.43:065][614]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2023.11.21-02.30.43:065][614]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2023.11.21-02.30.43:065][614]LogInit: FAudioDevice initialized.
+[2023.11.21-02.30.43:065][614]LogAudio: Display: Audio Device (ID: 13) registered with world 'MeditateLevel'.
+[2023.11.21-02.30.43:068][614]LogLoad: Game class is 'VRGameMode_C'
+[2023.11.21-02.30.43:071][614]LogWorld: Bringing World /Game/Demo/UEDPIE_0_MeditateLevel.MeditateLevel up for play (max tick rate 0) at 2023.11.20-21.30.43
+[2023.11.21-02.30.43:071][614]LogWorld: Bringing up level for play took: 0.001669
+[2023.11.21-02.30.43:072][614]LogOnline: OSS: Created online subsystem instance for: :Context_15
+[2023.11.21-02.30.43:074][614]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2023.11.21-02.30.43:075][614]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2023.11.21-02.30.43:076][614]PIE: Server logged in
+[2023.11.21-02.30.43:077][614]PIE: Play in editor total start time 0.065 seconds.
+[2023.11.21-02.30.43:094][614]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2023.11.21-02.30.44:582][788]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.21-02.30.44:582][788]LogWorld: BeginTearingDown for /Game/Demo/UEDPIE_0_MeditateLevel
+[2023.11.21-02.30.44:583][788]LogWorld: UWorld::CleanupWorld for MeditateLevel, bSessionEnded=true, bCleanupResources=true
+[2023.11.21-02.30.44:583][788]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.21-02.30.44:585][788]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.21-02.30.44:589][788]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.21-02.30.44:597][788]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.21-02.30.44:597][788]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2023.11.21-02.30.44:597][788]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2023.11.21-02.30.44:599][788]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2023.11.21-02.30.44:601][788]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.21-02.30.44:603][788]LogSlate: Slate User Unregistered.  User Index 8
+[2023.11.21-02.30.44:603][788]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2023.11.21-02.30.44:603][788]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2023.11.21-02.30.44:651][790]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2023.11.21-02.30.53:956][325]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.21-02.30.53:963][325]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.21-02.30.53:963][325]PIE: New page: PIE session: MeditateLevel (Nov 20, 2023, 4:30:53 PM)
+[2023.11.21-02.30.53:963][325]LogPlayLevel: Creating play world package: /Game/Demo/UEDPIE_0_MeditateLevel
+[2023.11.21-02.30.53:968][325]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004894s)
+[2023.11.21-02.30.53:968][325]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Demo/MeditateLevel.MeditateLevel to /Game/Demo/UEDPIE_0_MeditateLevel.MeditateLevel (0.004916s)
+[2023.11.21-02.30.53:969][325]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.21-02.30.53:969][325]LogAIModule: Creating AISystem for world MeditateLevel
+[2023.11.21-02.30.53:970][325]LogPlayLevel: PIE: World Init took: (0.000727s)
+[2023.11.21-02.30.53:978][325]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2023.11.21-02.30.53:980][325]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2023.11.21-02.30.53:980][325]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.21-02.30.53:980][325]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.21-02.30.53:980][325]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.21-02.30.53:980][325]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.21-02.30.53:980][325]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.21-02.30.53:980][325]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.11.21-02.30.53:980][325]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.21-02.30.53:980][325]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.21-02.30.53:980][325]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2023.11.21-02.30.53:980][325]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2023.11.21-02.30.53:980][325]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.21-02.30.53:982][325]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.21-02.30.54:001][325]LogAudioMixer: Display: Using Audio Hardware Device DELL S2722DGM (NVIDIA High Definition Audio)
+[2023.11.21-02.30.54:001][325]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.21-02.30.54:001][325]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.21-02.30.54:001][325]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.21-02.30.54:002][325]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2023.11.21-02.30.54:002][325]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2023.11.21-02.30.54:003][325]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2023.11.21-02.30.54:003][325]LogInit: FAudioDevice initialized.
+[2023.11.21-02.30.54:003][325]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2023.11.21-02.30.54:003][325]LogAudio: Display: Audio Device (ID: 14) registered with world 'MeditateLevel'.
+[2023.11.21-02.30.54:006][325]LogLoad: Game class is 'VRGameMode_C'
+[2023.11.21-02.30.54:008][325]LogWorld: Bringing World /Game/Demo/UEDPIE_0_MeditateLevel.MeditateLevel up for play (max tick rate 0) at 2023.11.20-21.30.54
+[2023.11.21-02.30.54:008][325]LogWorld: Bringing up level for play took: 0.001646
+[2023.11.21-02.30.54:009][325]LogOnline: OSS: Created online subsystem instance for: :Context_16
+[2023.11.21-02.30.54:011][325]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2023.11.21-02.30.54:011][325]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2023.11.21-02.30.54:013][325]PIE: Server logged in
+[2023.11.21-02.30.54:013][325]PIE: Play in editor total start time 0.05 seconds.
+[2023.11.21-02.30.54:027][325]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2023.11.21-02.30.54:863][418]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.21-02.30.54:863][418]LogWorld: BeginTearingDown for /Game/Demo/UEDPIE_0_MeditateLevel
+[2023.11.21-02.30.54:863][418]LogWorld: UWorld::CleanupWorld for MeditateLevel, bSessionEnded=true, bCleanupResources=true
+[2023.11.21-02.30.54:863][418]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.21-02.30.54:866][418]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.21-02.30.54:869][418]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.21-02.30.54:877][418]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.21-02.30.54:877][418]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2023.11.21-02.30.54:877][418]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2023.11.21-02.30.54:879][418]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2023.11.21-02.30.54:882][418]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.21-02.30.54:883][418]LogSlate: Slate User Unregistered.  User Index 8
+[2023.11.21-02.30.54:883][418]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2023.11.21-02.30.54:883][418]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2023.11.21-02.30.54:927][420]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2023.11.21-02.31.00:150][ 12]LogViewport: Scene viewport resized to 1746x1221, mode Windowed.
+[2023.11.21-02.31.00:199][ 12]LogViewport: Scene viewport resized to 1757x1219, mode Windowed.
+[2023.11.21-02.31.00:247][ 12]LogViewport: Scene viewport resized to 1795x1213, mode Windowed.
+[2023.11.21-02.31.00:297][ 12]LogViewport: Scene viewport resized to 1851x1206, mode Windowed.
+[2023.11.21-02.31.00:348][ 12]LogViewport: Scene viewport resized to 1908x1198, mode Windowed.
+[2023.11.21-02.31.00:382][ 12]LogViewport: Scene viewport resized to 1971x1189, mode Windowed.
+[2023.11.21-02.31.00:431][ 12]LogViewport: Scene viewport resized to 2009x1186, mode Windowed.
+[2023.11.21-02.31.00:481][ 12]LogViewport: Scene viewport resized to 2039x1184, mode Windowed.
+[2023.11.21-02.31.00:531][ 12]LogViewport: Scene viewport resized to 2049x1183, mode Windowed.
+[2023.11.21-02.31.00:581][ 12]LogViewport: Scene viewport resized to 2053x1183, mode Windowed.
+[2023.11.21-02.31.00:631][ 12]LogViewport: Scene viewport resized to 2057x1183, mode Windowed.
+[2023.11.21-02.31.00:748][ 12]LogViewport: Scene viewport resized to 2057x1184, mode Windowed.
+[2023.11.21-02.31.01:033][ 12]LogViewport: Scene viewport resized to 2058x1184, mode Windowed.
+[2023.11.21-02.31.01:083][ 12]LogViewport: Scene viewport resized to 2068x1185, mode Windowed.
+[2023.11.21-02.31.01:133][ 12]LogViewport: Scene viewport resized to 2083x1189, mode Windowed.
+[2023.11.21-02.31.01:198][ 12]LogViewport: Scene viewport resized to 2093x1192, mode Windowed.
+[2023.11.21-02.32.21:949][714]LogViewport: Scene viewport resized to 1027x1248, mode Windowed.
+[2023.11.21-02.32.30:689][446]LogViewport: Scene viewport resized to 1028x1248, mode Windowed.
+[2023.11.21-02.32.30:738][446]LogViewport: Scene viewport resized to 1040x1248, mode Windowed.
+[2023.11.21-02.32.30:789][446]LogViewport: Scene viewport resized to 1098x1236, mode Windowed.
+[2023.11.21-02.32.30:840][446]LogViewport: Scene viewport resized to 1226x1211, mode Windowed.
+[2023.11.21-02.32.30:889][446]LogViewport: Scene viewport resized to 1386x1183, mode Windowed.
+[2023.11.21-02.32.30:939][446]LogViewport: Scene viewport resized to 1586x1154, mode Windowed.
+[2023.11.21-02.32.30:988][446]LogViewport: Scene viewport resized to 1775x1146, mode Windowed.
+[2023.11.21-02.32.31:039][446]LogViewport: Scene viewport resized to 1887x1165, mode Windowed.
+[2023.11.21-02.32.31:090][446]LogViewport: Scene viewport resized to 1964x1193, mode Windowed.
+[2023.11.21-02.32.31:123][446]LogViewport: Scene viewport resized to 2013x1217, mode Windowed.
+[2023.11.21-02.32.31:173][446]LogViewport: Scene viewport resized to 2040x1227, mode Windowed.
+[2023.11.21-02.32.31:225][446]LogViewport: Scene viewport resized to 2068x1236, mode Windowed.
+[2023.11.21-02.32.31:273][446]LogViewport: Scene viewport resized to 2095x1244, mode Windowed.
+[2023.11.21-02.32.31:322][446]LogViewport: Scene viewport resized to 2114x1251, mode Windowed.
+[2023.11.21-02.32.31:374][446]LogViewport: Scene viewport resized to 2123x1251, mode Windowed.
+[2023.11.21-02.32.31:423][446]LogViewport: Scene viewport resized to 2126x1248, mode Windowed.
+[2023.11.21-02.32.57:678][162]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.21-02.32.57:686][162]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.21-02.32.57:686][162]PIE: New page: PIE session: MeditateLevel (Nov 20, 2023, 4:32:57 PM)
+[2023.11.21-02.32.57:712][162]LogPlayLevel: Creating play world package: /Game/Demo/UEDPIE_0_MeditateLevel
+[2023.11.21-02.32.57:715][162]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003693s)
+[2023.11.21-02.32.57:715][162]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Demo/MeditateLevel.MeditateLevel to /Game/Demo/UEDPIE_0_MeditateLevel.MeditateLevel (0.003723s)
+[2023.11.21-02.32.57:715][162]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.21-02.32.57:716][162]LogAIModule: Creating AISystem for world MeditateLevel
+[2023.11.21-02.32.57:716][162]LogPlayLevel: PIE: World Init took: (0.000671s)
+[2023.11.21-02.32.57:724][162]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2023.11.21-02.32.57:726][162]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2023.11.21-02.32.57:726][162]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.21-02.32.57:726][162]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.21-02.32.57:726][162]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.21-02.32.57:726][162]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.21-02.32.57:726][162]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.21-02.32.57:726][162]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.11.21-02.32.57:726][162]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.21-02.32.57:726][162]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.21-02.32.57:726][162]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2023.11.21-02.32.57:726][162]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2023.11.21-02.32.57:726][162]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.21-02.32.57:728][162]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.21-02.32.57:748][162]LogAudioMixer: Display: Using Audio Hardware Device DELL S2722DGM (NVIDIA High Definition Audio)
+[2023.11.21-02.32.57:748][162]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.21-02.32.57:748][162]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.21-02.32.57:748][162]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.21-02.32.57:748][162]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2023.11.21-02.32.57:748][162]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2023.11.21-02.32.57:749][162]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2023.11.21-02.32.57:749][162]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2023.11.21-02.32.57:749][162]LogInit: FAudioDevice initialized.
+[2023.11.21-02.32.57:749][162]LogAudio: Display: Audio Device (ID: 15) registered with world 'MeditateLevel'.
+[2023.11.21-02.32.57:752][162]LogLoad: Game class is 'VRGameMode_C'
+[2023.11.21-02.32.57:753][162]LogWorld: Bringing World /Game/Demo/UEDPIE_0_MeditateLevel.MeditateLevel up for play (max tick rate 0) at 2023.11.20-21.32.57
+[2023.11.21-02.32.57:753][162]LogWorld: Bringing up level for play took: 0.001923
+[2023.11.21-02.32.57:755][162]LogOnline: OSS: Created online subsystem instance for: :Context_17
+[2023.11.21-02.32.57:756][162]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2023.11.21-02.32.57:757][162]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2023.11.21-02.32.57:758][162]PIE: Server logged in
+[2023.11.21-02.32.57:758][162]PIE: Play in editor total start time 0.073 seconds.
+[2023.11.21-02.32.57:773][162]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2023.11.21-02.32.58:663][262]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.21-02.32.58:663][262]LogWorld: BeginTearingDown for /Game/Demo/UEDPIE_0_MeditateLevel
+[2023.11.21-02.32.58:663][262]LogWorld: UWorld::CleanupWorld for MeditateLevel, bSessionEnded=true, bCleanupResources=true
+[2023.11.21-02.32.58:663][262]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.21-02.32.58:666][262]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.21-02.32.58:669][262]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.21-02.32.58:677][262]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.21-02.32.58:677][262]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2023.11.21-02.32.58:677][262]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2023.11.21-02.32.58:678][262]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2023.11.21-02.32.58:681][262]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.21-02.32.58:682][262]LogSlate: Slate User Unregistered.  User Index 8
+[2023.11.21-02.32.58:682][262]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2023.11.21-02.32.58:683][262]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2023.11.21-02.32.58:738][264]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2023.11.21-02.33.50:474][414]Cmd: DELETE
+[2023.11.21-02.33.50:474][414]Cmd: ACTOR DELETE
+[2023.11.21-02.33.50:511][414]LogEditorActor: Deleted Actor: PointLight
+[2023.11.21-02.33.50:521][414]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2023.11.21-02.33.50:522][414]LogEditorActor: Deleted 1 Actors (0.048 secs)
+[2023.11.21-02.35.00:539][412]Cmd: TRANSACTION UNDO
+[2023.11.21-02.35.00:539][412]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2023.11.21-02.35.01:017][420]Cmd: TRANSACTION UNDO
+[2023.11.21-02.35.01:017][420]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2023.11.21-02.35.01:331][445]Cmd: TRANSACTION UNDO
+[2023.11.21-02.35.01:331][445]LogEditorTransaction: Undo Clicking on Elements
+[2023.11.21-02.35.07:846][212]Cmd: TRANSACTION UNDO
+[2023.11.21-02.35.07:846][212]LogEditorTransaction: Undo Clicking on Actors
+[2023.11.21-02.35.08:546][242]Cmd: TRANSACTION UNDO
+[2023.11.21-02.35.08:546][242]LogEditorTransaction: Undo Delete Elements
+[2023.11.21-02.35.09:103][300]Cmd: TRANSACTION UNDO
+[2023.11.21-02.35.09:103][300]LogEditorTransaction: Undo Clicking on Elements
+[2023.11.21-02.35.09:647][357]Cmd: TRANSACTION UNDO
+[2023.11.21-02.35.09:647][357]LogEditorTransaction: Undo Clicking on Elements
+[2023.11.21-02.35.10:613][464]Cmd: TRANSACTION UNDO
+[2023.11.21-02.35.10:613][464]LogEditorTransaction: Undo Select Actors/Components
+[2023.11.21-02.35.36:094][317]LogShaderCompilers: Display: ================================================
+[2023.11.21-02.35.36:094][317]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.11.21-02.35.36:094][317]LogShaderCompilers: Display: Total job queries 466, among them cache hits 75 (16.09%)
+[2023.11.21-02.35.36:094][317]LogShaderCompilers: Display: Tracking 391 distinct input hashes that result in 165 distinct outputs (42.20%)
+[2023.11.21-02.35.36:094][317]LogShaderCompilers: Display: RAM used: 5.05 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.62%
+[2023.11.21-02.35.36:094][317]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.11.21-02.35.36:094][317]LogShaderCompilers: Display: Shaders Compiled: 0
+[2023.11.21-02.35.36:094][317]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2023.11.21-02.35.36:094][317]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2023.11.21-02.35.36:094][317]LogShaderCompilers: Display: ================================================
+[2023.11.21-02.35.39:270][668]PIE: Warning: AttachTo: '/Engine/Transient.World_3:PersistentLevel.FbxScene_Character_Test2_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_Character_Test2"), cannot attach '/Engine/Transient.World_3:PersistentLevel.FbxScene_Character_Test2_C_0.polySurface4' which is static to it. Aborting.
+[2023.11.21-02.35.39:287][668]PIE: Warning: AttachTo: '/Engine/Transient.World_4:PersistentLevel.FbxScene_Character_Test3_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_Character_Test3"), cannot attach '/Engine/Transient.World_4:PersistentLevel.FbxScene_Character_Test3_C_0.polySurface4' which is static to it. Aborting.
+[2023.11.21-02.35.39:303][668]PIE: Warning: AttachTo: '/Engine/Transient.World_5:PersistentLevel.FbxScene_Jetway_Test3_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_Jetway_Test3"), cannot attach '/Engine/Transient.World_5:PersistentLevel.FbxScene_Jetway_Test3_C_0.polySurface58' which is static to it. Aborting.
+[2023.11.21-02.35.39:303][668]PIE: Warning: AttachTo: '/Engine/Transient.World_5:PersistentLevel.FbxScene_Jetway_Test3_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_Jetway_Test3"), cannot attach '/Engine/Transient.World_5:PersistentLevel.FbxScene_Jetway_Test3_C_0.polySurface84' which is static to it. Aborting.
+[2023.11.21-02.35.39:303][668]PIE: Warning: AttachTo: '/Engine/Transient.World_5:PersistentLevel.FbxScene_Jetway_Test3_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_Jetway_Test3"), cannot attach '/Engine/Transient.World_5:PersistentLevel.FbxScene_Jetway_Test3_C_0.pCube7' which is static to it. Aborting.
+[2023.11.21-02.35.39:303][668]PIE: Warning: AttachTo: '/Engine/Transient.World_5:PersistentLevel.FbxScene_Jetway_Test3_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_Jetway_Test3"), cannot attach '/Engine/Transient.World_5:PersistentLevel.FbxScene_Jetway_Test3_C_0.pCube8' which is static to it. Aborting.
+[2023.11.21-02.35.39:303][668]PIE: Warning: AttachTo: '/Engine/Transient.World_5:PersistentLevel.FbxScene_Jetway_Test3_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_Jetway_Test3"), cannot attach '/Engine/Transient.World_5:PersistentLevel.FbxScene_Jetway_Test3_C_0.pCube9' which is static to it. Aborting.
+[2023.11.21-02.35.39:303][668]PIE: Warning: AttachTo: '/Engine/Transient.World_5:PersistentLevel.FbxScene_Jetway_Test3_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_Jetway_Test3"), cannot attach '/Engine/Transient.World_5:PersistentLevel.FbxScene_Jetway_Test3_C_0.pCube10' which is static to it. Aborting.
+[2023.11.21-02.35.39:303][668]PIE: Warning: AttachTo: '/Engine/Transient.World_5:PersistentLevel.FbxScene_Jetway_Test3_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_Jetway_Test3"), cannot attach '/Engine/Transient.World_5:PersistentLevel.FbxScene_Jetway_Test3_C_0.polySurface86' which is static to it. Aborting.
+[2023.11.21-02.35.39:339][668]PIE: Warning: Constraint in '/Engine/Transient.World_6:PersistentLevel.VRDoor_C_0.PhysicsConstraint' attempting to create a joint between objects that are both static.  No joint created.
+[2023.11.21-02.35.39:339][668]PIE: Warning: Constraint in '/Engine/Transient.World_6:PersistentLevel.VRDoor_C_0.PhysicsConstraint1' attempting to create a joint between objects that are both static.  No joint created.
+[2023.11.21-02.36.21:749][668]LogSlate: Window 'Save Asset As' being destroyed
+[2023.11.21-02.36.31:905][668]LogSlate: Window 'Message' being destroyed
+[2023.11.21-02.36.31:908][668]Message dialog closed, result: No, title: Message, text: An object [Glow] of class [Material] already exists in file [/Game/Demo/Timer/Glow].  Do you want to replace the existing object?  If you click 'Yes', the existing object will be deleted.  Otherwise, click 'No' and choose a unique name for your new object.
+[2023.11.21-02.36.43:980][ 17]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2023.11.21-02.36.43:995][ 17]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Demo/MeditateLevel_Auto3
+[2023.11.21-02.36.43:996][ 17]LogSavePackage: Moving '../../../../../../Users/dbcot/OneDrive/Documents/AirplaneTest2/AirplaneTest2/AirplaneGame_Git/Saved/MeditateLevel_Auto386AF1EFC45CD19498414BAAF8715A449.tmp' to '../../../../../../Users/dbcot/OneDrive/Documents/AirplaneTest2/AirplaneTest2/AirplaneGame_Git/Saved/Autosaves/Game/Demo/MeditateLevel_Auto3.umap'
+[2023.11.21-02.36.43:999][ 17]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Demo/MeditateLevel' took 0.028
+[2023.11.21-02.36.43:999][ 17]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.028
+[2023.11.21-02.36.43:999][ 17]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Demo/Bubbles_1_10] ([1] browsable assets)...
+[2023.11.21-02.36.43:999][ 17]OBJ SavePackage: Finished generating thumbnails for package [/Game/Demo/Bubbles_1_10]
+[2023.11.21-02.36.44:004][ 17]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Demo/Bubbles_1_10_Auto3
+[2023.11.21-02.36.44:005][ 17]LogSavePackage: Moving '../../../../../../Users/dbcot/OneDrive/Documents/AirplaneTest2/AirplaneTest2/AirplaneGame_Git/Saved/Bubbles_1_10_Auto36182665A41D8C07A0D89B49456FA3EA1.tmp' to '../../../../../../Users/dbcot/OneDrive/Documents/AirplaneTest2/AirplaneTest2/AirplaneGame_Git/Saved/Autosaves/Game/Demo/Bubbles_1_10_Auto3.uasset'
+[2023.11.21-02.36.44:006][ 17]LogFileHelpers: Auto-saving content packages took 0.006
+[2023.11.21-02.37.14:607][880]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.21-02.37.14:614][880]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.21-02.37.14:614][880]PIE: New page: PIE session: MeditateLevel (Nov 20, 2023, 4:37:14 PM)
+[2023.11.21-02.37.14:614][880]LogPlayLevel: Creating play world package: /Game/Demo/UEDPIE_0_MeditateLevel
+[2023.11.21-02.37.14:618][880]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004076s)
+[2023.11.21-02.37.14:618][880]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Demo/MeditateLevel.MeditateLevel to /Game/Demo/UEDPIE_0_MeditateLevel.MeditateLevel (0.004102s)
+[2023.11.21-02.37.14:619][880]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.21-02.37.14:619][880]LogAIModule: Creating AISystem for world MeditateLevel
+[2023.11.21-02.37.14:619][880]LogPlayLevel: PIE: World Init took: (0.000624s)
+[2023.11.21-02.37.14:630][880]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2023.11.21-02.37.14:631][880]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2023.11.21-02.37.14:631][880]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.21-02.37.14:631][880]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.21-02.37.14:631][880]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.21-02.37.14:631][880]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.21-02.37.14:631][880]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.21-02.37.14:631][880]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.11.21-02.37.14:631][880]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.21-02.37.14:631][880]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.21-02.37.14:631][880]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2023.11.21-02.37.14:631][880]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2023.11.21-02.37.14:631][880]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.21-02.37.14:633][880]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.21-02.37.14:655][880]LogAudioMixer: Display: Using Audio Hardware Device DELL S2722DGM (NVIDIA High Definition Audio)
+[2023.11.21-02.37.14:655][880]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.21-02.37.14:655][880]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.21-02.37.14:655][880]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.21-02.37.14:656][880]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2023.11.21-02.37.14:656][880]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2023.11.21-02.37.14:657][880]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2023.11.21-02.37.14:657][880]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2023.11.21-02.37.14:657][880]LogInit: FAudioDevice initialized.
+[2023.11.21-02.37.14:657][880]LogAudio: Display: Audio Device (ID: 16) registered with world 'MeditateLevel'.
+[2023.11.21-02.37.14:660][880]LogLoad: Game class is 'VRGameMode_C'
+[2023.11.21-02.37.14:661][880]LogWorld: Bringing World /Game/Demo/UEDPIE_0_MeditateLevel.MeditateLevel up for play (max tick rate 0) at 2023.11.20-21.37.14
+[2023.11.21-02.37.14:662][880]LogWorld: Bringing up level for play took: 0.001638
+[2023.11.21-02.37.14:663][880]LogOnline: OSS: Created online subsystem instance for: :Context_22
+[2023.11.21-02.37.14:665][880]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2023.11.21-02.37.14:665][880]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2023.11.21-02.37.14:666][880]PIE: Server logged in
+[2023.11.21-02.37.14:667][880]PIE: Play in editor total start time 0.053 seconds.
+[2023.11.21-02.37.14:681][880]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2023.11.21-02.37.15:763][  6]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.21-02.37.15:763][  6]LogWorld: BeginTearingDown for /Game/Demo/UEDPIE_0_MeditateLevel
+[2023.11.21-02.37.15:764][  6]LogWorld: UWorld::CleanupWorld for MeditateLevel, bSessionEnded=true, bCleanupResources=true
+[2023.11.21-02.37.15:764][  6]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.21-02.37.15:766][  6]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.21-02.37.15:769][  6]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.21-02.37.15:778][  6]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.21-02.37.15:778][  6]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2023.11.21-02.37.15:778][  6]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2023.11.21-02.37.15:779][  6]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2023.11.21-02.37.15:782][  6]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.21-02.37.15:783][  6]LogSlate: Slate User Unregistered.  User Index 8
+[2023.11.21-02.37.15:783][  6]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2023.11.21-02.37.15:784][  6]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2023.11.21-02.37.15:845][  9]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2023.11.21-02.38.29:629][270]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2023.11.21-02.38.29:634][270]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.21-02.38.29:699][270]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2023.11.21-02.38.29:712][270]LogSavePackage: Moving output files for package: /Game/Demo/MeditateLevel
+[2023.11.21-02.38.29:713][270]LogSavePackage: Moving '../../../../../../Users/dbcot/OneDrive/Documents/AirplaneTest2/AirplaneTest2/AirplaneGame_Git/Saved/MeditateLevel1923AF2841725D967FEA0288531419D6.tmp' to '../../../../../../Users/dbcot/OneDrive/Documents/AirplaneTest2/AirplaneTest2/AirplaneGame_Git/Content/Demo/MeditateLevel.umap'
+[2023.11.21-02.38.29:727][270]LogFileHelpers: Saving map 'MeditateLevel' took 0.038
+[2023.11.21-02.38.29:727][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Demo/Bubbles_1_10" FILE="../../../../../../Users/dbcot/OneDrive/Documents/AirplaneTest2/AirplaneTest2/AirplaneGame_Git/Content/Demo/Bubbles_1_10.uasset" SILENT=true
+[2023.11.21-02.38.29:732][270]LogSavePackage: Moving output files for package: /Game/Demo/Bubbles_1_10
+[2023.11.21-02.38.29:733][270]LogSavePackage: Moving '../../../../../../Users/dbcot/OneDrive/Documents/AirplaneTest2/AirplaneTest2/AirplaneGame_Git/Saved/Bubbles_1_10FFB6D4654F1A8CD857C554A153155075.tmp' to '../../../../../../Users/dbcot/OneDrive/Documents/AirplaneTest2/AirplaneTest2/AirplaneGame_Git/Content/Demo/Bubbles_1_10.uasset'
+[2023.11.21-02.38.29:749][270]LogFileHelpers: InternalPromptForCheckoutAndSave took 115 ms (total: 524 ms)
+[2023.11.21-02.38.29:756][270]AssetCheck: New page: Asset Save: multiple assets
+[2023.11.21-02.38.29:756][270]LogContentValidation: Display: Validating /Script/Engine.World /Game/Demo/MeditateLevel.MeditateLevel
+[2023.11.21-02.38.29:756][270]LogContentValidation: Display: Validating /Script/LevelSequence.LevelSequence /Game/Demo/Bubbles_1_10.Bubbles_1_10
+[2023.11.21-02.38.44:155][394]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.21-02.38.44:163][394]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.21-02.38.44:163][394]PIE: New page: PIE session: MeditateLevel (Nov 20, 2023, 4:38:44 PM)
+[2023.11.21-02.38.44:163][394]LogPlayLevel: Creating play world package: /Game/Demo/UEDPIE_0_MeditateLevel
+[2023.11.21-02.38.44:167][394]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003739s)
+[2023.11.21-02.38.44:167][394]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Demo/MeditateLevel.MeditateLevel to /Game/Demo/UEDPIE_0_MeditateLevel.MeditateLevel (0.003765s)
+[2023.11.21-02.38.44:167][394]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.21-02.38.44:167][394]LogAIModule: Creating AISystem for world MeditateLevel
+[2023.11.21-02.38.44:167][394]LogPlayLevel: PIE: World Init took: (0.000642s)
+[2023.11.21-02.38.44:176][394]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2023.11.21-02.38.44:177][394]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2023.11.21-02.38.44:177][394]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.21-02.38.44:177][394]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.21-02.38.44:177][394]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.21-02.38.44:177][394]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.21-02.38.44:177][394]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.21-02.38.44:177][394]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.11.21-02.38.44:177][394]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.21-02.38.44:177][394]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.21-02.38.44:177][394]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2023.11.21-02.38.44:177][394]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2023.11.21-02.38.44:177][394]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.21-02.38.44:180][394]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.21-02.38.44:200][394]LogAudioMixer: Display: Using Audio Hardware Device DELL S2722DGM (NVIDIA High Definition Audio)
+[2023.11.21-02.38.44:200][394]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.21-02.38.44:200][394]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.21-02.38.44:200][394]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.21-02.38.44:202][394]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2023.11.21-02.38.44:202][394]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2023.11.21-02.38.44:203][394]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2023.11.21-02.38.44:203][394]LogInit: FAudioDevice initialized.
+[2023.11.21-02.38.44:203][394]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2023.11.21-02.38.44:203][394]LogAudio: Display: Audio Device (ID: 17) registered with world 'MeditateLevel'.
+[2023.11.21-02.38.44:206][394]LogLoad: Game class is 'VRGameMode_C'
+[2023.11.21-02.38.44:208][394]LogWorld: Bringing World /Game/Demo/UEDPIE_0_MeditateLevel.MeditateLevel up for play (max tick rate 0) at 2023.11.20-21.38.44
+[2023.11.21-02.38.44:208][394]LogWorld: Bringing up level for play took: 0.001827
+[2023.11.21-02.38.44:209][394]LogOnline: OSS: Created online subsystem instance for: :Context_23
+[2023.11.21-02.38.44:210][394]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2023.11.21-02.38.44:210][394]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2023.11.21-02.38.44:212][394]PIE: Server logged in
+[2023.11.21-02.38.44:212][394]PIE: Play in editor total start time 0.05 seconds.
+[2023.11.21-02.38.44:227][394]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2023.11.21-02.39.00:503][733]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.21-02.39.00:503][733]LogWorld: BeginTearingDown for /Game/Demo/UEDPIE_0_MeditateLevel
+[2023.11.21-02.39.00:503][733]LogWorld: UWorld::CleanupWorld for MeditateLevel, bSessionEnded=true, bCleanupResources=true
+[2023.11.21-02.39.00:503][733]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.21-02.39.00:506][733]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.21-02.39.00:510][733]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.21-02.39.00:517][733]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.21-02.39.00:518][733]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2023.11.21-02.39.00:518][733]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2023.11.21-02.39.00:519][733]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2023.11.21-02.39.00:522][733]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.21-02.39.00:523][733]LogSlate: Slate User Unregistered.  User Index 8
+[2023.11.21-02.39.00:523][733]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2023.11.21-02.39.00:524][733]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2023.11.21-02.39.00:584][736]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2023.11.21-02.39.55:974][819]LogViewport: Scene viewport resized to 2125x1248, mode Windowed.
+[2023.11.21-02.39.56:024][819]LogViewport: Scene viewport resized to 2070x552, mode Windowed.
+[2023.11.21-02.39.56:071][819]LogViewport: Scene viewport resized to 1977x530, mode Windowed.
+[2023.11.21-02.39.56:123][819]LogViewport: Scene viewport resized to 1869x496, mode Windowed.
+[2023.11.21-02.39.56:173][819]LogViewport: Scene viewport resized to 1793x463, mode Windowed.
+[2023.11.21-02.39.56:222][819]LogViewport: Scene viewport resized to 1783x456, mode Windowed.
+[2023.11.21-02.39.56:623][819]LogViewport: Scene viewport resized to 1784x456, mode Windowed.
+[2023.11.21-02.39.56:673][819]LogViewport: Scene viewport resized to 1801x452, mode Windowed.
+[2023.11.21-02.39.56:723][819]LogViewport: Scene viewport resized to 1856x427, mode Windowed.
+[2023.11.21-02.39.56:774][819]LogViewport: Scene viewport resized to 1920x402, mode Windowed.
+[2023.11.21-02.39.56:822][819]LogViewport: Scene viewport resized to 1955x391, mode Windowed.
+[2023.11.21-02.39.56:873][819]LogViewport: Scene viewport resized to 1968x390, mode Windowed.
+[2023.11.21-02.39.56:923][819]LogViewport: Scene viewport resized to 1991x391, mode Windowed.
+[2023.11.21-02.39.56:973][819]LogViewport: Scene viewport resized to 2017x401, mode Windowed.
+[2023.11.21-02.39.57:023][819]LogViewport: Scene viewport resized to 2043x421, mode Windowed.
+[2023.11.21-02.39.57:072][819]LogViewport: Scene viewport resized to 2062x447, mode Windowed.
+[2023.11.21-02.39.57:124][819]LogViewport: Scene viewport resized to 2071x475, mode Windowed.
+[2023.11.21-02.39.57:173][819]LogViewport: Scene viewport resized to 2078x509, mode Windowed.
+[2023.11.21-02.39.57:224][819]LogViewport: Scene viewport resized to 2082x539, mode Windowed.
+[2023.11.21-02.39.57:273][819]LogViewport: Scene viewport resized to 2083x555, mode Windowed.
+[2023.11.21-02.39.57:324][819]LogViewport: Scene viewport resized to 2083x557, mode Windowed.
+[2023.11.21-02.39.57:490][819]LogViewport: Scene viewport resized to 2083x556, mode Windowed.
+[2023.11.21-02.39.57:540][819]LogViewport: Scene viewport resized to 2083x554, mode Windowed.
+[2023.11.21-02.39.57:591][819]LogViewport: Scene viewport resized to 2083x552, mode Windowed.
+[2023.11.21-02.39.57:641][819]LogViewport: Scene viewport resized to 2082x547, mode Windowed.
+[2023.11.21-02.39.57:693][819]LogViewport: Scene viewport resized to 2079x540, mode Windowed.
+[2023.11.21-02.39.57:740][819]LogViewport: Scene viewport resized to 2068x523, mode Windowed.
+[2023.11.21-02.39.57:790][819]LogViewport: Scene viewport resized to 2044x503, mode Windowed.
+[2023.11.21-02.39.57:841][819]LogViewport: Scene viewport resized to 2023x484, mode Windowed.
+[2023.11.21-02.39.57:890][819]LogViewport: Scene viewport resized to 2013x476, mode Windowed.
+[2023.11.21-02.39.57:941][819]LogViewport: Scene viewport resized to 2009x473, mode Windowed.
+[2023.11.21-02.39.57:991][819]LogViewport: Scene viewport resized to 2003x472, mode Windowed.
+[2023.11.21-02.39.58:041][819]LogViewport: Scene viewport resized to 1993x471, mode Windowed.
+[2023.11.21-02.39.58:091][819]LogViewport: Scene viewport resized to 1991x471, mode Windowed.
+[2023.11.21-02.40.03:062][377]LogViewport: Scene viewport resized to 1991x472, mode Windowed.
+[2023.11.21-02.40.03:112][377]LogViewport: Scene viewport resized to 1991x484, mode Windowed.
+[2023.11.21-02.40.03:161][377]LogViewport: Scene viewport resized to 1985x538, mode Windowed.
+[2023.11.21-02.40.03:211][377]LogViewport: Scene viewport resized to 1986x642, mode Windowed.
+[2023.11.21-02.40.03:262][377]LogViewport: Scene viewport resized to 2020x777, mode Windowed.
+[2023.11.21-02.40.03:313][377]LogViewport: Scene viewport resized to 2043x821, mode Windowed.
+[2023.11.21-02.40.03:363][377]LogViewport: Scene viewport resized to 2056x825, mode Windowed.
+[2023.11.21-02.40.03:412][377]LogViewport: Scene viewport resized to 2070x818, mode Windowed.
+[2023.11.21-02.40.03:462][377]LogViewport: Scene viewport resized to 2095x810, mode Windowed.
+[2023.11.21-02.40.03:513][377]LogViewport: Scene viewport resized to 2122x810, mode Windowed.
+[2023.11.21-02.40.03:562][377]LogViewport: Scene viewport resized to 2132x820, mode Windowed.
+[2023.11.21-02.40.03:613][377]LogViewport: Scene viewport resized to 2136x851, mode Windowed.
+[2023.11.21-02.40.03:663][377]LogViewport: Scene viewport resized to 2134x911, mode Windowed.
+[2023.11.21-02.40.03:712][377]LogViewport: Scene viewport resized to 2128x964, mode Windowed.
+[2023.11.21-02.40.03:762][377]LogViewport: Scene viewport resized to 2127x995, mode Windowed.
+[2023.11.21-02.40.03:813][377]LogViewport: Scene viewport resized to 2131x1006, mode Windowed.
+[2023.11.21-02.40.03:864][377]LogViewport: Scene viewport resized to 2133x1019, mode Windowed.
+[2023.11.21-02.40.03:912][377]LogViewport: Scene viewport resized to 2136x1055, mode Windowed.
+[2023.11.21-02.40.03:963][377]LogViewport: Scene viewport resized to 2128x1091, mode Windowed.
+[2023.11.21-02.40.04:013][377]LogViewport: Scene viewport resized to 2120x1109, mode Windowed.
+[2023.11.21-02.40.04:064][377]LogViewport: Scene viewport resized to 2106x1111, mode Windowed.
+[2023.11.21-02.40.04:114][377]LogViewport: Scene viewport resized to 2069x1094, mode Windowed.
+[2023.11.21-02.40.04:147][377]LogViewport: Scene viewport resized to 2040x1079, mode Windowed.
+[2023.11.21-02.40.04:196][377]LogViewport: Scene viewport resized to 2034x1073, mode Windowed.
+[2023.11.21-02.40.04:247][377]LogViewport: Scene viewport resized to 2027x1067, mode Windowed.
+[2023.11.21-02.40.04:297][377]LogViewport: Scene viewport resized to 2025x1065, mode Windowed.
+[2023.11.21-02.40.04:347][377]LogViewport: Scene viewport resized to 2023x1064, mode Windowed.
+[2023.11.21-02.40.04:396][377]LogViewport: Scene viewport resized to 2021x1063, mode Windowed.
+[2023.11.21-02.40.04:447][377]LogViewport: Scene viewport resized to 2017x1059, mode Windowed.
+[2023.11.21-02.40.04:498][377]LogViewport: Scene viewport resized to 2008x1050, mode Windowed.
+[2023.11.21-02.40.04:547][377]LogViewport: Scene viewport resized to 1994x1035, mode Windowed.
+[2023.11.21-02.40.04:596][377]LogViewport: Scene viewport resized to 1983x1018, mode Windowed.
+[2023.11.21-02.40.04:647][377]LogViewport: Scene viewport resized to 1977x1002, mode Windowed.
+[2023.11.21-02.40.04:697][377]LogViewport: Scene viewport resized to 1972x994, mode Windowed.
+[2023.11.21-02.40.04:747][377]LogViewport: Scene viewport resized to 1969x993, mode Windowed.
+[2023.11.21-02.40.04:797][377]LogViewport: Scene viewport resized to 1969x992, mode Windowed.
+[2023.11.21-02.40.04:848][377]LogViewport: Scene viewport resized to 1966x991, mode Windowed.
+[2023.11.21-02.40.04:897][377]LogViewport: Scene viewport resized to 1960x988, mode Windowed.
+[2023.11.21-02.40.04:948][377]LogViewport: Scene viewport resized to 1957x987, mode Windowed.
+[2023.11.21-02.40.04:997][377]LogViewport: Scene viewport resized to 1954x987, mode Windowed.
+[2023.11.21-02.40.05:047][377]LogViewport: Scene viewport resized to 1949x988, mode Windowed.
+[2023.11.21-02.40.05:096][377]LogViewport: Scene viewport resized to 1939x999, mode Windowed.
+[2023.11.21-02.40.05:145][377]LogViewport: Scene viewport resized to 1933x1009, mode Windowed.
+[2023.11.21-02.40.05:198][377]LogViewport: Scene viewport resized to 1932x1017, mode Windowed.
+[2023.11.21-02.40.05:247][377]LogViewport: Scene viewport resized to 1932x1018, mode Windowed.
+[2023.11.21-02.40.05:731][377]LogViewport: Scene viewport resized to 1931x1018, mode Windowed.
+[2023.11.21-02.40.05:781][377]LogViewport: Scene viewport resized to 1905x1010, mode Windowed.
+[2023.11.21-02.40.05:831][377]LogViewport: Scene viewport resized to 1859x997, mode Windowed.
+[2023.11.21-02.40.05:881][377]LogViewport: Scene viewport resized to 1841x992, mode Windowed.
+[2023.11.21-02.40.06:264][377]LogViewport: Scene viewport resized to 1834x994, mode Windowed.
+[2023.11.21-02.40.06:314][377]LogViewport: Scene viewport resized to 1810x1002, mode Windowed.
+[2023.11.21-02.40.06:348][377]LogViewport: Scene viewport resized to 1779x1010, mode Windowed.
+[2023.11.21-02.40.06:399][377]LogViewport: Scene viewport resized to 1771x1014, mode Windowed.
+[2023.11.21-02.59.30:941][898]LogViewport: Scene viewport resized to 1772x1014, mode Windowed.
+[2023.11.21-02.59.30:992][898]LogViewport: Scene viewport resized to 1772x1015, mode Windowed.
+[2023.11.21-02.59.31:042][898]LogViewport: Scene viewport resized to 1775x1017, mode Windowed.
+[2023.11.21-02.59.31:094][898]LogViewport: Scene viewport resized to 1789x1033, mode Windowed.
+[2023.11.21-02.59.31:142][898]LogViewport: Scene viewport resized to 1811x1091, mode Windowed.
+[2023.11.21-02.59.31:192][898]LogViewport: Scene viewport resized to 1811x1173, mode Windowed.
+[2023.11.21-02.59.31:243][898]LogViewport: Scene viewport resized to 1811x1216, mode Windowed.
+[2023.11.21-02.59.31:292][898]LogViewport: Scene viewport resized to 1811x1234, mode Windowed.
+[2023.11.21-02.59.31:626][898]LogViewport: Scene viewport resized to 1811x1233, mode Windowed.
+[2023.11.21-02.59.31:676][898]LogViewport: Scene viewport resized to 1811x1232, mode Windowed.
+[2023.11.21-02.59.58:365][474]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.21-02.59.58:373][474]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.21-02.59.58:373][474]PIE: New page: PIE session: MeditateLevel (Nov 20, 2023, 4:59:58 PM)
+[2023.11.21-02.59.58:402][474]LogPlayLevel: Creating play world package: /Game/Demo/UEDPIE_0_MeditateLevel
+[2023.11.21-02.59.58:405][474]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003924s)
+[2023.11.21-02.59.58:405][474]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Demo/MeditateLevel.MeditateLevel to /Game/Demo/UEDPIE_0_MeditateLevel.MeditateLevel (0.003956s)
+[2023.11.21-02.59.58:406][474]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.21-02.59.58:406][474]LogAIModule: Creating AISystem for world MeditateLevel
+[2023.11.21-02.59.58:406][474]LogPlayLevel: PIE: World Init took: (0.000720s)
+[2023.11.21-02.59.58:415][474]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2023.11.21-02.59.58:418][474]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2023.11.21-02.59.58:418][474]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.21-02.59.58:418][474]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.21-02.59.58:418][474]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.21-02.59.58:418][474]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.21-02.59.58:418][474]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.21-02.59.58:418][474]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.11.21-02.59.58:418][474]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.21-02.59.58:418][474]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.21-02.59.58:418][474]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2023.11.21-02.59.58:418][474]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2023.11.21-02.59.58:418][474]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.21-02.59.58:420][474]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.21-02.59.58:442][474]LogAudioMixer: Display: Using Audio Hardware Device DELL S2722DGM (NVIDIA High Definition Audio)
+[2023.11.21-02.59.58:442][474]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.21-02.59.58:442][474]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.21-02.59.58:442][474]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.21-02.59.58:443][474]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2023.11.21-02.59.58:443][474]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=18
+[2023.11.21-02.59.58:444][474]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2023.11.21-02.59.58:444][474]LogInit: FAudioDevice initialized.
+[2023.11.21-02.59.58:444][474]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2023.11.21-02.59.58:444][474]LogAudio: Display: Audio Device (ID: 18) registered with world 'MeditateLevel'.
+[2023.11.21-02.59.58:448][474]LogLoad: Game class is 'VRGameMode_C'
+[2023.11.21-02.59.58:450][474]LogWorld: Bringing World /Game/Demo/UEDPIE_0_MeditateLevel.MeditateLevel up for play (max tick rate 0) at 2023.11.20-21.59.58
+[2023.11.21-02.59.58:450][474]LogWorld: Bringing up level for play took: 0.001998
+[2023.11.21-02.59.58:452][474]LogOnline: OSS: Created online subsystem instance for: :Context_24
+[2023.11.21-02.59.58:454][474]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2023.11.21-02.59.58:454][474]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2023.11.21-02.59.58:455][474]PIE: Server logged in
+[2023.11.21-02.59.58:456][474]PIE: Play in editor total start time 0.083 seconds.
+[2023.11.21-02.59.58:471][474]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2023.11.21-02.59.59:923][641]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.21-02.59.59:923][641]LogWorld: BeginTearingDown for /Game/Demo/UEDPIE_0_MeditateLevel
+[2023.11.21-02.59.59:924][641]LogWorld: UWorld::CleanupWorld for MeditateLevel, bSessionEnded=true, bCleanupResources=true
+[2023.11.21-02.59.59:924][641]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.21-02.59.59:926][641]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.21-02.59.59:929][641]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.21-02.59.59:937][641]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.21-02.59.59:937][641]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2023.11.21-02.59.59:937][641]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2023.11.21-02.59.59:938][641]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2023.11.21-02.59.59:942][641]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.21-02.59.59:943][641]LogSlate: Slate User Unregistered.  User Index 8
+[2023.11.21-02.59.59:943][641]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2023.11.21-02.59.59:944][641]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2023.11.21-02.59.59:990][643]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2023.11.21-03.01.17:472][350]Cmd: TRANSACTION UNDO
+[2023.11.21-03.01.17:472][350]LogEditorTransaction: Undo Set Playback Range
+[2023.11.21-03.01.19:551][543]Cmd: TRANSACTION UNDO
+[2023.11.21-03.01.19:551][543]LogEditorTransaction: Undo Move Keys or Sections
+[2023.11.21-03.01.20:929][707]Cmd: TRANSACTION UNDO
+[2023.11.21-03.01.20:929][707]LogEditorTransaction: Undo Move Keys or Sections
+[2023.11.21-03.01.25:907][296]Cmd: TRANSACTION REDO
+[2023.11.21-03.01.25:907][296]LogEditorTransaction: Redo Move Keys or Sections
+[2023.11.21-03.02.25:837][163]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.21-03.02.25:845][163]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.21-03.02.25:845][163]PIE: New page: PIE session: MeditateLevel (Nov 20, 2023, 5:02:25 PM)
+[2023.11.21-03.02.25:882][163]LogPlayLevel: Creating play world package: /Game/Demo/UEDPIE_0_MeditateLevel
+[2023.11.21-03.02.25:886][163]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004217s)
+[2023.11.21-03.02.25:886][163]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Demo/MeditateLevel.MeditateLevel to /Game/Demo/UEDPIE_0_MeditateLevel.MeditateLevel (0.004251s)
+[2023.11.21-03.02.25:886][163]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.21-03.02.25:886][163]LogAIModule: Creating AISystem for world MeditateLevel
+[2023.11.21-03.02.25:886][163]LogPlayLevel: PIE: World Init took: (0.000712s)
+[2023.11.21-03.02.25:895][163]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2023.11.21-03.02.25:897][163]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2023.11.21-03.02.25:897][163]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.21-03.02.25:897][163]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.21-03.02.25:897][163]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.21-03.02.25:897][163]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.21-03.02.25:897][163]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.21-03.02.25:897][163]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.11.21-03.02.25:897][163]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.21-03.02.25:897][163]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.21-03.02.25:897][163]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2023.11.21-03.02.25:897][163]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2023.11.21-03.02.25:897][163]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.21-03.02.25:899][163]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.21-03.02.25:921][163]LogAudioMixer: Display: Using Audio Hardware Device DELL S2722DGM (NVIDIA High Definition Audio)
+[2023.11.21-03.02.25:921][163]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.21-03.02.25:921][163]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.21-03.02.25:921][163]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.21-03.02.25:923][163]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=19
+[2023.11.21-03.02.25:923][163]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=19
+[2023.11.21-03.02.25:924][163]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2023.11.21-03.02.25:924][163]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=19
+[2023.11.21-03.02.25:924][163]LogInit: FAudioDevice initialized.
+[2023.11.21-03.02.25:924][163]LogAudio: Display: Audio Device (ID: 19) registered with world 'MeditateLevel'.
+[2023.11.21-03.02.25:926][163]LogLoad: Game class is 'VRGameMode_C'
+[2023.11.21-03.02.25:928][163]LogWorld: Bringing World /Game/Demo/UEDPIE_0_MeditateLevel.MeditateLevel up for play (max tick rate 0) at 2023.11.20-22.02.25
+[2023.11.21-03.02.25:928][163]LogWorld: Bringing up level for play took: 0.001646
+[2023.11.21-03.02.25:929][163]LogOnline: OSS: Created online subsystem instance for: :Context_25
+[2023.11.21-03.02.25:931][163]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2023.11.21-03.02.25:932][163]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2023.11.21-03.02.25:934][163]PIE: Server logged in
+[2023.11.21-03.02.25:934][163]PIE: Play in editor total start time 0.09 seconds.
+[2023.11.21-03.02.25:950][163]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2023.11.21-03.02.26:743][250]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.21-03.02.26:743][250]LogWorld: BeginTearingDown for /Game/Demo/UEDPIE_0_MeditateLevel
+[2023.11.21-03.02.26:743][250]LogWorld: UWorld::CleanupWorld for MeditateLevel, bSessionEnded=true, bCleanupResources=true
+[2023.11.21-03.02.26:743][250]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.21-03.02.26:746][250]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.21-03.02.26:749][250]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.21-03.02.26:757][250]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.21-03.02.26:757][250]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2023.11.21-03.02.26:757][250]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2023.11.21-03.02.26:758][250]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2023.11.21-03.02.26:761][250]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.21-03.02.26:762][250]LogSlate: Slate User Unregistered.  User Index 8
+[2023.11.21-03.02.26:762][250]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2023.11.21-03.02.26:763][250]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2023.11.21-03.02.26:808][252]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2023.11.21-03.03.59:781][366]Cmd: TRANSACTION UNDO
+[2023.11.21-03.03.59:781][366]LogEditorTransaction: Undo Move Keys or Sections
+[2023.11.21-03.04.00:103][372]Cmd: TRANSACTION UNDO
+[2023.11.21-03.04.00:103][372]LogEditorTransaction: Undo Select Actors/Components
+[2023.11.21-03.04.00:993][454]Cmd: TRANSACTION UNDO
+[2023.11.21-03.04.00:994][454]LogEditorTransaction: Undo Select None
+[2023.11.21-03.04.01:591][521]Cmd: TRANSACTION UNDO
+[2023.11.21-03.04.01:591][521]LogEditorTransaction: Undo Move Keys
+[2023.11.21-03.04.02:254][597]Cmd: TRANSACTION UNDO
+[2023.11.21-03.04.02:254][597]LogEditorTransaction: Undo Move Keys or Sections
+[2023.11.21-03.04.02:770][656]Cmd: TRANSACTION UNDO
+[2023.11.21-03.04.02:770][656]LogEditorTransaction: Undo Move Keys or Sections
+[2023.11.21-03.04.08:152][287]Cmd: TRANSACTION UNDO
+[2023.11.21-03.04.08:152][287]LogEditorTransaction: Undo Move Keys or Sections
+[2023.11.21-03.05.21:459][649]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2023.11.21-03.05.21:461][649]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.21-03.05.21:502][649]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Demo/Bubbles_1_10" FILE="../../../../../../Users/dbcot/OneDrive/Documents/AirplaneTest2/AirplaneTest2/AirplaneGame_Git/Content/Demo/Bubbles_1_10.uasset" SILENT=true
+[2023.11.21-03.05.21:508][649]LogSavePackage: Moving output files for package: /Game/Demo/Bubbles_1_10
+[2023.11.21-03.05.21:509][649]LogSavePackage: Moving '../../../../../../Users/dbcot/OneDrive/Documents/AirplaneTest2/AirplaneTest2/AirplaneGame_Git/Saved/Bubbles_1_10525D91364C3C7BA2899A1F8F2A081D74.tmp' to '../../../../../../Users/dbcot/OneDrive/Documents/AirplaneTest2/AirplaneTest2/AirplaneGame_Git/Content/Demo/Bubbles_1_10.uasset'
+[2023.11.21-03.05.21:522][649]LogFileHelpers: InternalPromptForCheckoutAndSave took 60 ms (total: 584 ms)
+[2023.11.21-03.05.21:527][649]AssetCheck: New page: Asset Save: Bubbles_1_10
+[2023.11.21-03.05.21:528][649]LogContentValidation: Display: Validating /Script/LevelSequence.LevelSequence /Game/Demo/Bubbles_1_10.Bubbles_1_10
